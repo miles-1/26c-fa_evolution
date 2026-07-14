@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 104" width="600" height="104">
-  <rect width="100%" height="100%" fill="#f8f9fa" rx="8" stroke="#dee2e6" stroke-width="1.5"/>
-  <text x="20" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#0d6efd">Lesson 01 (Mon, 8/24) - Class Overview</text>
-<text x="20" y="60" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Syllabus</text>
-<text x="20" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#dc3545">Next Exam: Exam 1 (Testing Center, 90 mins, 9/14-9/15)</text>
+  <rect width="100%" height="100%" fill="#F5F5F5" rx="8" stroke="#D6D6D6" stroke-width="1.5"/>
+  <text x="20" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#087E8B">Lesson 01 (Mon, 8/24) - Class Overview</text>
+<text x="20" y="60" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" font-weight="bold" fill="#3C3C3C">Reading: Syllabus</text>
+<text x="20" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#8F0005">Next Exam: Exam 1 (Testing Center, 90 mins, 9/14-9/15)</text>
 </svg>
