@@ -1,11 +1,255 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 199" width="600" height="199">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1206" width="600" height="1206">
   <rect width="100%" height="100%" fill="#f8f9fa" rx="8" stroke="#dee2e6" stroke-width="1.5"/>
-  <text x="20" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#0d6efd">Elclea</text>
-<text x="20" y="60" font-family="system-ui, sans-serif" font-size="15" fill="#495057">9</text>
-<text x="20" y="79" font-family="system-ui, sans-serif" font-size="15" fill="#495057">industry.</text>
-<text x="20" y="98" font-family="system-ui, sans-serif" font-size="15" fill="#495057">dummy</text>
-<text x="20" y="117" font-family="system-ui, sans-serif" font-size="15" fill="#495057">London,</text>
-<text x="20" y="136" font-family="system-ui, sans-serif" font-size="15" fill="#495057">sheets.</text>
-<text x="20" y="155" font-family="system-ui, sans-serif" font-size="15" fill="#495057">decades</text>
-<text x="20" y="180" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#dc3545">Next Exam: Exam 2 (Testing Center, 90 mins, 11/9-11/10)</text>
+  <text x="20" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#0d6efd">Lesson 00 (Thu, 8/20) - Multi-Locus Evolution II Elclea</text>
+<text x="20" y="60" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9</text>
+<text x="20" y="79" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting</text>
+<text x="20" y="98" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.</text>
+<text x="20" y="117" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •</text>
+<text x="20" y="136" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem</text>
+<text x="20" y="155" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum</text>
+<text x="20" y="174" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has</text>
+<text x="20" y="193" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been</text>
+<text x="20" y="212" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the</text>
+<text x="20" y="231" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's</text>
+<text x="20" y="250" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard</text>
+<text x="20" y="269" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy</text>
+<text x="20" y="288" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •</text>
+<text x="20" y="307" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text</text>
+<text x="20" y="326" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever</text>
+<text x="20" y="345" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since</text>
+<text x="20" y="364" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,</text>
+<text x="20" y="383" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when</text>
+<text x="20" y="402" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers</text>
+<text x="20" y="421" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at</text>
+<text x="20" y="440" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset</text>
+<text x="20" y="459" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and</text>
+<text x="20" y="478" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James</text>
+<text x="20" y="497" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,</text>
+<text x="20" y="516" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the</text>
+<text x="20" y="535" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian</text>
+<text x="20" y="554" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at</text>
+<text x="20" y="573" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St</text>
+<text x="20" y="592" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride</text>
+<text x="20" y="611" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing</text>
+<text x="20" y="630" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library</text>
+<text x="20" y="649" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in</text>
+<text x="20" y="668" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,</text>
+<text x="20" y="687" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •</text>
+<text x="20" y="706" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took</text>
+<text x="20" y="725" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a</text>
+<text x="20" y="744" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914</text>
+<text x="20" y="763" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero</text>
+<text x="20" y="782" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation</text>
+<text x="20" y="801" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and</text>
+<text x="20" y="820" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled</text>
+<text x="20" y="839" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it</text>
+<text x="20" y="858" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to</text>
+<text x="20" y="877" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make</text>
+<text x="20" y="896" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy</text>
+<text x="20" y="915" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text</text>
+<text x="20" y="934" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for</text>
+<text x="20" y="953" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's</text>
+<text x="20" y="972" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body</text>
+<text x="20" y="991" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type</text>
+<text x="20" y="1010" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.</text>
+<text x="20" y="1029" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •</text>
+<text x="20" y="1048" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It</text>
+<text x="20" y="1067" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has</text>
+<text x="20" y="1086" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has       survived</text>
+<text x="20" y="1105" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has       survived       not</text>
+<text x="20" y="1124" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has       survived       not       only</text>
+<text x="20" y="1143" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has       survived       not       only       many</text>
+<text x="20" y="1162" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#495057">Reading: Ch. 8 &amp; 9     •
+ is simply dummy text of the printing and typesetting       industry.     •
+       Lorem       Ipsum       has       been       the       industry's       standard       dummy     •
+       text       ever       since       1966,       when       designers       at       Letraset       and       James       Mosley,       the       librarian       at       St       Bride       Printing       Library       in       London,     •
+       took       a       1914       Cicero       translation       and       scrambled       it       to       make       dummy       text       for       Letraset's       Body       Type       sheets.     •
+       It       has       survived       not       only       many       decades</text>
+<text x="20" y="1187" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#dc3545">Next Exam: Exam 2 (Testing Center, 90 mins, 11/9-11/10)</text>
 </svg>
