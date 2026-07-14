@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Quiz Questions</title>
+  <!-- Tailwind CSS CDN for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-3xl mx-auto">
+    <header class="mb-10 text-center">
+      <h1 class="text-3xl font-extrabold text-blue-600 sm:text-4xl">Released Quiz Questions</h1>
+      <p class="mt-2 text-sm text-gray-500">Select a lesson below to view past quiz questions.</p>
+    </header>
+
+    <!-- Accordion Container -->
+    <div id="questions-container" class="space-y-4">
+      <div class="text-center py-10 text-gray-400">Loading released questions...</div>
+    </div>
+  </div>
+
+  <script>
+    // 1. Helper function to format strings to HTML securely
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    // 2. Fetch and render the public-safe questions JSON
+    async function loadQuestions() {
+      const container = document.getElementById('questions-container');
+      try {
+        const response = await fetch('released-questions.json');
+        if (!response.ok) throw new Error('Failed to load questions database.');
+        const data = await response.json();
+
+        // Convert the date keys, sort them in reverse order (newest first)
+        const sortedDates = Object.keys(data).sort((a, b) => {
+          const [aM, aD] = a.split('/').map(Number);
+          const [bM, bD] = b.split('/').map(Number);
+          return (bM === aM) ? bD - aD : bM - aM;
+        });
+
+        if (sortedDates.length === 0) {
+          container.innerHTML = `<div class="text-center py-10 text-gray-500">No questions have been released yet. Check back soon!</div>`;
+          return;
+        }
+
+        container.innerHTML = ''; // Clear loading message
+
+        sortedDates.forEach(date => {
+          const lessonData = data[date];
+          const { lesson, title, questions } = lessonData;
+
+          // Standardize date mapping to readable week display
+          const dummyDate = new Date(2026, date.split('/')[0] - 1, date.split('/')[1]);
+          const weekday = dummyDate.toLocaleDateString('en-US', { weekday: 'short' });
+
+          // Create the Details collapsible component
+          const details = document.createElement('details');
+          details.className = "group border border-gray-200 bg-white rounded-lg shadow-sm transition-all duration-200 overflow-hidden [&_summary::-webkit-details-marker]:hidden";
+
+          // Header summary section
+          const summary = document.createElement('summary');
+          summary.className = "flex items-center justify-between p-5 cursor-pointer hover:bg-gray-50 focus:outline-none transition-colors duration-150 select-none";
+          summary.innerHTML = `
+            <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-100">
+                Lesson ${lesson}
+              </span>
+              <span class="text-xs font-medium text-gray-400 uppercase tracking-wider">${weekday}, ${date}</span>
+              <h2 class="text-base font-bold text-gray-900 leading-tight">${escapeHtml(title)}</h2>
+            </div>
+            <span class="ml-4 flex-shrink-0 transition-transform duration-200 group-open:-rotate-180 text-gray-400">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          `;
+          details.appendChild(summary);
+
+          // Body panel container (contains questions list)
+          const bodyPanel = document.createElement('div');
+          bodyPanel.className = "p-6 border-t border-gray-100 bg-gray-50/50 space-y-6";
+
+          if (questions && questions.length > 0) {
+            questions.forEach((q, idx) => {
+              const qDiv = document.createElement('div');
+              qDiv.className = "bg-white border border-gray-200/80 rounded-lg p-5 shadow-sm space-y-3";
+              
+              // Question Metadata Header
+              qDiv.innerHTML = `
+                <div class="flex items-center justify-between gap-2 border-b border-gray-100 pb-2">
+                  <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Question ${idx + 1}</span>
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
+                    ${q.type === 'multiple_choice' ? 'Multiple Choice' : 'True / False'}
+                  </span>
+                </div>
+                <p class="text-gray-800 font-medium leading-relaxed mt-2 whitespace-pre-wrap">${escapeHtml(q.body)}</p>
+                <div class="space-y-2 mt-4 pl-1">
+                  ${q.options.map((opt, oIdx) => `
+                    <div class="flex items-start gap-3 p-2.5 rounded-md border border-gray-100 bg-gray-50/30 text-sm text-gray-700">
+                      <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-200/60 text-gray-600 text-xs font-bold flex-shrink-0 mt-0.5">
+                        ${String.fromCharCode(65 + oIdx)}
+                      </span>
+                      <span class="leading-relaxed">${escapeHtml(opt)}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              `;
+              bodyPanel.appendChild(qDiv);
+            });
+          } else {
+            bodyPanel.innerHTML = `<p class="text-sm text-gray-500 italic text-center py-4">No quiz questions are assigned to this lesson.</p>`;
+          }
+
+          details.appendChild(bodyPanel);
+          container.appendChild(details);
+        });
+
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = `
+          <div class="bg-red-50 border border-red-200 text-red-800 rounded-lg p-4 text-center text-sm shadow-sm">
+            ${escapeHtml(err.message)} Please try refreshing the page later.
+          </div>`;
+      }
+    }
+
+    // Initialize layout load on window mount
+    window.addEventListener('DOMContentLoaded', loadQuestions);
+  </script>
+</body>
+</html>
