@@ -1,1 +1,29 @@
-{}
+{
+  "7/2": {
+    "lesson": "00",
+    "title": "Initial Class Overview",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "What is #x times #y minus #z? #xy.",
+        "options": [
+          "#calc.round(x * y - z, digits:2)",
+          "#calc.round((x - z - 1) * y - 4, digits:2)",
+          "#calc.round(xy / y - z, digits:2)",
+          "#calc.round(calc.cos(x) * calc.exp(y) - z, digits:2)",
+          "#calc.round(calc.log(x) - z, digits:2)"
+        ]
+      },
+      {
+        "type": "true_false",
+        "body": "Select all statements regarding the Typst 'context' expression that are factually accurate:",
+        "options": [
+          "this one is right",
+          "Context is required to access the current page number via 'here().page()'.",
+          "this one is also right",
+          "gabba gabba gooo context allows for the modification of external system files."
+        ]
+      }
+    ]
+  }
+}

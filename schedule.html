@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Schedule</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <style>
+    :root {
+      --course-teal: #087E8B;
+      --course-red: #8F0005;
+      --course-text: #3C3C3C;
+    }
+
+    .fc .fc-button-primary {
+      background-color: var(--course-teal);
+      border-color: var(--course-teal);
+    }
+
+    .fc .fc-button-primary:hover,
+    .fc .fc-button-primary:focus {
+      background-color: #066873;
+      border-color: #066873;
+    }
+
+    .fc .fc-daygrid-day.fc-day-today {
+      background-color: rgba(8, 126, 139, 0.08);
+    }
+
+    .fc .fc-toolbar-title {
+      color: var(--course-text);
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+  <main class="max-w-6xl mx-auto">
+    <header class="mb-8 text-center">
+      <h1 class="text-3xl font-extrabold text-[#087E8B] sm:text-4xl">Course Schedule - Evolution Fa 26</h1>
+      <p class="mt-2 text-sm text-gray-500">Calendar view of lessons, exams, and no-class days.</p>
+      <a class="inline-block mt-4 text-sm font-semibold text-[#087E8B] hover:underline" href="index.html">View released quiz questions</a>
+    </header>
+
+    <section class="bg-white border border-gray-200 rounded-xl shadow-sm p-4 sm:p-6">
+      <div id="calendar">
+        <div class="text-center py-10 text-gray-400">Loading schedule...</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const courseYear = 2026;
+    const colors = {
+      lesson: "#087E8B",
+      exam: "#8F0005",
+      noclass: "#6B7280"
+    };
+
+    function toIsoDate(dateStr, offsetDays = 0) {
+      const [month, day] = dateStr.split("/").map(Number);
+      const date = new Date(Date.UTC(courseYear, month - 1, day + offsetDays));
+      return date.toISOString().slice(0, 10);
+    }
+
+    function getEventTitle(item) {
+      if (item.type === "lesson") return `Lesson ${item.lesson}: ${item.title}`;
+      if (item.type === "exam") return item.desc;
+      if (item.type === "noclass") return `No Class: ${item.desc}`;
+      return item.title || item.desc || item.type;
+    }
+
+    function getEventColor(item) {
+      return colors[item.type] || "#3C3C3C";
+    }
+
+    function buildCalendarEvents(schedule) {
+      return Object.entries(schedule).flatMap(([dateStr, value]) => {
+        const items = Array.isArray(value) ? value : [value];
+        return items.map((item, index) => ({
+          id: `${dateStr}-${index}`,
+          title: getEventTitle(item),
+          start: toIsoDate(dateStr),
+          end: toIsoDate(dateStr, item.days || 1),
+          allDay: true,
+          backgroundColor: getEventColor(item),
+          borderColor: getEventColor(item),
+          extendedProps: {
+            reading: item.reading,
+            type: item.type
+          }
+        }));
+      });
+    }
+
+    async function loadSchedule() {
+      const calendarEl = document.getElementById("calendar");
+
+      try {
+        const response = await fetch("schedule-only.json");
+        if (!response.ok) throw new Error("Failed to load schedule.");
+
+        const schedule = await response.json();
+        calendarEl.innerHTML = "";
+
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: "dayGridMonth",
+          initialDate: `${courseYear}-08-24`,
+          height: "auto",
+          events: buildCalendarEvents(schedule),
+          headerToolbar: {
+            left: "prev,next today",
+            center: "title",
+            right: "dayGridMonth,listMonth"
+          },
+          eventDidMount(info) {
+            const reading = info.event.extendedProps.reading;
+            if (reading) {
+              info.el.title = `Reading: ${reading}`;
+            }
+          }
+        });
+
+        calendar.render();
+      } catch (err) {
+        console.error(err);
+        calendarEl.innerHTML = `
+          <div class="bg-[#8F0005]/10 border border-[#8F0005]/20 text-[#8F0005] rounded-lg p-4 text-center text-sm shadow-sm">
+            ${err.message} Please try refreshing the page later.
+          </div>`;
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", loadSchedule);
+  </script>
+</body>
+</html>
