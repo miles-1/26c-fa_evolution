@@ -1,71 +1,4 @@
 {
-  "7/2": {
-    "type": "lesson",
-    "lesson": "00",
-    "desc": "Initial Class Overview",
-    "reading": [
-      [
-        "The syllabus",
-        "part1 of the syllabus",
-        "other parts of the syllabus",
-        "every other paragraph"
-      ],
-      [
-        "Other class syllabi",
-        "example text 1",
-        "example text 2"
-      ]
-    ],
-    "learning_objectives": [
-      "Learn the syllabus",
-      "Learn the other class syllabi"
-    ],
-    "questions": [
-      {
-        "type": "multiple_choice",
-        "body": "What is #x times #y minus #z? #xy.",
-        "options": [
-          "#calc.round(x * y - z, digits:2)",
-          "#calc.round((x - z - 1) * y - 4, digits:2)",
-          "#calc.round(xy / y - z, digits:2)",
-          "#calc.round(calc.cos(x) * calc.exp(y) - z, digits:2)",
-          "#calc.round(calc.log(x) - z, digits:2)"
-        ]
-      },
-      {
-        "type": "true_false",
-        "body": "Select all statements regarding the Typst 'context' expression that are factually accurate:",
-        "options": [
-          "this one is right",
-          "Context is required to access the current page number via 'here().page()'.",
-          "this one is also right",
-          "gabba gabba gooo context allows for the modification of external system files."
-        ]
-      }
-    ]
-  },
-  "7/22": {
-    "type": "lesson",
-    "lesson": "00",
-    "desc": "Another Initial Class Overview",
-    "reading": [
-      [
-        "The syllabus",
-        "part1 of the syllabus",
-        "other parts of the syllabus",
-        "every other paragraph"
-      ],
-      [
-        "Other class syllabi",
-        "example text 1",
-        "example text 2"
-      ]
-    ],
-    "learning_objectives": [
-      "Learn the syllabus",
-      "Learn the other class syllabi"
-    ]
-  },
   "8/24": [
     {
       "type": "unit",
@@ -75,20 +8,7 @@
       "type": "lesson",
       "lesson": "01",
       "desc": "Class Overview",
-      "reading": [
-        [
-          "The syllabus",
-          "part1 of the syllabus",
-          "other parts of the syllabus",
-          "every other paragraph"
-        ],
-        [
-          "Other class syllabi",
-          "Other class syllabi",
-          "example text 1",
-          "example text 2"
-        ]
-      ],
+      "reading": "Syllabus",
       "learning_objectives": [
         "First learning objective",
         "Second learning objective"
