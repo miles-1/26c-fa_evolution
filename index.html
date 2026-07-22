@@ -3,133 +3,505 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Course Quiz Questions</title>
+  <title>Course Info - Evolution Fa 26</title>
   <!-- Tailwind CSS CDN for styling -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FullCalendar for the schedule view -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <style>
+    :root {
+      --course-teal: #087E8B;
+      --course-red: #8F0005;
+      --course-text: #3C3C3C;
+    }
+
+    .fc .fc-button-primary {
+      background-color: var(--course-teal);
+      border-color: var(--course-teal);
+    }
+
+    .fc .fc-button-primary:hover,
+    .fc .fc-button-primary:focus,
+    .fc .fc-button-primary:not(:disabled):active {
+      background-color: #066873;
+      border-color: #066873;
+    }
+
+    .fc .fc-daygrid-day.fc-day-today {
+      background-color: rgba(8, 126, 139, 0.08);
+    }
+
+    .fc .fc-toolbar-title {
+      color: var(--course-text);
+      font-weight: 800;
+    }
+
+    .fc-event {
+      cursor: pointer;
+    }
+
+    /* Filter toggles hide matching sections across every lesson dropdown. */
+    #lesson-list.hide-reading [data-section="reading"],
+    #lesson-list.hide-objectives [data-section="objectives"],
+    #lesson-list.hide-questions [data-section="questions"] {
+      display: none;
+    }
+
+    /* Brief highlight when jumping to a lesson from the calendar. */
+    @keyframes lessonFlash {
+      0% { box-shadow: 0 0 0 0 rgba(8, 126, 139, 0.5); }
+      100% { box-shadow: 0 0 0 6px rgba(8, 126, 139, 0); }
+    }
+    .lesson-flash {
+      animation: lessonFlash 1.2s ease-out;
+    }
+  </style>
 </head>
 <body class="bg-gray-50 text-gray-800 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
-  <div class="max-w-3xl mx-auto">
-    <header class="mb-10 text-center">
-      <h1 class="text-3xl font-extrabold text-[#087E8B] sm:text-4xl">Past Quiz Questions - Evolution Fa 26</h1>
-      <p class="mt-2 text-sm text-gray-500">Select a lesson below to view past quiz questions.</p>
+  <main class="max-w-5xl mx-auto space-y-12">
+    <header class="text-center">
+      <h1 class="text-3xl font-extrabold text-[#087E8B] sm:text-4xl">Course Info - Evolution Fa 26</h1>
+      <p class="mt-2 text-sm text-gray-500 max-w-2xl mx-auto">
+        Everything for the course in one place: the next class at a glance, the full schedule of
+        lessons, exams, and breaks, and detailed lesson information with released quiz questions.
+      </p>
     </header>
 
-    <!-- Accordion Container -->
-    <div id="questions-container" class="space-y-4">
-      <div class="text-center py-10 text-gray-400">Loading released questions...</div>
+    <!-- Next Class -->
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Next Class:</h2>
+      <div class="flex justify-center">
+        <img src="upcoming-info.svg" alt="Upcoming class information"
+             class="w-full max-w-xl rounded-lg" />
+      </div>
+    </section>
+
+    <!-- Course Schedule -->
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Course Schedule</h2>
+      <div class="bg-white border border-gray-200 rounded-xl shadow-sm p-4 sm:p-6">
+        <div id="calendar">
+          <div class="text-center py-10 text-gray-400">Loading schedule...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lesson Information -->
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Lesson Information</h2>
+
+      <div class="mb-5 bg-white border border-gray-200 rounded-lg shadow-sm p-4">
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Show / hide details</p>
+        <div id="lesson-filters" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-700">
+          <label class="inline-flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" checked data-filter="reading"
+                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+            Reading
+          </label>
+          <label class="inline-flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" checked data-filter="objectives"
+                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+            Learning Objectives
+          </label>
+          <label class="inline-flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" checked data-filter="questions"
+                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+            Quiz Questions
+          </label>
+        </div>
+      </div>
+
+      <div id="lesson-list" class="space-y-4">
+        <div class="text-center py-10 text-gray-400">Loading lessons...</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal for non-lesson calendar events -->
+  <div id="event-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/40 p-4">
+    <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6 space-y-4">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <span id="modal-type" class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold"></span>
+          <h3 id="modal-title" class="text-lg font-bold text-gray-900 mt-2"></h3>
+        </div>
+        <button id="modal-close" class="text-gray-400 hover:text-gray-700 text-2xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <dl id="modal-body" class="space-y-2 text-sm text-gray-700"></dl>
     </div>
   </div>
 
   <script>
-    // 1. Helper function to format strings to HTML securely
+    const COURSE_YEAR = 2026;
+
+    // ---- Event colors (edit these freely) -------------------------------
+    const eventColors = {
+      lesson: "#087E8B",       // teal (course primary)
+      exam: "#8F0005",         // deep red (course accent)
+      noclass: "#C7CCD4",      // light grey - lighter than card borders for contrast
+      unit: "#5B4B8A",         // PLACEHOLDER: unit markers - change to taste
+      assignment: "#B26A00"    // PLACEHOLDER: assignments - change to taste
+    };
+    // ---------------------------------------------------------------------
+
+    const typeLabels = {
+      lesson: "Lesson",
+      exam: "Exam",
+      noclass: "No Class",
+      unit: "Unit",
+      assignment: "Assignment"
+    };
+
     function escapeHtml(str) {
-      if (!str) return '';
-      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      if (str === undefined || str === null) return '';
+      return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
 
-    // 2. Fetch and render the public-safe questions JSON
-    async function loadQuestions() {
-      const container = document.getElementById('questions-container');
+    function toEvents(value) {
+      return Array.isArray(value) ? value : [value];
+    }
+
+    function parseDate(dateStr) {
+      const [m, d] = dateStr.split('/').map(Number);
+      return { m, d, ordinal: m * 100 + d, jsDate: new Date(Date.UTC(COURSE_YEAR, m - 1, d)) };
+    }
+
+    function isoDate(dateStr, offsetDays = 0) {
+      const { m, d } = parseDate(dateStr);
+      return new Date(Date.UTC(COURSE_YEAR, m - 1, d + offsetDays)).toISOString().slice(0, 10);
+    }
+
+    function weekdayOf(dateStr) {
+      return parseDate(dateStr).jsDate.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+    }
+
+    function formatRange(dateStr, days = 1) {
+      if (!days || days <= 1) return `${weekdayOf(dateStr)}, ${dateStr}`;
+      const { m, d } = parseDate(dateStr);
+      const end = new Date(Date.UTC(COURSE_YEAR, m - 1, d + days - 1));
+      return `${dateStr} \u2013 ${end.getUTCMonth() + 1}/${end.getUTCDate()}`;
+    }
+
+    function lessonDomId(dateStr) {
+      const { m, d } = parseDate(dateStr);
+      return `lesson-${m}-${d}`;
+    }
+
+    function eventTitle(event) {
+      if (event.type === "lesson") return `Lesson ${event.lesson}: ${event.desc}`;
+      return event.desc || typeLabels[event.type] || event.type;
+    }
+
+    // Assign each lesson its unit (from START/END UNIT markers) and the next
+    // exam that falls strictly after the lesson date.
+    function analyzeSchedule(data, sortedDates) {
+      const exams = [];
+      for (const dateStr of sortedDates) {
+        for (const e of toEvents(data[dateStr])) {
+          if (e.type === "exam") {
+            exams.push({ dateStr, ordinal: parseDate(dateStr).ordinal, desc: e.desc, days: e.days || 1 });
+          }
+        }
+      }
+      exams.sort((a, b) => a.ordinal - b.ordinal);
+      const nextExamFor = ordinal => exams.find(x => x.ordinal > ordinal) || null;
+
+      const lessons = [];
+      let currentUnit = null;
+      for (const dateStr of sortedDates) {
+        const events = toEvents(data[dateStr]);
+        let clearAfter = false;
+        for (const e of events) {
+          if (e.type !== "unit") continue;
+          const start = /START UNIT (\d+)/i.exec(e.desc);
+          const end = /END UNIT (\d+)/i.exec(e.desc);
+          if (start) currentUnit = Number(start[1]);
+          else if (end) { currentUnit = Number(end[1]); clearAfter = true; }
+        }
+        const lessonEvent = events.find(e => e.type === "lesson");
+        if (lessonEvent) {
+          lessons.push({
+            dateStr,
+            event: lessonEvent,
+            unit: currentUnit,
+            nextExam: nextExamFor(parseDate(dateStr).ordinal)
+          });
+        }
+        if (clearAfter) currentUnit = null;
+      }
+      return { lessons };
+    }
+
+    // ---- Calendar -------------------------------------------------------
+    function buildCalendarEvents(data, sortedDates) {
+      const events = [];
+      for (const dateStr of sortedDates) {
+        toEvents(data[dateStr]).forEach((event, index) => {
+          const color = eventColors[event.type] || "#3C3C3C";
+          events.push({
+            id: `${dateStr}-${index}`,
+            title: eventTitle(event),
+            start: isoDate(dateStr),
+            end: isoDate(dateStr, event.days || 1),
+            allDay: true,
+            backgroundColor: color,
+            borderColor: color,
+            textColor: event.type === "noclass" ? "#3C3C3C" : "#ffffff",
+            extendedProps: { raw: event, dateStr }
+          });
+        });
+      }
+      return events;
+    }
+
+    function initCalendar(data, sortedDates) {
+      const calendarEl = document.getElementById("calendar");
+      calendarEl.innerHTML = "";
+
+      const calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: "threeWeek",
+        // A rolling three-week window that advances one week at a time.
+        // Opens on the week containing today; use prev/next/today to navigate.
+        views: {
+          threeWeek: {
+            type: "dayGrid",
+            duration: { weeks: 3 },
+            dateIncrement: { weeks: 1 },
+            dateAlignment: "week"
+          }
+        },
+        height: "auto",
+        firstDay: 1,
+        events: buildCalendarEvents(data, sortedDates),
+        headerToolbar: {
+          left: "prev,next today",
+          center: "title",
+          right: ""
+        },
+        eventClick(info) {
+          const { raw, dateStr } = info.event.extendedProps;
+          if (raw.type === "lesson") {
+            jumpToLesson(dateStr);
+          } else {
+            openModal(raw, dateStr);
+          }
+          info.jsEvent.preventDefault();
+        },
+        eventDidMount(info) {
+          const reading = info.event.extendedProps.raw.reading;
+          if (reading && reading.length) {
+            info.el.title = "Reading: " + readingToPlainText(reading);
+          }
+        }
+      });
+
+      calendar.render();
+    }
+
+    function readingToPlainText(reading) {
+      return reading.map(entry => Array.isArray(entry) ? entry[0] : entry).join("; ");
+    }
+
+    // ---- Lesson jump / highlight ---------------------------------------
+    function jumpToLesson(dateStr) {
+      const el = document.getElementById(lessonDomId(dateStr));
+      if (!el) return;
+      el.open = true;
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.classList.remove("lesson-flash");
+      void el.offsetWidth; // restart the animation
+      el.classList.add("lesson-flash");
+    }
+
+    // ---- Modal ----------------------------------------------------------
+    const modal = document.getElementById("event-modal");
+
+    function openModal(event, dateStr) {
+      const typeBadge = document.getElementById("modal-type");
+      const color = eventColors[event.type] || "#3C3C3C";
+      typeBadge.textContent = typeLabels[event.type] || event.type;
+      typeBadge.style.backgroundColor = color + "1A";
+      typeBadge.style.color = color;
+
+      document.getElementById("modal-title").textContent = event.desc || typeLabels[event.type] || event.type;
+
+      const body = document.getElementById("modal-body");
+      const rows = [["Date", formatRange(dateStr, event.days || 1)]];
+      if (event.days && event.days > 1) rows.push(["Length", `${event.days} days`]);
+      for (const [key, value] of Object.entries(event)) {
+        if (["type", "desc", "days"].includes(key)) continue;
+        if (value === null || value === undefined || (Array.isArray(value) && value.length === 0)) continue;
+        const pretty = key.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+        rows.push([pretty, Array.isArray(value) ? value.join(", ") : String(value)]);
+      }
+      body.innerHTML = rows.map(([label, val]) => `
+        <div class="flex gap-2">
+          <dt class="font-semibold text-gray-500 min-w-24">${escapeHtml(label)}</dt>
+          <dd class="text-gray-800">${escapeHtml(val)}</dd>
+        </div>`).join("");
+
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    }
+
+    function closeModal() {
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    document.getElementById("modal-close").addEventListener("click", closeModal);
+    modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+    // ---- Lesson Information rendering -----------------------------------
+    function renderReading(reading) {
+      if (!reading || reading.length === 0) {
+        return '<p class="text-sm text-gray-400 italic">No reading listed.</p>';
+      }
+      const items = reading.map(entry => {
+        if (Array.isArray(entry)) {
+          const [heading, subs] = entry;
+          const subItems = (subs || []).map(s => `<li>${escapeHtml(s)}</li>`).join("");
+          return `<li><span class="font-medium text-gray-800">${escapeHtml(heading)}</span>
+            <ul class="list-disc pl-5 mt-1 space-y-0.5 text-gray-600">${subItems}</ul></li>`;
+        }
+        return `<li>${escapeHtml(entry)}</li>`;
+      }).join("");
+      return `<ul class="list-disc pl-5 space-y-1 text-gray-700">${items}</ul>`;
+    }
+
+    function renderObjectives(objectives) {
+      if (!objectives || objectives.length === 0) {
+        return '<p class="text-sm text-gray-400 italic">No learning objectives listed.</p>';
+      }
+      const items = objectives.map(o => `<li>${escapeHtml(o)}</li>`).join("");
+      return `<ul class="list-disc pl-5 space-y-1 text-gray-700">${items}</ul>`;
+    }
+
+    function renderQuestions(questions) {
+      if (questions === undefined) {
+        return '<p class="text-sm text-gray-400 italic">Quiz questions will be released after this class.</p>';
+      }
+      if (questions.length === 0) {
+        return '<p class="text-sm text-gray-400 italic">No quiz questions for this lesson.</p>';
+      }
+      return `<div class="space-y-4">${questions.map((q, idx) => `
+        <div class="bg-white border border-gray-200/80 rounded-lg p-5 shadow-sm space-y-3">
+          <div class="flex items-center justify-between gap-2 border-b border-gray-100 pb-2">
+            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Question ${idx + 1}</span>
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
+              ${q.type === 'multiple_choice' ? 'Multiple Choice' : 'True / False'}
+            </span>
+          </div>
+          <p class="text-gray-800 font-medium leading-relaxed mt-2 whitespace-pre-wrap">${escapeHtml(q.body)}</p>
+          <div class="space-y-2 mt-4 pl-1">
+            ${(q.options || []).map((opt, oIdx) => `
+              <div class="flex items-start gap-3 p-2.5 rounded-md border border-gray-100 bg-gray-50/30 text-sm text-gray-700">
+                <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-200/60 text-gray-600 text-xs font-bold flex-shrink-0 mt-0.5">
+                  ${String.fromCharCode(65 + oIdx)}
+                </span>
+                <span class="leading-relaxed">${escapeHtml(opt)}</span>
+              </div>`).join("")}
+          </div>
+        </div>`).join("")}</div>`;
+    }
+
+    function renderLessonPanel(lessonInfo) {
+      const { dateStr, event, unit, nextExam } = lessonInfo;
+      const details = document.createElement("details");
+      details.id = lessonDomId(dateStr);
+      details.className = "group border border-gray-200 bg-white rounded-lg shadow-sm transition-all duration-200 overflow-hidden [&_summary::-webkit-details-marker]:hidden";
+
+      const unitLessonLabel = unit != null
+        ? `Unit ${unit} &middot; Lesson ${escapeHtml(event.lesson)}`
+        : `Lesson ${escapeHtml(event.lesson)}`;
+      const examLabel = nextExam ? escapeHtml(nextExam.desc) : "No exam";
+
+      const summary = document.createElement("summary");
+      summary.className = "flex items-center justify-between p-5 cursor-pointer hover:bg-gray-50 focus:outline-none transition-colors duration-150 select-none gap-4";
+      summary.innerHTML = `
+        <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[#087E8B]/10 text-[#087E8B] border border-[#087E8B]/20">
+              ${unitLessonLabel}
+            </span>
+            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[#8F0005]/10 text-[#8F0005] border border-[#8F0005]/20">
+              ${examLabel}
+            </span>
+          </div>
+          <span class="text-xs font-medium text-gray-400 uppercase tracking-wider">${weekdayOf(dateStr)}, ${dateStr}</span>
+          <h3 class="text-base font-bold text-gray-900 leading-tight">${escapeHtml(event.desc)}</h3>
+        </div>
+        <span class="ml-4 flex-shrink-0 transition-transform duration-200 group-open:-rotate-180 text-gray-400">
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </span>`;
+      details.appendChild(summary);
+
+      const body = document.createElement("div");
+      body.className = "p-6 border-t border-gray-100 bg-gray-50/50 space-y-6";
+      body.innerHTML = `
+        <div data-section="reading" class="space-y-2">
+          <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider">Reading</h4>
+          ${renderReading(event.reading)}
+        </div>
+        <div data-section="objectives" class="space-y-2">
+          <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider">Learning Objectives</h4>
+          ${renderObjectives(event.learning_objectives)}
+        </div>
+        <div data-section="questions" class="space-y-2">
+          <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider">Quiz Questions</h4>
+          ${renderQuestions(event.questions)}
+        </div>`;
+      details.appendChild(body);
+      return details;
+    }
+
+    function initLessonFilters() {
+      const list = document.getElementById("lesson-list");
+      document.querySelectorAll('#lesson-filters input[data-filter]').forEach(input => {
+        input.addEventListener("change", () => {
+          list.classList.toggle(`hide-${input.dataset.filter}`, !input.checked);
+        });
+      });
+    }
+
+    // ---- Boot -----------------------------------------------------------
+    async function loadCourseInfo() {
+      const lessonList = document.getElementById("lesson-list");
       try {
-        const response = await fetch('released-questions.json');
-        if (!response.ok) throw new Error('Failed to load questions database.');
+        const response = await fetch("class-info.json");
+        if (!response.ok) throw new Error("Failed to load course information.");
         const data = await response.json();
 
-        // Convert the date keys, sort them in reverse order (newest first)
-        const sortedDates = Object.keys(data).sort((a, b) => {
-          const [aM, aD] = a.split('/').map(Number);
-          const [bM, bD] = b.split('/').map(Number);
-          return (bM === aM) ? bD - aD : bM - aM;
-        });
+        const sortedDates = Object.keys(data).sort(
+          (a, b) => parseDate(a).ordinal - parseDate(b).ordinal
+        );
 
-        if (sortedDates.length === 0) {
-          container.innerHTML = `<div class="text-center py-10 text-gray-500">No questions have been released yet. Check back soon!</div>`;
-          return;
+        initCalendar(data, sortedDates);
+
+        const { lessons } = analyzeSchedule(data, sortedDates);
+        lessonList.innerHTML = "";
+        if (lessons.length === 0) {
+          lessonList.innerHTML = '<div class="text-center py-10 text-gray-500">No lessons available yet.</div>';
+        } else {
+          lessons.forEach(lessonInfo => lessonList.appendChild(renderLessonPanel(lessonInfo)));
         }
 
-        container.innerHTML = ''; // Clear loading message
-
-        sortedDates.forEach(date => {
-          const lessonData = data[date];
-          const { lesson, title, questions } = lessonData;
-
-          // Standardize date mapping to readable week display
-          const dummyDate = new Date(2026, date.split('/')[0] - 1, date.split('/')[1]);
-          const weekday = dummyDate.toLocaleDateString('en-US', { weekday: 'short' });
-
-          // Create the Details collapsible component
-          const details = document.createElement('details');
-          details.className = "group border border-gray-200 bg-white rounded-lg shadow-sm transition-all duration-200 overflow-hidden [&_summary::-webkit-details-marker]:hidden";
-
-          // Header summary section
-          const summary = document.createElement('summary');
-          summary.className = "flex items-center justify-between p-5 cursor-pointer hover:bg-gray-50 focus:outline-none transition-colors duration-150 select-none";
-          summary.innerHTML = `
-            <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[#087E8B]/10 text-[#087E8B] border border-[#087E8B]/20">
-                Lesson ${lesson}
-              </span>
-              <span class="text-xs font-medium text-gray-400 uppercase tracking-wider">${weekday}, ${date}</span>
-              <h2 class="text-base font-bold text-gray-900 leading-tight">${escapeHtml(title)}</h2>
-            </div>
-            <span class="ml-4 flex-shrink-0 transition-transform duration-200 group-open:-rotate-180 text-gray-400">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </span>
-          `;
-          details.appendChild(summary);
-
-          // Body panel container (contains questions list)
-          const bodyPanel = document.createElement('div');
-          bodyPanel.className = "p-6 border-t border-gray-100 bg-gray-50/50 space-y-6";
-
-          if (questions && questions.length > 0) {
-            questions.forEach((q, idx) => {
-              const qDiv = document.createElement('div');
-              qDiv.className = "bg-white border border-gray-200/80 rounded-lg p-5 shadow-sm space-y-3";
-              
-              // Question Metadata Header
-              qDiv.innerHTML = `
-                <div class="flex items-center justify-between gap-2 border-b border-gray-100 pb-2">
-                  <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Question ${idx + 1}</span>
-                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
-                    ${q.type === 'multiple_choice' ? 'Multiple Choice' : 'True / False'}
-                  </span>
-                </div>
-                <p class="text-gray-800 font-medium leading-relaxed mt-2 whitespace-pre-wrap">${escapeHtml(q.body)}</p>
-                <div class="space-y-2 mt-4 pl-1">
-                  ${q.options.map((opt, oIdx) => `
-                    <div class="flex items-start gap-3 p-2.5 rounded-md border border-gray-100 bg-gray-50/30 text-sm text-gray-700">
-                      <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-200/60 text-gray-600 text-xs font-bold flex-shrink-0 mt-0.5">
-                        ${String.fromCharCode(65 + oIdx)}
-                      </span>
-                      <span class="leading-relaxed">${escapeHtml(opt)}</span>
-                    </div>
-                  `).join('')}
-                </div>
-              `;
-              bodyPanel.appendChild(qDiv);
-            });
-          } else {
-            bodyPanel.innerHTML = `<p class="text-sm text-gray-500 italic text-center py-4">No quiz questions are assigned to this lesson.</p>`;
-          }
-
-          details.appendChild(bodyPanel);
-          container.appendChild(details);
-        });
-
+        initLessonFilters();
       } catch (err) {
         console.error(err);
-        container.innerHTML = `
+        const message = `
           <div class="bg-[#8F0005]/10 border border-[#8F0005]/20 text-[#8F0005] rounded-lg p-4 text-center text-sm shadow-sm">
             ${escapeHtml(err.message)} Please try refreshing the page later.
           </div>`;
+        document.getElementById("calendar").innerHTML = message;
+        lessonList.innerHTML = message;
       }
     }
 
-    // Initialize layout load on window mount
-    window.addEventListener('DOMContentLoaded', loadQuestions);
+    window.addEventListener("DOMContentLoaded", loadCourseInfo);
   </script>
 </body>
 </html>
