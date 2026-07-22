@@ -15,6 +15,10 @@
       --course-text: #3C3C3C;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     .fc .fc-button-primary {
       background-color: var(--course-teal);
       border-color: var(--course-teal);
@@ -58,18 +62,42 @@
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
-  <main class="max-w-5xl mx-auto space-y-12">
+  <main class="max-w-5xl mx-auto space-y-20">
     <header class="text-center">
       <h1 class="text-3xl font-extrabold text-[#087E8B] sm:text-4xl">Course Info - Evolution Fa 26</h1>
       <p class="mt-2 text-sm text-gray-500 max-w-2xl mx-auto">
-        Everything for the course in one place: the next class at a glance, the full schedule of
-        lessons, exams, and breaks, and detailed lesson information with released quiz questions.
+        Everything for the course in one place: the syllabus, the next class at a glance, the full schedule of
+        lessons, exams, and breaks, and detailed lesson information with past quiz questions.
       </p>
+
+      <!-- Section navigation -->
+      <nav class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 max-w-3xl mx-auto">
+        <a href="#next-class"
+           class="flex flex-col items-center text-center rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors duration-150 hover:border-[#087E8B] hover:bg-[#087E8B]/5">
+          <span class="text-sm font-bold text-[#087E8B]">Next Class</span>
+          <span class="mt-0.5 text-xs text-gray-500">what to read</span>
+        </a>
+        <a href="#course-schedule"
+           class="flex flex-col items-center text-center rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors duration-150 hover:border-[#087E8B] hover:bg-[#087E8B]/5">
+          <span class="text-sm font-bold text-[#087E8B]">Course Schedule</span>
+          <span class="mt-0.5 text-xs text-gray-500">what's happening when</span>
+        </a>
+        <a href="#lesson-information"
+           class="flex flex-col items-center text-center rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors duration-150 hover:border-[#087E8B] hover:bg-[#087E8B]/5">
+          <span class="text-sm font-bold text-[#087E8B]">Lesson Information</span>
+          <span class="mt-0.5 text-xs text-gray-500">reading &amp; learning objectives, plus past quiz questions</span>
+        </a>
+        <a href="#"
+           class="flex flex-col items-center text-center rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors duration-150 hover:border-[#087E8B] hover:bg-[#087E8B]/5">
+          <span class="text-sm font-bold text-[#087E8B]">Syllabus</span>
+          <span class="mt-0.5 text-xs text-gray-500">grade distribution, late work, etc</span>
+        </a>
+      </nav>
     </header>
 
     <!-- Next Class -->
-    <section>
-      <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Next Class:</h2>
+    <section id="next-class" class="scroll-mt-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Next Class</h2>
       <div class="flex justify-center">
         <img src="upcoming-info.svg" alt="Upcoming class information"
              class="w-full max-w-xl rounded-lg" />
@@ -77,7 +105,7 @@
     </section>
 
     <!-- Course Schedule -->
-    <section>
+    <section id="course-schedule" class="scroll-mt-6">
       <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Course Schedule</h2>
       <div class="bg-white border border-gray-200 rounded-xl shadow-sm p-4 sm:p-6">
         <div id="calendar">
@@ -87,12 +115,12 @@
     </section>
 
     <!-- Lesson Information -->
-    <section>
+    <section id="lesson-information" class="scroll-mt-6">
       <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Lesson Information</h2>
 
-      <div class="mb-5 bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Show / hide details</p>
-        <div id="lesson-filters" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-700">
+      <div class="mb-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-700">
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Show / hide details</p>
+        <div id="lesson-filters" class="flex flex-wrap items-center gap-x-6 gap-y-2">
           <label class="inline-flex items-center gap-2 cursor-pointer">
             <input type="checkbox" checked data-filter="reading"
                    class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
@@ -259,19 +287,19 @@
       calendarEl.innerHTML = "";
 
       const calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: "threeWeek",
-        // A rolling three-week window that advances one week at a time.
+        initialView: "fourWeek",
+        // A rolling four-week window that advances one week at a time.
         // Opens on the week containing today; use prev/next/today to navigate.
         views: {
-          threeWeek: {
+          fourWeek: {
             type: "dayGrid",
-            duration: { weeks: 3 },
+            duration: { weeks: 4 },
             dateIncrement: { weeks: 1 },
             dateAlignment: "week"
           }
         },
         height: "auto",
-        firstDay: 1,
+        firstDay: 0,
         events: buildCalendarEvents(data, sortedDates),
         headerToolbar: {
           left: "prev,next today",
@@ -415,7 +443,9 @@
       const unitLessonLabel = unit != null
         ? `Unit ${unit} &middot; Lesson ${escapeHtml(event.lesson)}`
         : `Lesson ${escapeHtml(event.lesson)}`;
-      const examLabel = nextExam ? escapeHtml(nextExam.desc) : "No exam";
+      // Shorten exam descriptions to the part before the first " - "
+      // (e.g. "Exam 1 - Testing Center" -> "Exam 1").
+      const examLabel = nextExam ? escapeHtml(nextExam.desc.split(" - ")[0]) : "No exam";
 
       const summary = document.createElement("summary");
       summary.className = "flex items-center justify-between p-5 cursor-pointer hover:bg-gray-50 focus:outline-none transition-colors duration-150 select-none gap-4";

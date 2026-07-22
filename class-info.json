@@ -131,15 +131,21 @@
     ],
     "learning_objectives": []
   },
-  "9/4": {
-    "type": "lesson",
-    "lesson": "06",
-    "desc": "Tree Thinking I",
-    "reading": [
-      "Ch. 4"
-    ],
-    "learning_objectives": []
-  },
+  "9/4": [
+    {
+      "type": "assignment",
+      "desc": "In-Class Assignment 1"
+    },
+    {
+      "type": "lesson",
+      "lesson": "06",
+      "desc": "Tree Thinking I",
+      "reading": [
+        "Ch. 4"
+      ],
+      "learning_objectives": []
+    }
+  ],
   "9/7": {
     "type": "noclass",
     "desc": "Labor Day"
