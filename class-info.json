@@ -8,7 +8,9 @@
       "type": "lesson",
       "lesson": "01",
       "desc": "Class Overview",
-      "reading": "Syllabus",
+      "reading": [
+        "Syllabus"
+      ],
       "learning_objectives": [
         "First learning objective",
         "Second learning objective"
