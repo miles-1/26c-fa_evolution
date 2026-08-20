@@ -12,8 +12,12 @@
         "Syllabus"
       ],
       "learning_objectives": [
-        "First learning objective",
-        "Second learning objective"
+        "* Explain the structure of this course and identify the core concepts (evolution definition, importance of scale, process vs pattern)",
+        "* Identify key components and organelles in cells critical to understanding evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria, chloroplasts), and state their purposes",
+        "* Define the central dogma of biology. Explain how cells can turn genetic material into traits, and the molecules involved in that process.",
+        "* Define the basic terms used to discuss genetics (see first-day notes).",
+        "* Define the basic terms used to discuss taxonomy and phylogenetics (see first-day notes).",
+        "* Identify the 12 focal species that will be used in this class from their latin names (see first-day notes)."
       ]
     }
   ],
@@ -24,7 +28,9 @@
     "reading": [
       "Ch. 1"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "focus on LOs"
+    ]
   },
   "8/28": {
     "type": "lesson",
@@ -33,7 +39,9 @@
     "reading": [
       "Ch. 1"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "How to email"
+    ]
   },
   "8/31": {
     "type": "lesson",
@@ -42,7 +50,9 @@
     "reading": [
       "Ch. 2"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "look at axes for graphs"
+    ]
   },
   "9/2": {
     "type": "lesson",
@@ -51,12 +61,14 @@
     "reading": [
       "Ch. 2"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "review grading structure"
+    ]
   },
   "9/4": [
     {
       "type": "assignment",
-      "desc": "In-Class Assignment 1"
+      "desc": "In-Class Assn 1"
     },
     {
       "type": "lesson",
@@ -93,7 +105,9 @@
       "reading": [
         "Ch. 5"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "review office hours"
+      ]
     }
   ],
   "9/14": [
@@ -113,7 +127,9 @@
       "reading": [
         "Ch. 7"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "review class structure from concepts"
+      ]
     }
   ],
   "9/16": {
