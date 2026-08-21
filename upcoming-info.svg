@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 405" width="600" height="405">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 433" width="600" height="433">
   <rect width="100%" height="100%" fill="#F5F5F5" rx="8" stroke="#D6D6D6" stroke-width="1.5"/>
   <text x="20" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#087E8B">Lesson 01 (Mon, 8/24) - Class Overview</text>
-<text x="20" y="60" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" font-weight="bold" fill="#3C3C3C">Reading:</text>
-<text x="20" y="79" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">Syllabus</text>
-<line x1="20" y1="94" x2="580" y2="94" stroke="#D6D6D6" stroke-width="1.5"/>
-<text x="20" y="110" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" font-weight="bold" fill="#3C3C3C">Learning Objectives:</text>
-<text x="20" y="129" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Explain the structure of this course and identify the core concepts</text>
-<text x="20" y="148" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      (evolution definition, importance of scale, process vs pattern)</text>
-<text x="20" y="167" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Identify key components and organelles in cells critical to understanding</text>
-<text x="20" y="186" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria, chloroplasts),</text>
-<text x="20" y="205" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      and state their purposes</text>
-<text x="20" y="224" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Define the central dogma of biology. Explain how cells can turn genetic</text>
-<text x="20" y="243" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      material into traits, and the molecules involved in that process.</text>
-<text x="20" y="262" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Define the basic terms used to discuss genetics (see first-day notes).</text>
-<text x="20" y="281" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Define the basic terms used to discuss taxonomy and phylogenetics (see</text>
-<text x="20" y="300" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      first-day notes).</text>
-<text x="20" y="319" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   • * Identify the 12 focal species that will be used in this class from their</text>
-<text x="20" y="338" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      latin names (see first-day notes).</text>
-<text x="20" y="361" font-family="system-ui, sans-serif" font-size="12" font-style="italic" fill="#555555">* starred learning objectives are practiced in class. Unstarred learning objectives are in the reading and will be discussed in class.</text>
-<text x="20" y="386" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#8F0005">Next Exam: Exam 1 - Testing Center (9/14-9/15)</text>
+<line x1="20" y1="50" x2="580" y2="50" stroke="#D6D6D6" stroke-width="1.5"/>
+<text x="20" y="66" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" font-weight="bold" fill="#3C3C3C">Reading:</text>
+<text x="20" y="85" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">Syllabus</text>
+<line x1="20" y1="100" x2="580" y2="100" stroke="#D6D6D6" stroke-width="1.5"/>
+<text x="20" y="116" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" font-weight="bold" fill="#3C3C3C">Learning Objectives:</text>
+<text x="20" y="135" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   1. * Explain the structure of this course and identify the core concepts</text>
+<text x="20" y="154" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      (evolution definition, importance of scale, process vs pattern)</text>
+<text x="20" y="173" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   2. * Identify key components and organelles in cells critical to</text>
+<text x="20" y="192" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      understanding evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria,</text>
+<text x="20" y="211" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      chloroplasts), and state their purposes</text>
+<text x="20" y="230" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   3. * Define the central dogma of biology. Explain how cells can turn genetic</text>
+<text x="20" y="249" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      material into traits, and the molecules involved in that process.</text>
+<text x="20" y="268" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   4. * Define the basic terms used to discuss genetics (see first-day notes).</text>
+<text x="20" y="287" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   5. * Define the basic terms used to discuss taxonomy and phylogenetics (see</text>
+<text x="20" y="306" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      first-day notes).</text>
+<text x="20" y="325" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">   6. * Identify the 12 focal species that will be used in this class from their</text>
+<text x="20" y="344" font-family="system-ui, sans-serif" font-size="15" xml:space="preserve" fill="#3C3C3C">      latin names (see first-day notes).</text>
+<text x="20" y="367" font-family="system-ui, sans-serif" font-size="12" font-style="italic" fill="#555555">* starred learning objectives are practiced in class. Unstarred learning objectives are in the reading</text>
+<text x="20" y="383" font-family="system-ui, sans-serif" font-size="12" font-style="italic" fill="#555555">and will be discussed in class.</text>
+<line x1="20" y1="398" x2="580" y2="398" stroke="#D6D6D6" stroke-width="1.5"/>
+<text x="20" y="414" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#8F0005">Next Exam: Exam 1 - Testing Center (9/14-9/15)</text>
 </svg>
