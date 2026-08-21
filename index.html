@@ -402,8 +402,12 @@
       if (!objectives || objectives.length === 0) {
         return '<p class="text-sm text-gray-400 italic">No learning objectives listed.</p>';
       }
+      
       const items = objectives.map(o => `<li>${escapeHtml(o)}</li>`).join("");
-      return `<ul class="list-disc pl-5 space-y-1 text-gray-700">${items}</ul>`;
+      const listHtml = `<ol class="list-decimal pl-5 space-y-1 text-gray-700">${items}</ol>`;
+      const noteHtml = `<p class="text-sm text-gray-500 italic mt-2">* starred learning objectives are discussed in the reading <strong>and</strong> in-class. Unstarred learning objectives are <strong>only<strong/> discussed in-class.</p>`;
+      
+      return listHtml + noteHtml;
     }
 
     function renderQuestions(questions) {
