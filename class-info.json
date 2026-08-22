@@ -26,10 +26,17 @@
     "lesson": "02",
     "desc": "HIV Case Study I",
     "reading": [
-      "Ch. 1"
+      "First-Day Notes",
+      [
+        "Read Ch. 1",
+        "Skip intro",
+        "Read 1.1",
+        "Read 1.2"
+      ]
     ],
     "learning_objectives": [
-      "focus on LOs"
+      "* Interpret data from graphs by identifying axis quantities and identifying patterns in visualizations",
+      "* Interpret data from graphs by identifying axis quantities"
     ]
   },
   "8/28": {
@@ -37,10 +44,11 @@
     "lesson": "03",
     "desc": "HIV Case Study II",
     "reading": [
+      "More details to come...",
       "Ch. 1"
     ],
     "learning_objectives": [
-      "How to email"
+      "Note to self: ways of knowing"
     ]
   },
   "8/31": {
@@ -48,10 +56,11 @@
     "lesson": "04",
     "desc": "Evolutionary Patterns I",
     "reading": [
+      "More details to come...",
       "Ch. 2"
     ],
     "learning_objectives": [
-      "look at axes for graphs"
+      "Note to self: email format"
     ]
   },
   "9/2": {
@@ -59,10 +68,11 @@
     "lesson": "05",
     "desc": "Evolutionary Patterns II",
     "reading": [
+      "More details to come...",
       "Ch. 2"
     ],
     "learning_objectives": [
-      "review grading structure"
+      "Note to self: review grading structure"
     ]
   },
   "9/4": [
@@ -75,9 +85,12 @@
       "lesson": "06",
       "desc": "Tree Thinking I",
       "reading": [
+        "More details to come...",
         "Ch. 4"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "9/7": {
@@ -89,9 +102,12 @@
     "lesson": "07",
     "desc": "Tree Thinking II",
     "reading": [
+      "More details to come...",
       "Ch. 4"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/11": [
     {
@@ -103,10 +119,11 @@
       "lesson": "08",
       "desc": "Population Thinking",
       "reading": [
+        "More details to come...",
         "Ch. 5"
       ],
       "learning_objectives": [
-        "review office hours"
+        "Note to self: review office hours"
       ]
     }
   ],
@@ -125,10 +142,11 @@
       "lesson": "09",
       "desc": "Mutation",
       "reading": [
+        "More details to come...",
         "Ch. 7"
       ],
       "learning_objectives": [
-        "review class structure from concepts"
+        "Note to self: review class structure from concepts"
       ]
     }
   ],
@@ -137,90 +155,120 @@
     "lesson": "10",
     "desc": "Drift I",
     "reading": [
+      "More details to come...",
       "Ch. 7"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/18": {
     "type": "lesson",
     "lesson": "11",
     "desc": "Drift II",
     "reading": [
+      "More details to come...",
       "Ch. 7"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/21": {
     "type": "lesson",
     "lesson": "12",
     "desc": "Natural Selection I",
     "reading": [
+      "More details to come...",
       "Ch. 3, 6 & 10"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/23": {
     "type": "lesson",
     "lesson": "13",
     "desc": "Natural Selection II",
     "reading": [
+      "More details to come...",
       "Ch. 3, 6 & 10"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/25": {
     "type": "lesson",
     "lesson": "14",
     "desc": "Natural Selection III",
     "reading": [
+      "More details to come...",
       "Ch. 3, 6 & 10"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/28": {
     "type": "lesson",
     "lesson": "15",
     "desc": "Natural Selection IV",
     "reading": [
+      "More details to come...",
       "Ch. 3, 6 & 10"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "9/30": {
     "type": "lesson",
     "lesson": "16",
     "desc": "Natural Selection V",
     "reading": [
+      "More details to come...",
       "Ch. 3, 6 & 10"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/2": {
     "type": "lesson",
     "lesson": "17",
     "desc": "Gene Flow",
     "reading": [
+      "More details to come...",
       "Ch. 7"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/5": {
     "type": "lesson",
     "lesson": "18",
     "desc": "Non-Random Mating",
     "reading": [
+      "More details to come...",
       "Ch. 7"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/7": {
     "type": "lesson",
     "lesson": "19",
     "desc": "Hardy-Weinberg I",
     "reading": [
+      "More details to come...",
       "Ch. 6"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/9": [
     {
@@ -232,9 +280,12 @@
       "lesson": "20",
       "desc": "Hardy-Weinberg II",
       "reading": [
+        "More details to come...",
         "Ch. 6"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "10/12": {
@@ -251,9 +302,12 @@
       "lesson": "21",
       "desc": "Multi-Locus Evolution I",
       "reading": [
+        "More details to come...",
         "Ch. 8 & 9"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "10/16": {
@@ -261,54 +315,72 @@
     "lesson": "22",
     "desc": "Multi-Locus Evolution II",
     "reading": [
+      "More details to come...",
       "Ch. 8 & 9"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/19": {
     "type": "lesson",
     "lesson": "23",
     "desc": "Genome Evolution",
     "reading": [
+      "More details to come...",
       "Ch. 5 & 15"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/21": {
     "type": "lesson",
     "lesson": "24",
     "desc": "Quantitative Genetics I",
     "reading": [
+      "More details to come...",
       "Ch. 9"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/23": {
     "type": "lesson",
     "lesson": "25",
     "desc": "Quantitative Genetics II",
     "reading": [
+      "More details to come...",
       "Ch. 9"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/26": {
     "type": "lesson",
     "lesson": "26",
     "desc": "Sexual Selection I",
     "reading": [
+      "More details to come...",
       "Ch. 9 & 11"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/28": {
     "type": "lesson",
     "lesson": "27",
     "desc": "Sexual Selection II",
     "reading": [
+      "More details to come...",
       "Ch. 9 & 11"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "10/30": [
     {
@@ -320,9 +392,12 @@
       "lesson": "28",
       "desc": "Kin Selection",
       "reading": [
+        "More details to come...",
         "Ch. 10"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "11/2": [
@@ -335,9 +410,12 @@
       "lesson": "29",
       "desc": "Speciation I",
       "reading": [
+        "More details to come...",
         "Ch. 16"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "11/4": {
@@ -345,18 +423,24 @@
     "lesson": "30",
     "desc": "Speciation II",
     "reading": [
+      "More details to come...",
       "Ch. 16"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/6": {
     "type": "lesson",
     "lesson": "31",
     "desc": "Speciation III",
     "reading": [
+      "More details to come...",
       "Ch. 16"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/9": [
     {
@@ -369,9 +453,12 @@
       "lesson": "32",
       "desc": "Development I",
       "reading": [
+        "More details to come...",
         "Ch. 19"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "11/11": {
@@ -383,27 +470,36 @@
     "lesson": "33",
     "desc": "Development II",
     "reading": [
+      "More details to come...",
       "Ch. 19"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/16": {
     "type": "lesson",
     "lesson": "34",
     "desc": "Phylogenetics I",
     "reading": [
+      "More details to come...",
       "Ch. 4 & 18"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/18": {
     "type": "lesson",
     "lesson": "35",
     "desc": "Phylogenetics II",
     "reading": [
+      "More details to come...",
       "Ch. 4 & 18"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/20": {
     "type": "noclass",
@@ -414,9 +510,12 @@
     "lesson": "36",
     "desc": "Human Evolution I",
     "reading": [
+      "More details to come...",
       "Ch. 20"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "11/25": {
     "type": "noclass",
@@ -428,18 +527,24 @@
     "lesson": "37",
     "desc": "Human Evolution II",
     "reading": [
+      "More details to come...",
       "Ch. 20"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "12/2": {
     "type": "lesson",
     "lesson": "38",
     "desc": "Origins of Life I",
     "reading": [
+      "More details to come...",
       "Ch. 17 & 18"
     ],
-    "learning_objectives": []
+    "learning_objectives": [
+      "TBD..."
+    ]
   },
   "12/4": [
     {
@@ -451,9 +556,12 @@
       "lesson": "39",
       "desc": "Origins of Life II",
       "reading": [
+        "More details to come...",
         "Ch. 17 & 18"
       ],
-      "learning_objectives": []
+      "learning_objectives": [
+        "TBD..."
+      ]
     }
   ],
   "12/8": {
