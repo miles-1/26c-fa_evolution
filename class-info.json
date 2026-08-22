@@ -9,7 +9,10 @@
       "lesson": "01",
       "desc": "Class Overview",
       "reading": [
-        "Syllabus"
+        [
+          "Syllabus",
+          "Read about class structure"
+        ]
       ],
       "learning_objectives": [
         "Explain the structure of this course and identify the core concepts (evolution definition, importance of scale, process vs pattern).",
