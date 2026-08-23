@@ -382,6 +382,14 @@
     document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
     // ---- Lesson Information rendering -----------------------------------
+    function formatText(str) {
+      if (!str) return '';
+      return escapeHtml(str)
+        .replace(/(?<!\\)\*\*(.*?)(?<!\\)\*\*/g, '<strong>$1</strong>')
+        .replace(/\\\*/g, '*')
+        .replace(/(\([^)]+\))/g, '<span class="text-gray-400 italic">$1</span>')
+    }
+    
     function renderReading(reading) {
       if (!reading || reading.length === 0) {
         return '<p class="text-sm text-gray-400 italic">No reading listed.</p>';
@@ -389,11 +397,11 @@
       const items = reading.map(entry => {
         if (Array.isArray(entry)) {
           const [heading, ...subs] = entry;
-          const subItems = subs.map(s => `<li>${escapeHtml(s)}</li>`).join("");
-          return `<li><span class="font-medium text-gray-800">${escapeHtml(heading)}</span>
+          const subItems = subs.map(s => `<li>${formatText(s)}</li>`).join("");
+          return `<li><span class="font-medium text-gray-800">${formatText(heading)}</span>
             <ul class="list-disc pl-5 mt-1 space-y-0.5 text-gray-600">${subItems}</ul></li>`;
         }
-        return `<li>${escapeHtml(entry)}</li>`;
+        return `<li>${formatText(entry)}</li>`;
       }).join("");
       return `<ul class="list-disc pl-5 space-y-1 text-gray-700">${items}</ul>`;
     }
@@ -403,7 +411,7 @@
         return '<p class="text-sm text-gray-400 italic">No learning objectives listed.</p>';
       }
       
-      const items = objectives.map(o => `<li>${escapeHtml(o)}</li>`).join("");
+      const items = objectives.map(o => `<li>${formatText(o)}</li>`).join("");
       const listHtml = `<ol class="list-decimal pl-5 space-y-1 text-gray-700">${items}</ol>`;
       const noteHtml = `<p class="text-sm text-gray-500 italic mt-2">* starred learning objectives are discussed in the reading <strong>and</strong> in-class. Unstarred learning objectives are <strong>only</strong> discussed in-class.</p>`;
       

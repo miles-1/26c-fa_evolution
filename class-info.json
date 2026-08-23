@@ -9,18 +9,15 @@
       "lesson": "01",
       "desc": "Class Overview",
       "reading": [
-        [
-          "Syllabus",
-          "Read about class structure"
-        ]
+        "Syllabus"
       ],
       "learning_objectives": [
-        "Explain the structure of this course and identify the core concepts (evolution definition, importance of scale, process vs pattern).",
-        "Identify key components and organelles in cells critical to understanding evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria, chloroplasts), and state their purposes.",
-        "Define the central dogma of biology. Explain how cells can turn genetic material into traits, and the molecules involved in that process (see first-day notes).",
-        "Define the basic terms used to discuss genetics (see first-day notes).",
-        "Define the basic terms used to discuss taxonomy and phylogenetics (see first-day notes).",
-        "Identify the 12 focal species that will be used in this class from their latin names (see first-day notes)."
+        "Explain the *structure of this course* and identify the core concepts (evolution definition, importance of scale, process vs pattern).",
+        "Identify *key components and organelles* in cells critical to understanding evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria, chloroplasts), and state their purposes.",
+        "Define the *central dogma of biology*. Explain how cells can turn genetic material into traits, and the molecules involved in that process (see first-day notes).",
+        "Define the basic terms used to discuss *genetics* (see first-day notes).",
+        "Define the basic terms used to discuss *taxonomy and phylogenetics* (see first-day notes).",
+        "Identify the *12 focal species* that will be used in this class from their latin names (see first-day notes)."
       ]
     }
   ],
@@ -29,17 +26,20 @@
     "lesson": "02",
     "desc": "HIV Case Study I",
     "reading": [
-      "First-Day Notes",
       [
         "Read Ch. 1",
         "Skip intro",
-        "Read 1.1",
-        "Read 1.2"
+        "Read 1.1 (but skip any subsection whose title starts with \"How Does...\")",
+        "Read 1.2 (but skip last two subsections, \"Understanding Evolution...\" and \"The Evolution of HIV...\")"
       ]
     ],
     "learning_objectives": [
-      "* Interpret data from graphs by identifying axis quantities and identifying patterns in visualizations",
-      "* Interpret data from graphs by identifying axis quantities"
+      "\\* Interpret *data from graphs* by identifying axis quantities and identifying patterns from visualizations.",
+      "\\* Identify key parts of the *life cycle for HIV* in human cells, with focus on the entry receptor & co-receptor and what happens to the virus's genetic material in the cell.",
+      "\\* Describe the *role of reverse transcriptase* for HIV.",
+      "\\* Explain how *AZT blocks reverse transcriptase*.",
+      "\\* Identify two ways that reverse transcriptase might *evolve resistance to AZT*, and which was observed to occur.",
+      "\\* Describe how errors during replication of the reverse transcriptase gene can lead to *changes in the frequency of drug resistance* in a host's HIV particles."
     ]
   },
   "8/28": {
@@ -92,7 +92,7 @@
         "Ch. 4"
       ],
       "learning_objectives": [
-        "TBD..."
+        "Note to self: jobs and future with AI"
       ]
     }
   ],
