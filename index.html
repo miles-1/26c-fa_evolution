@@ -385,7 +385,7 @@
     function formatText(str) {
       if (!str) return '';
       return escapeHtml(str)
-        .replace(/(?<!\\)\*\*(.*?)(?<!\\)\*\*/g, '<strong>$1</strong>')
+        .replace(/(?<!\\)\*(.*?)(?<!\\)\*/g, '<strong>$1</strong>')
         .replace(/\\\*/g, '*')
         .replace(/(\([^)]+\))/g, '<span class="text-gray-400 italic">$1</span>')
     }
