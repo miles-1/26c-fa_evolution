@@ -41,6 +41,38 @@
       "\\* Explain how *AZT blocks reverse transcriptase*.",
       "\\* Identify two ways that reverse transcriptase might *evolve resistance to AZT*, and which was observed to occur.",
       "\\* Describe how errors during replication of the reverse transcriptase gene can lead to *changes in the frequency of drug resistance* in a host's HIV particles."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describes why HIV can be treated by AZT? \\\n_FYI: for this question, the first part of each option is a true statement, but the second part is only true for one option. Questions like this are common in this class, so make sure you read options all the way through._ \\",
+        "options": [
+          "HIV's reverse transcriptase makes DNA from viral RNA; AZT looks like a DNA nucleotide but can't be added to once integrated.",
+          "HIV's capsid proteins bind to the CD4 receptor protein; AZT permanently binds to CD4, removing the viral entry point.",
+          "HIV's integrase protein integrates viral DNA into host DNA; AZT binds to integrase's allosteric site, inactivating it.",
+          "HIV's proteases break apart proteins into subcomponents to activate them; AZT looks like a protein cleavage site but permanently binds to the proteases's active site."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following best describes how HIV might become resistant to drugs like AZT?",
+        "options": [
+          "While copying viral genetic material, HIV proteins can make mistakes. A small percentage of these mistakes happen to confer partial or full resistance to antiviral drugs, so they have more success replicating and become more common.",
+          "When faced with antiviral drugs, HIV can detect its own weaknesses. If it is able to survive the encounter with the drug, it makes adjustments to its genetic material so future progeny will be more successful.",
+          "In the presence of antiviral drugs, HIV can choose to become dormant. Doing so allows the drug to naturally decompose until it is at a low enough concentration that it is no longer effective.",
+          "Antiviral drugs can only do so much damage to HIV. After a certain threshold of damage is inflicted on HIV particles, they are no longer affected by the drug. They stabilize and continue replicating at this point, albeit at a reduced rate."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is correct about what happens to viral genetic material during the life cycle of HIV?",
+        "options": [
+          "HIV virions carry RNA and proteins; one of its proteins convert its RNA to DNA; another one of its proteins integrates the DNA into the host cell's genome; the host cell makes viral RNA from the integrated viral DNA; that RNA is integrated into new virions",
+          "HIV virions carry RNA and proteins; one of its proteins makes copies of the RNA; that RNA is integrated into new virions",
+          "HIV virions carry DNA and proteins; the host cell's proteins makes viral RNA from that DNA; the host cell also makes copies of the viral DNA; that DNA is integrated into new virions",
+          "HIV virions carry DNA and proteins; one of its proteins integrates the DNA into the host cell's genome; the host cell makes copies of the integrated viral DNA; that DNA is integrated into new virions"
+        ]
+      }
     ]
   },
   "8/28": {
