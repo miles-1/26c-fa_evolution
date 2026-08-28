@@ -45,7 +45,7 @@
     "questions": [
       {
         "type": "multiple_choice",
-        "body": "Which of the following correctly describes why HIV can be treated by AZT? \\\n_FYI: for this question, the first part of each option is a true statement, but the second part is only true for one option. Questions like this are common in this class, so make sure you read options all the way through._ \\",
+        "body": "Which of the following correctly describes why HIV can be treated by AZT? FYI: for this question, the first part of each option is a true statement, but the second part is only true for one option. Questions like this are common in this class, so make sure you read options all the way through.",
         "options": [
           "HIV's reverse transcriptase makes DNA from viral RNA; AZT looks like a DNA nucleotide but can't be added to once integrated.",
           "HIV's capsid proteins bind to the CD4 receptor protein; AZT permanently binds to CD4, removing the viral entry point.",
@@ -102,8 +102,7 @@
     "lesson": "04",
     "desc": "Evolutionary Patterns I",
     "reading": [
-      "More details to come...",
-      "Ch. 2"
+      "I will post the reading and learning objectives by 5pm today!"
     ],
     "learning_objectives": [
       "Note to self: email format"
