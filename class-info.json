@@ -148,6 +148,38 @@
       "\\* State the *common name* of _Gasterosteus aculeatus_ (one of our focal species, see first-day notes).",
       "\\* Demonstrate how *speciation is a gradual process* through four stickleback examples (Robert's Lake/Creek, Paxton Lake, Akkeshi Bay; names of water bodies not important, just qualitative differences of the four examples).",
       "\\* Define *\"ring species\"* and explain how examples of them challenge the idea of discrete species and demonstrate how one species might split into two."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following accurately describes how selective breeding can bring about desired traits in a bred population?",
+        "options": [
+          "A breeder selects individuals with desired traits to breed; mating individuals genetically amplify and exaggerate their traits in order to make it more likely to mate again, and those traits become more common",
+          "A breeder selects individuals with desired traits to breed; their traits are passed down to their offspring and become more common",
+          "A breeder physically morphs or augments selected individuals to have desired traits (e.g., cutting away ugly leaves from plants); those traits are embedded genetically in those individuals and passed on to future generations, and those traits become more common",
+          "A breeder physically morphs or augments selected individuals to have desired traits (e.g., cutting away ugly leaves from plants); this is repeated every generation regardless of population genetics, so those traits become more common"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the definition of a \"ring species\"?",
+        "options": [
+          "A species that repeatedly cycles through a repeating set of genetic states over time because of delayed selective pressures experienced later in life. In early life, key survival traits are not expressed, thus delaying selection until later in life.",
+          "A species that repeatedly cycles through a repeating set of genetic states over time due to cyclically-repeating environmental conditions.",
+          "A species with a ring-shaped geographic range made of a connected series of neighboring populations. Each adjacent population can interbreed, except where the two ends of the ring meet, where those two populations are too distinct to mate.",
+          "A species with a ring-shaped geographic range where, despite large environmental differences across the range, all populations of the species can interbreed."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the common name of _Gasterosteus aculeatus_?",
+        "options": [
+          "Common house mouse",
+          "Blue-ringed octopus",
+          "Siberian greenish warbler",
+          "Three-spined stickleback"
+        ]
+      }
     ]
   },
   "9/2": [
@@ -160,11 +192,21 @@
       "lesson": "05",
       "desc": "Evolutionary Patterns II",
       "reading": [
-        "More details to come...",
-        "Ch. 2"
+        [
+          "Read rest of Ch. 2",
+          "Read 2.3 (but skip three sub-subsections: \"A Fossil Transitional Bird\", \"Transitional Forms Allow...\", and \"A Transitional Turtle\")",
+          "Read 2.4 (but skip two sub-subsections: \"Molecular Homology\" and \"A Predictive Test...\")",
+          "Read 2.5",
+          "Read Computing Consequences 2.1 (\"A closer look at radiometric dating\")"
+        ]
       ],
       "learning_objectives": [
-        "Note to self: review grading structure"
+        "\\* Define key *vocabulary* (specifically: fossil, transitional form, homology, uniformitarianism, radiometric dating)",
+        "\\* Explain how the Pacific leapting blenny (amazing name) demonstrates that organisms can evolve to survive in very different environments than their ancestors.",
+        "\\* Identify three cases where species have similar traits (vertebrate forelimbs, fins/flippers in sharks/orcas, orchid flower parts) and if they represent homologous or non-homologous traits.",
+        "\\* Hypothesize the relatedness between a set of species using homologous traits.",
+        "\\* Order key species by most-to-least related to humans (specifically: frog, chimp, alligator, cat, sea urchin, stickleback, fruitfly).",
+        "\\* Calculate the age of a biological sample from the parent-daughter ratio of isotopes (given the presumed initial concentration of parent isotopes and its half-life time)."
       ]
     }
   ],
