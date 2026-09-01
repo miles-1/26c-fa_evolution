@@ -202,11 +202,11 @@
       ],
       "learning_objectives": [
         "\\* Define key *vocabulary* (specifically: fossil, transitional form, homology, uniformitarianism, radiometric dating)",
-        "\\* Explain how the Pacific leaping blenny (amazing name) demonstrates that organisms can evolve to survive in very different environments than their ancestors.",
-        "\\* Identify three cases where species have similar traits (vertebrate forelimbs, fins/flippers in sharks/orcas, orchid flower parts) and if they represent homologous or non-homologous traits.",
-        "\\* Hypothesize the relatedness between a set of species using homologous traits.",
-        "\\* Order key species by most-to-least related to humans (specifically: frog, chimp, alligator, cat, sea urchin, stickleback, fruit fly).",
-        "\\* Calculate the age of a biological sample from the parent-daughter ratio of isotopes (given the initial parent-daughter ratio and the half-life time of the parent isotope)."
+        "\\* Explain how the *Pacific leaping blenny* (amazing name) demonstrates that organisms can evolve to survive in very different environments than their ancestors.",
+        "\\* Identify three cases where species have similar traits (vertebrate forelimbs, fins/flippers in sharks/orcas, orchid flower parts) and if they represent *homologous or non-homologous* traits.",
+        "\\* Hypothesize the *relatedness between a set of species using homologous traits*.",
+        "\\* Order key species by *most-to-least related to humans* (specifically: frog, chimp, alligator, cat, sea urchin, stickleback, fruit fly).",
+        "\\* Calculate the *age of a biological sample* from the parent-daughter ratio of isotopes (given the initial parent-daughter ratio and the half-life time of the parent isotope)."
       ]
     }
   ],
@@ -215,11 +215,20 @@
     "lesson": "06",
     "desc": "Tree Thinking I",
     "reading": [
-      "More details to come...",
-      "Ch. 4"
+      [
+        "Read the first part of Ch. 4",
+        "Skip intro",
+        "Read 4.1 (skim subsections \"How to Read Time...\" and \"How to Read Relationships...\", read rest thoroughly)",
+        "Read 4.2 (whole thing)"
+      ]
     ],
     "learning_objectives": [
-      "Note to self: jobs and future with AI"
+      "Interpret the pattern of extant species diversity using *tree thinking* (i.e., in terms of the relationships between extant species and their genetic divergence).",
+      "\\* Identify when two evolutionary trees of different styles or orders demonstrate the same evolutionary information.",
+      "\\* Explain why evolutionary trees are considered hypotheses.",
+      "\\* Define key *vocabulary* (specifically: apomorphy, synapomorphy, plesiomorphy, monophyletic group/clade, paraphyletic, polyphyletic, polytomy).",
+      "\\* Describe how including an *outgroup* in phylogenies can accurately root a tree (or, synonymously, can insure the ingroup is monophyletic).",
+      "\\* Define *parsimony* as a phylogenetic analysis method, and describe how true phylogenetic data might break the assumptions of parsimony (specifically: convergent evolution, reversals, homoplasy)."
     ]
   },
   "9/7": {
@@ -248,6 +257,7 @@
       "lesson": "08",
       "desc": "Population Thinking",
       "reading": [
+        "Interpret the pattern of genetic variation within a group of conspecifics using *population thinking* (i.e., interpreting population variation as a key factor of evolution)",
         "More details to come...",
         "Ch. 5"
       ],
