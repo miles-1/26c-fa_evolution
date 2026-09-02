@@ -207,6 +207,38 @@
         "\\* Hypothesize the *relatedness between a set of species using homologous traits*.",
         "\\* Order key species by *most-to-least related to humans* (specifically: frog, chimp, alligator, cat, sea urchin, stickleback, fruit fly).",
         "\\* Calculate the *age of a biological sample* from the parent-daughter ratio of isotopes (given the initial parent-daughter ratio and the half-life time of the parent isotope)."
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is the correct definition of the term \"homology\" in an evolutionary context?",
+          "options": [
+            "The study of homosexuality (or more generally, non-heterosexuality) in animals.",
+            "The study of repeated patterns across the genotypes of unrelated species.",
+            "The study of similar structures in species, which indicates their relatedness.",
+            "The study of transitional amphibious organisms that are thought to descend from water-dwelling organisms."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following correctly describes the Pacific leaping blenny's evolutionary history?",
+          "options": [
+            "Blennies are *amphibious*, and are thought to have descended from *pelagic* (open water) organisms, which themselves descend from *benthic* (deep water) organisms",
+            "Blennies are *aquatic*, and are thought to have descended from *hyporheic* (just below stream bed) organisms, who themselves descend from *fossorial* (underground) organisms",
+            "Blennies are *aerial*, and are thought to have descended from *arboreal* (tree-dwelling) organisms, which themselves descend from *terrestrial* organisms",
+            "Blennies are *terrestrial*, and are thought to have descended from *amphibious* organisms, which themselves descend from *aquatic* organisms"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is correct about radiometric dating?",
+          "options": [
+            "Individual radioactive atoms decay randomly, but masses of radioactive atoms altogether decay at a predictable rate overall, which can be used to measure the age of a sample.",
+            "Individual radioactive atoms decay sequentially (one at a time), starting at the surface of the mass and moving inwards as outer layers are shed; the size of the radioactive masses indicates the sample's age",
+            "In fossils, radioactive atoms naturally accumulate, and that rate of build-up indicates how long the sample has been fossilized",
+            "Masses of radioactive atoms generally persist indefinitely in organic samples, but become more radioactive over time, which can be used to measure the age of the sample"
+          ]
+        }
       ]
     }
   ],
