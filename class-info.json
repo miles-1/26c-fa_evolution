@@ -304,11 +304,18 @@
     "lesson": "07",
     "desc": "Tree Thinking II",
     "reading": [
-      "More details to come...",
-      "Ch. 4"
+      [
+        "Rest of Ch. 4",
+        "Skip both Computing Consequences (4.1 & 4.2)",
+        "Read 4.3 (skip the rest of the section after the sub-subsection \"Searching for the Best...\")",
+        "Read 4.4 (whole thing)"
+      ]
     ],
     "learning_objectives": [
-      "Note to self: pattern & process"
+      "\\* Describe how mutations more complicated than SNPs (e.g., deletions, insertions) are handled in *sequence alignment*.",
+      "\\* Explain how aligned sequences can *identify apomorphies* in related species.",
+      "\\* Compare the differences in assumptions made between parsimony and and likelihood.",
+      "\\* Explain how pylogenies were used to answer 3 evolutionary questions (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)"
     ]
   },
   "9/11": [
