@@ -261,6 +261,38 @@
       "\\* Define key *vocabulary* (specifically: apomorphy, synapomorphy, plesiomorphy, monophyletic group/clade, paraphyletic, polyphyletic, polytomy).",
       "\\* Describe how including an *outgroup* in phylogenies can accurately root a tree (or, synonymously, can ensure the ingroup is monophyletic).",
       "\\* Define *parsimony* as a phylogenetic analysis method, and describe how true phylogenetic data might break the assumptions of parsimony (specifically: convergent evolution, reversals, homoplasy)."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describes these four trees? See https://miles-1.github.io/26c-fa_evolution/L06_quiz_trees.png for images.",
+        "options": [
+          "Trees 2, 3, and 4 show the same information as each other, but show different information than tree 1.",
+          "Trees 1, 3, and 4 show the same information as each other, but show different information than tree 2.",
+          "Trees 1 & 2 show the same information as each other, as do 3 & 4, but 1 & 2 are different than 3 & 4.",
+          "Trees 1 & 3 show the same information as each other, as do 2 & 4, but 1 & 3 are different than 2 & 4."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the difference between an apomorphy and a synapomorphy?",
+        "options": [
+          "An *apomorphy* is a newly-evolved trait (relative to whatever you're studying); a *synapomorphy* is an apomorphy shared by two or more lineages that form their own clade",
+          "An *apomorphy* is an ancestral trait, whereas a *synapomorphy* is a more recently-evolved trait",
+          "A *synapomorphy* is an ancestral trait, whereas an *apomorphy* is a more recently-evolved trait",
+          "A *synapomorphy* is a newly-evolved trait (relative to whatever you're studying); an *apomorphy* is a synapomorphy shared by two or more lineages that form their own clade"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is the definition of parsimony?",
+        "options": [
+          "A method of tree analysis that prefers hypotheses where *more* evolutionary changes were made",
+          "A method of tree analysis that *maximizes* the number of clades in a tree",
+          "A method of tree analysis that *minimizes* the number of clades in a tree",
+          "A method of tree analysis that prefers hypotheses where *fewer* evolutionary changes were made"
+        ]
+      }
     ]
   },
   "9/7": {
