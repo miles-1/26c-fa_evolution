@@ -315,7 +315,8 @@
       "\\* Describe how mutations more complicated than SNPs (e.g., deletions, insertions) are handled in *sequence alignment*.",
       "\\* Explain how aligned sequences can *identify apomorphies* in related species.",
       "\\* Compare the differences in assumptions made between parsimony and and likelihood.",
-      "\\* Explain how pylogenies were used to answer 3 evolutionary questions (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)"
+      "\\* Explain how pylogenies were used to answer 3 evolutionary questions (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)",
+      "_Note:_ review LO5 from Lesson 01."
     ]
   },
   "9/11": [
@@ -328,12 +329,22 @@
       "lesson": "08",
       "desc": "Population Thinking",
       "reading": [
-        "Interpret the pattern of genetic variation within a group of conspecifics using *population thinking* (i.e., interpreting population variation as a key factor of evolution)",
-        "More details to come...",
-        "Ch. 5"
+        [
+          "Read part of Ch. 5",
+          "Read intro",
+          "Read 5.1 (whole thing)",
+          "Skip Computing Consequences 5.1"
+        ]
       ],
       "learning_objectives": [
-        "Note to self: review office hours"
+        "Interpret the pattern of genetic variation within a group of conspecifics using *population thinking* (i.e., interpreting population variation as a key factor of evolution)",
+        "\\* Describe and differentiate between the *three main sources of variation in individuals' phenotypes* (genetic/genotype, environmental, genotype-by-environment interaction).",
+        "\\* Describe *human taste of PTC* as an example of phenotypic variation caused by genetic differences between individuals (includes identifying _AVI_ and _PAV_ as two alleles of the TAS2R38 gene that differ by three amino acids, and how individuals of each of the three possible genotypes of those allele experience PTC).",
+        "\\* Describe *inducible defenses in _Daphnia_* as an example of phenotypic variation caused by environmental differences between individuals (specific expressed genes not important).",
+        "\\* Explain why *phenotypic variation from environmental differences* is not heritable and does not lead to evolution.",
+        "\\* Describe *leopard gecko male birth proportions* as an example of phenotypic variation caused by an interaction between genetic and environmental factors.",
+        "\\* Interpret *reaction norms* to gain information about the relationship between genotype, environment, and the resulting phenotype.",
+        "_Note:_ review LO3 & LO4 from Lesson 01."
       ]
     }
   ],
