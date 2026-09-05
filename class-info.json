@@ -314,8 +314,8 @@
     "learning_objectives": [
       "\\* Describe how mutations more complicated than SNPs (e.g., deletions, insertions) are handled in *sequence alignment*.",
       "\\* Explain how aligned sequences can *identify apomorphies* in related species.",
-      "\\* Compare the differences in assumptions made between parsimony and and likelihood.",
-      "\\* Explain how pylogenies were used to answer 3 evolutionary questions (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)",
+      "\\* Compare the differences in assumptions made between *parsimony and likelihood*.",
+      "\\* Explain how *pylogenies were used to answer 3 evolutionary questions* (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)",
       "\\* _Note:_ review LO5 from Lesson 01."
     ]
   },
