@@ -99,7 +99,7 @@
     "questions": [
       {
         "type": "multiple_choice",
-        "body": "With respect to the phylogenetic tree to the right, which of the following is true about the taxa B? (see image at https://miles-1.github.io/26c-fa_evolution/tree_quiz.svg) NOTE: I don't like this question any more because the structure implies that genetic divergence is being represented by branch length. Everyone got full credit for this one.",
+        "body": "With respect to the phylogenetic tree to the right, which of the following is true about the taxa B? (see image at https://miles-1.github.io/26c-fa_evolution/imgs/L03_quiz_tree.svg) NOTE: I don't like this question any more because the structure implies that genetic divergence is being represented by branch length. Everyone got full credit for this one.",
         "options": [
           "B is most closely related to C; B is equally distantly related to A and D",
           "B is most closely related to C; B is most distantly related to D",
@@ -265,7 +265,7 @@
     "questions": [
       {
         "type": "multiple_choice",
-        "body": "Which of the following correctly describes these four trees? See https://miles-1.github.io/26c-fa_evolution/L06_quiz_trees.png for images.",
+        "body": "Which of the following correctly describes these four trees? See https://miles-1.github.io/26c-fa_evolution/imgs/L06_quiz_trees.png for images.",
         "options": [
           "Trees 2, 3, and 4 show the same information as each other, but show different information than tree 1.",
           "Trees 1, 3, and 4 show the same information as each other, but show different information than tree 2.",
@@ -307,7 +307,7 @@
       [
         "Rest of Ch. 4",
         "Skip both Computing Consequences (4.1 & 4.2)",
-        "Read 4.3 (skip the rest of the section after the sub-subsection \"Searching for the Best...\")",
+        "Read 4.3 (stop reading section at the sub-subsection \"Searching for the Best...\")",
         "Read 4.4 (whole thing)"
       ]
     ],
@@ -344,6 +344,7 @@
         "\\* Explain why *phenotypic variation from environmental differences* is not heritable and does not lead to evolution.",
         "\\* Describe *leopard gecko male birth proportions* as an example of phenotypic variation caused by an interaction between genetic and environmental factors.",
         "\\* Interpret *reaction norms* to gain information about the relationship between genotype, environment, and the resulting phenotype.",
+        "Describe what type of organism _Escherichia coli_ is (one of our focal species, see first-day notes).",
         "\\* _Note:_ review LO3 & LO4 from Lesson 01."
       ]
     }
