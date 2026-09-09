@@ -12,7 +12,7 @@
         "Syllabus"
       ],
       "learning_objectives": [
-        "Explain the *structure of this course* and identify the core concepts (evolution definition, importance of scale, process vs pattern).",
+        "Explain the *structure of this course* and identify the core concepts (evolution definition, importance of scale, pattern vs process).",
         "Identify *key components and organelles* in cells critical to understanding evolution (DNA, nucleus, ER, Golgi apparatus, mitochondria, chloroplasts), and state their purposes.",
         "Define the *central dogma of biology*. Explain how cells can turn genetic material into traits, and the molecules involved in that process (see first-day notes).",
         "Define the basic terms used to discuss *genetics* (see first-day notes).",
@@ -258,7 +258,7 @@
       "Interpret the pattern of extant species diversity using *tree thinking* (i.e., in terms of the relationships between extant species and their genetic divergence).",
       "\\* Identify when two *evolutionary trees of different styles* or taxon orders demonstrate the same evolutionary information.",
       "\\* Explain why *evolutionary trees are considered hypotheses*.",
-      "\\* Define key *vocabulary* (specifically: apomorphy, synapomorphy, plesiomorphy, monophyletic group/clade, paraphyletic, polyphyletic, polytomy).",
+      "\\* Define key *vocabulary* (specifically: apomorphy, synapomorphy, plesiomorphy, monophyletic group/clade, paraphyletic, polyphyletic, polytomy, anagenesis, cladogenesis).",
       "\\* Describe how including an *outgroup* in phylogenies can accurately root a tree (or, synonymously, can ensure the ingroup is monophyletic).",
       "\\* Define *parsimony* as a phylogenetic analysis method, and describe how true phylogenetic data might break the assumptions of parsimony (specifically: convergent evolution, reversals, homoplasy)."
     ],
@@ -317,6 +317,38 @@
       "\\* Compare the differences in assumptions made between *parsimony and likelihood*.",
       "\\* Explain how *pylogenies were used to answer 3 evolutionary questions* (1. is CTVT, a type of dog cancer, contagious; 2. when did humans start wearing clothes; 3. how did seyechelles chameleon get to remote African islands)",
       "\\* _Note:_ review LO5 from Lesson 01."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is true of the sequence alignment below? (see image at https://miles-1.github.io/26c-fa_evolution/imgs/L07_img_1.png)",
+        "options": [
+          "The pig's DNA at positions 53-55 has three adjacent gaps (just DNA backbone, no nitrogenous bases).",
+          "At position 57, the different nucleotides between the two species suggest that the deer had a deletion mutation.",
+          "The pig sequence dashes starting at position 53 suggest that either a 3 bp insertion happened for the deer or a 3 bp deletion occurred for the pig.",
+          "At position 57, the different nucleotides between the two species suggest that the pig had an insertion mutation."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describes the T at position 25 for the pig sequence below? (see image at https://miles-1.github.io/26c-fa_evolution/imgs/L07_img_2.png)",
+        "options": [
+          "plesiomorphy",
+          "synapomorphy",
+          "apomorphy",
+          "monophyletic"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describes the difference between parsimony and likelihood?",
+        "options": [
+          "in parsimony, we assume *minimal* evolutionary changes; in likelihood, we assume the probability of mutations occurring (model) and thus can calculate the likelihood of possible trees occurring",
+          "in parsimony, we assume *maximal* evolutionary changes; in likelihood, we assume the probability of mutations occurring (model) and thus can calculate the likelihood of possible trees occurring",
+          "in parsimony, we assume *minimal* evolutionary changes; in likelihood, we predict the probability that one living species is actually the ancestor of another species",
+          "in parsimony, we assume *maximal* evolutionary changes; in likelihood, we predict the probability that one living species is actually the ancestor of another species"
+        ]
+      }
     ]
   },
   "9/11": [
