@@ -384,12 +384,22 @@
     // ---- Lesson Information rendering -----------------------------------
     function formatText(str) {
       if (!str) return '';
-      return escapeHtml(str)
-        .replace(/(?<!\\)\*(.*?)(?<!\\)\*/g, '<strong>$1</strong>')
-        .replace(/(?<!\\)_(.*?)(?<!\\)_/g, '<em>$1</em>')
-        .replace(/\\_/g, '_')
-        .replace(/\\\*/g, '*')
-        .replace(/(\([^)]+\))/g, '<span class="text-gray-400 italic">$1</span>')
+      return str
+        .split(/(<[^>]+>)/g)
+        .map(part => {
+          // If the part is an HTML tag, return it unmodified
+          if (part.startsWith('<') && part.endsWith('>')) {
+            return part;
+          }
+          // Otherwise, apply the formatting replacements
+          return part
+            .replace(/(?<!\\)\*(.*?)(?<!\\)\*/g, '<strong>$1</strong>')
+            .replace(/(?<!\\)_(.*?)(?<!\\)_/g, '<em>$1</em>')
+            .replace(/\\_/g, '_')
+            .replace(/\\\*/g, '*')
+            .replace(/(\([^)]+\))/g, '<span class="text-gray-400 italic">$1</span>');
+        })
+        .join('');
     }
     
     function renderReading(reading) {
