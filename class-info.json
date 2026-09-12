@@ -321,7 +321,7 @@
     "questions": [
       {
         "type": "multiple_choice",
-        "body": "Which of the following is true of the sequence alignment below? (see image at https://miles-1.github.io/26c-fa_evolution/imgs/L07_img_1.png)",
+        "body": "Which of the following is true of the sequence alignment below? <img src=\"https://miles-1.github.io/26c-fa_evolution/imgs/L07_img_1.png)\">",
         "options": [
           "The pig's DNA at positions 53-55 has three adjacent gaps (just DNA backbone, no nitrogenous bases).",
           "At position 57, the different nucleotides between the two species suggest that the deer had a deletion mutation.",
@@ -378,6 +378,38 @@
         "\\* Interpret *reaction norms* to gain information about the relationship between genotype, environment, and the resulting phenotype.",
         "Describe what type of organism _Escherichia coli_ is (one of our focal species, see first-day notes).",
         "\\* _Note:_ review LO3 & LO4 from Lesson 01."
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Two genotypes, AA and Aa, are present in a population of squirrels. Those with genotype AA have twice as bushy of tails as those with genotype Aa. This is an example of which of the following?",
+          "options": [
+            "Phenotypic variation due to environmental differences",
+            "Phenotypic variation due to genetic differences",
+            "Phenotypic variation due to the interaction between genetic and environmental differences",
+            "Phenotypic variation due to random chance"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "The percentage of leopard gecko's offspring that are male varies wildly between mothers. In the reading, this was used as an example of which of the following?",
+          "options": [
+            "Phenotypic variation due to environmental differences",
+            "Phenotypic variation due to genetic differences",
+            "Phenotypic variation due to the interaction between genetic and environmental differences",
+            "Phenotypic variation due to random chance"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is true about the two alleles of TAS2R38 called _AVI_ and _PAV_?",
+          "options": [
+            "The two alleles differ by three amino acids, but are the same length",
+            "The two alleles only differ at amino acid 38, where _AVI_ has an arginine (R), and _PAV_ has a serine (S)",
+            "Individuals who are homozygous for the _AVI_ allele find the taste of PTC to be revolting",
+            "All human individuals are either homozygous for _AVI_ or are homozygous for _PAV_"
+          ]
+        }
       ]
     }
   ],
@@ -396,18 +428,18 @@
       "lesson": "09",
       "desc": "Mutation",
       "reading": [
-        "More details to come...",
-        "Ch. 7"
+        "No reading! Quiz will be participation-only."
       ],
       "learning_objectives": [
-        "Note to self: review class structure from concepts"
+        "Identify the different ways that allele frequencies might stay the same over time (i.e., stable, unstable, and neutral equilibria).",
+        ""
       ]
     }
   ],
   "9/16": {
     "type": "lesson",
     "lesson": "10",
-    "desc": "Drift I",
+    "desc": "Mutation",
     "reading": [
       "More details to come...",
       "Ch. 7"
