@@ -431,8 +431,8 @@
         "No reading! Quiz will be graded by completion, not correctness."
       ],
       "learning_objectives": [
+        "Distinguish between *allele and genotype*. Calculate allele frequency from genotype frequency.",
         "Identify the different ways that *allele frequencies might stay the same over time* (i.e., stable, unstable, and neutral equilibria).",
-        "Describe the difference between *passive and dynamic equilibria* with respect to allele frequencies in populations.",
         "Describe each of the *four mechanisms of microevolution* (mutation, drift, selection, migration).",
         "State that *non-random mating influences genotype frequencies*, but not allele frequencies.",
         "List the conditions for *Hardy-Weinberg equilibirum*."
@@ -443,19 +443,30 @@
   "9/16": {
     "type": "lesson",
     "lesson": "10",
-    "desc": "Mutation",
+    "desc": "Nonrandom Mating",
     "reading": [
-      "More details to come...",
-      "Ch. 7"
+      [
+        "Read annotated notes from Lesson 09 (in Canvas under Modules)"
+      ],
+      [
+        "Read part of Ch. 7",
+        "Read 7.4 (whole thing. Note that a lot of it will not make sense until class time, read it all but then focus on the starred learning objectives.)",
+        "Skip Computing Consequences 7.6"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "Explain why, in the absence of any evolutionary force, nonrandom mating *only affects genotype frequencies, not allele frequencies*.",
+      "Distinguish between *positive and negative assortative mating*, both being examples of non-random mating.",
+      "\\* Explain why *inbreeding increases the frequency of homozygotes* in populations.",
+      "\\* Describe what the *coefficient of inbreeding* says about a population.",
+      "*Calculate the coefficient of inbreeding* given a family tree.",
+      "\\* Define *inbreeding depression*, and give an explanation as to why it is observed."
     ]
   },
   "9/18": {
     "type": "lesson",
     "lesson": "11",
-    "desc": "Drift II",
+    "desc": "Mutation, Drift",
     "reading": [
       "More details to come...",
       "Ch. 7"
