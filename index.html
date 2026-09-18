@@ -118,24 +118,33 @@
     <section id="lesson-information" class="scroll-mt-6">
       <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Lesson Information</h2>
 
-      <div class="mb-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-700">
-        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Show / hide details</p>
-        <div id="lesson-filters" class="flex flex-wrap items-center gap-x-6 gap-y-2">
-          <label class="inline-flex items-center gap-2 cursor-pointer">
-            <input type="checkbox" checked data-filter="reading"
-                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
-            Reading
-          </label>
-          <label class="inline-flex items-center gap-2 cursor-pointer">
-            <input type="checkbox" checked data-filter="objectives"
-                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
-            Learning Objectives
-          </label>
-          <label class="inline-flex items-center gap-2 cursor-pointer">
-            <input type="checkbox" checked data-filter="questions"
-                   class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
-            Quiz Questions
-          </label>
+      <div class="mb-5 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-sm text-gray-700">
+        <div class="flex flex-wrap items-center gap-x-6 gap-y-2">
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Show / hide details</p>
+          <div id="lesson-filters" class="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <label class="inline-flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" checked data-filter="reading"
+                     class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+              Reading
+            </label>
+            <label class="inline-flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" checked data-filter="objectives"
+                     class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+              Learning Objectives
+            </label>
+            <label class="inline-flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" checked data-filter="questions"
+                     class="rounded border-gray-300 text-[#087E8B] focus:ring-[#087E8B]">
+              Quiz Questions
+            </label>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <label for="exam-filter" class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Show By Exam</label>
+          <select id="exam-filter" class="rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm focus:border-[#087E8B] focus:outline-none focus:ring-1 focus:ring-[#087E8B]">
+            <option value="all">All Lessons</option>
+          </select>
         </div>
       </div>
 
@@ -334,6 +343,16 @@
     function jumpToLesson(dateStr) {
       const el = document.getElementById(lessonDomId(dateStr));
       if (!el) return;
+
+      // If the targeted lesson is hidden by the exam filter, reset filter to "all"
+      if (el.classList.contains("hidden")) {
+        const select = document.getElementById("exam-filter");
+        if (select) {
+          select.value = "all";
+          select.dispatchEvent(new Event("change"));
+        }
+      }
+
       el.open = true;
       el.scrollIntoView({ behavior: "smooth", block: "center" });
       el.classList.remove("lesson-flash");
@@ -462,13 +481,15 @@
       const { dateStr, event, unit, nextExam } = lessonInfo;
       const details = document.createElement("details");
       details.id = lessonDomId(dateStr);
+
+      const examShortName = nextExam ? nextExam.desc.split(" - ")[0].trim() : "none";
+      details.dataset.exam = examShortName;
+
       details.className = "group border border-gray-200 bg-white rounded-lg shadow-sm transition-all duration-200 overflow-hidden [&_summary::-webkit-details-marker]:hidden";
 
       const unitLessonLabel = unit != null
         ? `Unit ${unit} &middot; Lesson ${escapeHtml(event.lesson)}`
         : `Lesson ${escapeHtml(event.lesson)}`;
-      // Shorten exam descriptions to the part before the first " - "
-      // (e.g. "Exam 1 - Testing Center" -> "Exam 1").
       const examLabel = nextExam ? escapeHtml(nextExam.desc.split(" - ")[0]) : "No exam";
 
       const summary = document.createElement("summary");
@@ -521,6 +542,40 @@
       });
     }
 
+    function initExamFilter(lessons) {
+      const select = document.getElementById("exam-filter");
+      if (!select) return;
+
+      const exams = [];
+      lessons.forEach(l => {
+        if (l.nextExam) {
+          const shortName = l.nextExam.desc.split(" - ")[0].trim();
+          if (!exams.includes(shortName)) {
+            exams.push(shortName);
+          }
+        }
+      });
+
+      select.innerHTML = '<option value="all">All Lessons</option>';
+      exams.forEach(exam => {
+        const opt = document.createElement("option");
+        opt.value = exam;
+        opt.textContent = `${exam} Lessons`;
+        select.appendChild(opt);
+      });
+
+      select.addEventListener("change", (e) => {
+        const selected = e.target.value;
+        document.querySelectorAll("#lesson-list > details").forEach(panel => {
+          if (selected === "all" || panel.dataset.exam === selected) {
+            panel.classList.remove("hidden");
+          } else {
+            panel.classList.add("hidden");
+          }
+        });
+      });
+    }
+
     // ---- Boot -----------------------------------------------------------
     async function loadCourseInfo() {
       const lessonList = document.getElementById("lesson-list");
@@ -541,6 +596,7 @@
           lessonList.innerHTML = '<div class="text-center py-10 text-gray-500">No lessons available yet.</div>';
         } else {
           lessons.forEach(lessonInfo => lessonList.appendChild(renderLessonPanel(lessonInfo)));
+          initExamFilter(lessons);
         }
 
         initLessonFilters();

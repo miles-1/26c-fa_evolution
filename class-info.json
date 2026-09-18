@@ -426,7 +426,7 @@
     {
       "type": "lesson",
       "lesson": "09",
-      "desc": "Mutation",
+      "desc": "Overview of Unit 2",
       "reading": [
         "No reading! Quiz will be graded by completion, not correctness."
       ],
@@ -546,10 +546,10 @@
   "9/23": {
     "type": "lesson",
     "lesson": "13",
-    "desc": "Natural Selection I",
+    "desc": "Migration/Gene Flow",
     "reading": [
       "More details to come...",
-      "Ch. 3, 6 & 10"
+      "Ch. 7"
     ],
     "learning_objectives": [
       "TBD..."
@@ -558,7 +558,7 @@
   "9/25": {
     "type": "lesson",
     "lesson": "14",
-    "desc": "Natural Selection II",
+    "desc": "Natural Selection I",
     "reading": [
       "More details to come...",
       "Ch. 3, 6 & 10"
@@ -570,7 +570,7 @@
   "9/28": {
     "type": "lesson",
     "lesson": "15",
-    "desc": "Natural Selection III",
+    "desc": "Natural Selection II",
     "reading": [
       "More details to come...",
       "Ch. 3, 6 & 10"
@@ -587,7 +587,7 @@
     {
       "type": "lesson",
       "lesson": "16",
-      "desc": "Natural Selection IV",
+      "desc": "Natural Selection III",
       "reading": [
         "More details to come...",
         "Ch. 3, 6 & 10"
@@ -600,7 +600,7 @@
   "10/2": {
     "type": "lesson",
     "lesson": "17",
-    "desc": "Gene Flow",
+    "desc": "Natural Selection IV",
     "reading": [
       "More details to come...",
       "Ch. 7"
@@ -612,7 +612,7 @@
   "10/5": {
     "type": "lesson",
     "lesson": "18",
-    "desc": "Non-Random Mating",
+    "desc": "Non-Random Mating V",
     "reading": [
       "More details to come...",
       "Ch. 7"
