@@ -520,6 +520,38 @@
       "\\* Distinguish between *synonymous substitutions, nonsynonymous substitutions, and nonsense mutations*.",
       "\\* State that a mutation rate of 1 mutation per 10,000 copies of a gene represents a *high but plausible rate of mutation* in natural populations.",
       "Calculate the expected equilibrium value of allele frequencies, which is a stable equilibrium, that can occur from *mutation with back-mutation*."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "The reading discussed deamination of methylated cytosine as an example of what process?",
+        "options": [
+          "insertion",
+          "deletion",
+          "point mutation",
+          "nonsense mutation"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is true about premutations?",
+        "options": [
+          "There are many premutations during DNA replication, but most are corrected by proofreading and repair enzymes",
+          "Premutations become persistent mutations automatically during chemical decay, and cannot be reversed once they occur",
+          "Premutations are rare events, usually occurring only when cells are exposed to environmental mutagens",
+          "Loss of proofreading enzymes prevents premutations from occurring in the first place, but proofreading enzymes are critical for other processes"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following uses terminology correctly to describe the effects of mutations on proteins?",
+        "options": [
+          "Synonymous substitutions occur when a point mutation changes the encoded amino acid without altering protein function",
+          "Nonsynonymous substitutions occur when a point mutation causes an amino acid substitution in a protein",
+          "Nonsense mutations occur when an insertion or deletion shifts the reading frame, altering all downstream amino acids",
+          "Indels occur when a point mutation replaces a purine with a pyrimidine in the coding sequence"
+        ]
+      }
     ]
   },
   "9/21": {
