@@ -462,7 +462,8 @@
       "*Calculate the coefficient of inbreeding* given a family tree.",
       "\\* Define *inbreeding depression*, and give an explanation as to why it is observed.",
       "\\* _Note_: review the learning objectives of Lesson 09."
-    ]
+    ],
+    "questions": []
   },
   "9/18": {
     "type": "lesson",
