@@ -463,7 +463,39 @@
       "\\* Define *inbreeding depression*, and give an explanation as to why it is observed.",
       "\\* _Note_: review the learning objectives of Lesson 09."
     ],
-    "questions": []
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Why does inbreeding lead to an increase in homozygosity?",
+        "options": [
+          "In a population with high inbreeding, being heterozygous makes selfing difficult because the individual can show a mix of two different phenotypes, and thus have inconsistent selfing behavior.",
+          "Homozygotes are typically more aggressive towards heterozygotes in selfing populations, making them more likely to die or emigrate away.",
+          "Homozygotes that inbreed beget more homozygotes, while only half of offspring from heterozygotes that inbreed are heterozygotes.",
+          "Heterozygotes are more likely to accumulate mutations than homozygotes when inbreeding, so heterozygotes are more likely to become homozygotes than vice versa."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is not a mechanism of microevolution?",
+        "options": [
+          "migration",
+          "selection",
+          "drift",
+          "nonrandom mating",
+          "mutation"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following best defines inbreeding depression?",
+        "options": [
+          "A reduction in the frequency of heterozygotes across the genome relative to Hardy-Weinberg expectations",
+          "A reduction of average fitness in an inbreeding population",
+          "A reduction in population size caused by a sudden decrease in environmental carrying capacity",
+          "A reduction in inbreeding rates, where higher rates of outcrossing displace inbreeding behavior"
+        ]
+      }
+    ]
   },
   "9/18": {
     "type": "lesson",
@@ -471,7 +503,7 @@
     "desc": "Mutation",
     "reading": [
       [
-        "Read section of Ch. 5",
+        "Read one section of Ch. 5",
         "Read 5.2 (whole thing)"
       ],
       [
@@ -482,10 +514,10 @@
     ],
     "learning_objectives": [
       "\\* Identify mutation as the *only source of new alleles* (note: recombination can make new combinations of existing alleles).",
-      "\\* Describe *deamination* as an example of how a mutation can occur (specifically, that a cytosine can become methylated, then can react with water to become thymine).",
+      "\\* Describe *deamination* as an example of how a point mutation can occur (specifically, that a cytosine can become methylated, then can react with water to become thymine).",
       "\\* Describe an example of how a *single-base-pair indel* (indel = insertion or deletion) can come about through strand slippage (specifically, that long stretches of the same nucleotide can cause strand mis-alignment, so too few or too many complementary nucleotides are added).",
-      "\\* State that there are many mistakes made during DNA replication called *premutations*, but that most are fixed by many DNA proofreading enzymes.",
-      "\\* Distinguish between a *synonymous substitution, nonsynonymous substitution, and a nonsense mutation*.",
+      "\\* State that there are many mistakes made during DNA replication called *premutations*, but that most are fixed by many DNA proofreading and mismatch-repair enzymes.",
+      "\\* Distinguish between *synonymous substitutions, nonsynonymous substitutions, and nonsense mutations*.",
       "\\* State that a mutation rate of 1 mutation per 10,000 copies of a gene represents a *high but plausible rate of mutation* in natural populations.",
       "Calculate the expected equilibrium value of allele frequencies, which is a stable equilibrium, that can occur from *mutation with back-mutation*."
     ]
@@ -495,11 +527,20 @@
     "lesson": "12",
     "desc": "Drift",
     "reading": [
-      "More details to come...",
-      "Ch. 3, 6 & 10"
+      [
+        "Read one section of Ch. 7",
+        "Read 7.2 (read everything up until subsection \"Random Fixation and Loss...\" - skip it and everything after it)",
+        "Read Computing Consequences 7.3 and 7.4"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Describe the relationship between the strength of drift's effects and *population size*.",
+      "Identify *examples of drift* beyond random weather events and freak accidents.",
+      "\\* Describe how the *founder effect* is an extreme example of genetic drift.",
+      "\\* Define and differentiate *allele fixation and allele loss*. Calculate the probability of eventual allele fixation using its frequency.",
+      "\\* Describe the range of potential outcomes, as well as the most likely outcome, for how *drift affects heterozygocity*.",
+      "\\* Interpret the *data of Peter Buri's experiment* (name not important) that tracked the frequency of the alleles of the _brown_ gene in fruit fly populations.",
+      "\\* Define the term *effective population size*, explaining how it differs from actual population size."
     ]
   },
   "9/23": {
@@ -538,18 +579,24 @@
       "TBD..."
     ]
   },
-  "9/30": {
-    "type": "lesson",
-    "lesson": "16",
-    "desc": "Natural Selection IV",
-    "reading": [
-      "More details to come...",
-      "Ch. 3, 6 & 10"
-    ],
-    "learning_objectives": [
-      "TBD..."
-    ]
-  },
+  "9/30": [
+    {
+      "type": "assignment",
+      "desc": "In-Class Assn 2"
+    },
+    {
+      "type": "lesson",
+      "lesson": "16",
+      "desc": "Natural Selection IV",
+      "reading": [
+        "More details to come...",
+        "Ch. 3, 6 & 10"
+      ],
+      "learning_objectives": [
+        "TBD..."
+      ]
+    }
+  ],
   "10/2": {
     "type": "lesson",
     "lesson": "17",
