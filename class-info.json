@@ -567,12 +567,13 @@
     ],
     "learning_objectives": [
       "\\* Describe the relationship between the strength of drift's effects and *population size*.",
-      "Identify *examples of drift* beyond random weather events and freak accidents.",
+      "Identify *examples of drift* beyond random weather events and random mortality events.",
       "\\* Describe how the *founder effect* is an extreme example of genetic drift.",
       "\\* Define and differentiate *allele fixation and allele loss*. Calculate the probability of eventual allele fixation using its frequency.",
       "\\* Describe the range of potential outcomes, as well as the most likely outcome, for how *drift affects heterozygocity*.",
       "\\* Interpret the *data of Peter Buri's experiment* (name not important) that tracked the frequency of the alleles of the _brown_ gene in fruit fly populations.",
-      "\\* Define the term *effective population size*, explaining how it differs from actual population size."
+      "\\* Define the term *effective population size*, explaining how it differs from actual population size. Calculate the effective population size given the number of mating males and females in a population.",
+      "Explain why drift is often a destabalizing force on allele frequencies but never a stabilizing one."
     ]
   },
   "9/23": {
@@ -580,11 +581,18 @@
     "lesson": "13",
     "desc": "Migration/Gene Flow",
     "reading": [
-      "More details to come...",
-      "Ch. 7"
+      [
+        "Read one section of Ch. 7",
+        "Read 7.1 (read everything up until subsection \"Empirical Research on Migration...\" - skip it and everything after it)",
+        "Read Computing Consequences 7.1",
+        "Skip Computing Consequences 7.2"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Explain how migration can *counter the genetic divergence* of otherwise-isolated populations of a species (aka population homogenization).",
+      "\\* Draw the structure of *the mainland-island model of migration* (see Fig 7.1) and describe the effect of having many more individuals migrating to the island from the mainland than vice versa.",
+      "Draw the *stepping stone model* of migration and describe homogenization rates between \"stepping stone\" populations.",
+      "\\* Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
     ]
   },
   "9/25": {
@@ -592,8 +600,14 @@
     "lesson": "14",
     "desc": "Natural Selection I",
     "reading": [
-      "More details to come...",
-      "Ch. 3, 6 & 10"
+      [
+        "Read parts of Ch. 3",
+        "Read Intro",
+        "Read 3.2 (whole thing)",
+        "Read 3.3 (whole thing)",
+        "Read 3.5 (whole thing)",
+        "Skip all other sections (3.1, 3.4, 3.6, 3.7) and Computing Consequences 3.1"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -604,8 +618,11 @@
     "lesson": "15",
     "desc": "Natural Selection II",
     "reading": [
-      "More details to come...",
-      "Ch. 3, 6 & 10"
+      [
+        "Read one section of Ch. 6",
+        "Read 6.2 (whole thing)",
+        "Read Computing Consequences 6.3, skip all others"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -621,8 +638,11 @@
       "lesson": "16",
       "desc": "Natural Selection III",
       "reading": [
-        "More details to come...",
-        "Ch. 3, 6 & 10"
+        [
+          "Read one section of Ch. 6",
+          "Read 6.3 (whole thing)",
+          "Read Computing Consequences 6.6 & 6.7"
+        ]
       ],
       "learning_objectives": [
         "TBD..."
@@ -634,8 +654,12 @@
     "lesson": "17",
     "desc": "Natural Selection IV",
     "reading": [
-      "More details to come...",
-      "Ch. 7"
+      [
+        "Read parts of Ch. 10",
+        "Read Intro",
+        "Read 10.1 (whole thing)",
+        "Read 10.2 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -644,10 +668,12 @@
   "10/5": {
     "type": "lesson",
     "lesson": "18",
-    "desc": "Non-Random Mating V",
+    "desc": "Interactions of Evolutionary Forces",
     "reading": [
-      "More details to come...",
-      "Ch. 7"
+      [
+        "Read a spattering of sections",
+        "Read 5.5 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -658,7 +684,10 @@
     "lesson": "19",
     "desc": "Hardy-Weinberg I",
     "reading": [
-      "More details to come...",
+      "Read 6.1",
+      "Read Computing Consequences 6.4 (pg 198)",
+      "Read Computing Consequences 6.9 (pg 220)",
+      "TODO: Mutation and Selection & Mutation-Selection Balance (pg 219)",
       "Ch. 6"
     ],
     "learning_objectives": [
