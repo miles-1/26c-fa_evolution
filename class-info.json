@@ -625,7 +625,7 @@
       "\\* Explain how migration *can counter the genetic divergence* of otherwise-isolated populations of a species (aka population homogenization).",
       "\\* Draw the structure of *the mainland-island model of migration* (see Fig 7.1) and describe the effect of having many more individuals migrating to the island from the mainland than vice versa.",
       "Draw the *stepping stone model* of migration and describe homogenization rates between \"stepping stone\" populations.",
-      "Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
+      "\\* Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
     ]
   },
   "9/25": {
