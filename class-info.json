@@ -574,7 +574,8 @@
       "\\* Interpret the *data of Peter Buri's experiment* (name not important) that tracked the frequency of the alleles of the _brown_ gene in fruit fly populations.",
       "\\* Define the term *effective population size*, explaining how it differs from actual population size. Calculate the effective population size given the number of mating males and females in a population.",
       "Explain why drift is often a destabalizing force on allele frequencies but never a stabilizing one."
-    ]
+    ],
+    "questions": []
   },
   "9/23": {
     "type": "lesson",
