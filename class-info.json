@@ -575,7 +575,38 @@
       "\\* Define the term *effective population size*, explaining how it differs from actual population size. Calculate the effective population size given the number of mating males and females in a population.",
       "Explain why drift is often a destabalizing force on allele frequencies but never a stabilizing one."
     ],
-    "questions": []
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is not an example of drift?",
+        "options": [
+          "A strong and a weak beetle fight. The strong one wins because of its strength.",
+          "A boulder falls and crushes a green beetle, while a red beetle nearly misses being crushed",
+          "By random chance, a heterozygote gives only one of its two distinct alleles to all of its offspring.",
+          "A beetle happens to never find a mate in its short lifetime."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "How does drift affect heterozygosity?",
+        "options": [
+          "Almost always increases it",
+          "Almost always decreases it",
+          "Has no effect",
+          "Can either increase or decrease it, but on average has no effect"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the relationship between population size and drift strength?",
+        "options": [
+          "No relationship, they are independent",
+          "Drift is stronger in small populations",
+          "Drift is stronger in large populations",
+          "Drift only occurs in a theoretical infinite-size population"
+        ]
+      }
+    ]
   },
   "9/23": {
     "type": "lesson",
@@ -586,15 +617,14 @@
       [
         "Read one section of Ch. 7",
         "Read 7.1 (read everything up until subsection \"Empirical Research on Migration...\" - skip it and everything after it)",
-        "Read Computing Consequences 7.1",
-        "Skip Computing Consequences 7.2"
+        "Skip Computing Consequences 7.1 & 7.2"
       ]
     ],
     "learning_objectives": [
-      "\\* Explain how migration can *counter the genetic divergence* of otherwise-isolated populations of a species (aka population homogenization).",
+      "\\* Explain how migration *can counter the genetic divergence* of otherwise-isolated populations of a species (aka population homogenization).",
       "\\* Draw the structure of *the mainland-island model of migration* (see Fig 7.1) and describe the effect of having many more individuals migrating to the island from the mainland than vice versa.",
       "Draw the *stepping stone model* of migration and describe homogenization rates between \"stepping stone\" populations.",
-      "\\* Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
+      "Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
     ]
   },
   "9/25": {
