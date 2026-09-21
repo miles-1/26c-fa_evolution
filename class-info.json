@@ -566,11 +566,11 @@
       ]
     ],
     "learning_objectives": [
-      "\\* Describe the relationship between the strength of drift's effects and *population size*.",
       "Identify *examples of drift* beyond random weather events and random mortality events.",
+      "\\* Describe the relationship between the strength of drift's effects and *population size*.",
       "\\* Describe how the *founder effect* is an extreme example of genetic drift.",
       "\\* Define and differentiate *allele fixation and allele loss*. Calculate the probability of eventual allele fixation using its frequency.",
-      "\\* Describe the range of potential outcomes, as well as the most likely outcome, for how *drift affects heterozygocity*.",
+      "\\* Describe the range of potential outcomes, as well as the most likely outcome, for how *drift affects heterozygosity*.",
       "\\* Interpret the *data of Peter Buri's experiment* (name not important) that tracked the frequency of the alleles of the _brown_ gene in fruit fly populations.",
       "\\* Define the term *effective population size*, explaining how it differs from actual population size. Calculate the effective population size given the number of mating males and females in a population.",
       "Explain why drift is often a destabalizing force on allele frequencies but never a stabilizing one."
@@ -582,6 +582,7 @@
     "lesson": "13",
     "desc": "Migration/Gene Flow",
     "reading": [
+      "Glance at the math examples for L10 and L11 (see Canvas Modules)",
       [
         "Read one section of Ch. 7",
         "Read 7.1 (read everything up until subsection \"Empirical Research on Migration...\" - skip it and everything after it)",
@@ -666,20 +667,26 @@
       "TBD..."
     ]
   },
-  "10/5": {
-    "type": "lesson",
-    "lesson": "18",
-    "desc": "Interactions of Evolutionary Forces",
-    "reading": [
-      [
-        "Read a spattering of sections",
-        "Read 5.5 (whole thing)"
+  "10/5": [
+    {
+      "type": "assignment",
+      "desc": "In-Class Assn 3"
+    },
+    {
+      "type": "lesson",
+      "lesson": "18",
+      "desc": "Interactions of Evolutionary Forces",
+      "reading": [
+        [
+          "Read a spattering of sections",
+          "Read 5.5 (whole thing)"
+        ]
+      ],
+      "learning_objectives": [
+        "TBD..."
       ]
-    ],
-    "learning_objectives": [
-      "TBD..."
-    ]
-  },
+    }
+  ],
   "10/7": {
     "type": "lesson",
     "lesson": "19",
