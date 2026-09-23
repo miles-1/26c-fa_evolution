@@ -626,6 +626,28 @@
       "\\* Draw the structure of *the mainland-island model of migration* (see Fig 7.1) and describe the effect of having many more individuals migrating to the island from the mainland than vice versa.",
       "Draw the *stepping stone model* of migration and describe homogenization rates between \"stepping stone\" populations.",
       "\\* Calculate the *allele frequencies of the next generation of an island population* given the migration rate (using mainland-island model)."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describes the effect of high migration rates?",
+        "options": [
+          "Populations with high migration between them become more similar to each other",
+          "The individuals of a population that has a lot of immigrants will become more homogenous (i.e., lower population genetic diversity)",
+          "Populations with high migration between them become more distinct from each other over time",
+          "When a population has a lot of emigrants, more immigrants will come to take their place"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is an assumption of the mainland-island model of migration?",
+        "options": [
+          "The mainland population and the island population start with the same allele frequencies",
+          "Islands are far enough away from the mainland to ensure that no predators of the species are also able to migrate",
+          "Island populations are so small that any migrants going to the mainland have virtually no effect on mainland allele frequencies",
+          "The mainland population is assumed to be the same size as the island population for simplicity"
+        ]
+      }
     ]
   },
   "9/25": {
