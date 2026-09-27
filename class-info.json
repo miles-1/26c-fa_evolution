@@ -675,7 +675,38 @@
       "\\* Distinguish between natural selection's effect on existing allele frequencies and the *sources of new alleles in populations* (mutation, migration).",
       "\\* Describe why natural selection is the only inherently \"directional\" mechanism of evolution (e.g., say why it is directional and the other mechanisms are not), and why this *directionality is short-term and not progressive*."
     ],
-    "questions": []
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is correct about natural selection?",
+        "options": [
+          "Natural selection acts on *populations*, but its effects are seen in *individuals*.",
+          "Natural selection acts on and has its effect on *populations*",
+          "Natural selection acts on *individuals*, but its effects are seen in *populations*.",
+          "Natural selection acts on and has its effect on *individuals*"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which statement correctly describes the relationship between phenotype, genotype, and natural selection?",
+        "options": [
+          "Selection acts directly on *genotypes* and therefore have indirect effects on *phenotypes*.",
+          "Selection acts directly on *phenotypes* and indirectly on *genotypes*.",
+          "Selection acts directly on *environmental variance* ($V_E$) to alter *genetic variance* ($V_G$).",
+          "Selection acts on *phenotype* and *genotype* independently."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the role of natural selection regarding new alleles?",
+        "options": [
+          "Selection generates new random alleles when environmental conditions change to allow individuals in the population to increase in fitness.",
+          "Selection converts environmental variation ($V_E$) into new genetic variation ($V_G$).",
+          "Selection acts on existing variation, while processes like mutation and migration introduce new alleles to populations.",
+          "Selection forces organisms to adapt by inducing targeted mutations."
+        ]
+      }
+    ]
   },
   "9/28": {
     "type": "lesson",
@@ -684,12 +715,17 @@
     "reading": [
       [
         "Read one section of Ch. 6",
-        "Read 6.2 (whole thing)",
+        "Read 6.2 (but skip subsection \"Empirical Research...\")",
         "Read Computing Consequences 6.3, skip all others"
       ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "Identify the conditions for *Hardy-Weinberg equilibirum* (see Lesson 09 LO 5). Describe why this equilibrium is an important point of comparison when determining if a population is actively evolving.",
+      "Calculate the *expected genotype frequencies* given the initial allele frequencies after a single round of random mating. Describe why a population that has this genotype frequency is not at Hardy-Weinberg equilibrium unless it maintains those genotype frequencies across generations.",
+      "\\* Calculate the *change in genotype and allele frequencies* of a biallelic gene from one generation to the next given genotype fitnesses and initial frequencies.",
+      "\\* Explain why the frequency of the CCR5-∆32 allele has not substantially changed in Northern Europe (where the allele is common but HIV is not) nor in Sub-Saharan Africa (where HIV is common but the allele is not).",
+      "Graph the relationship between genotype and phenotype and between phenotype and fitness. Interpret these graphs to find the fitness conferred by each genotype for traits that are completely genetically determined.",
+      "\\* _Note:_ review all learning objectives from Lesson 14 (two quiz questions will be about these)."
     ]
   },
   "9/30": [
