@@ -741,12 +741,13 @@
       "reading": [
         [
           "Read one section of Ch. 6",
-          "Read 6.3 (whole thing)",
+          "Read 6.3 (but skip sub-subsection \"Frequency-Dependent Selection\" and everything after it)",
           "Read Computing Consequences 6.6 & 6.7"
         ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "\\* Compare the effects of selection on phenotypes driven by recessive and dominant alleles.",
+        "\\* Compare the effects of selection on phenotypes with heterozygote advantage/disadvantage."
       ]
     }
   ],
