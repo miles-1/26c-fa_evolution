@@ -790,13 +790,13 @@
           "Read a spattering of sections",
           "Skip all Computing Consequences",
           "Read 5.5 (whole thing)",
-          "Read 6.4 (skip all subsections, just read \"Mutation-Selection Balance\")",
+          "Read 6.4 (skip all subsections, just read \"Mutation and Selection\" and \"Mutation-Selection Balance\")",
           "Read 7.1 (skip all subsections, just read \"Empirical Research on Migration versus Selection\")",
           "Read 7.2 (skip all subsections, just read \"Genetic Drift versus Natural Selection\")"
         ]
       ],
       "learning_objectives": [
-        "TBD..."
+        ""
       ]
     }
   ],
