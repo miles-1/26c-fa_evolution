@@ -771,7 +771,7 @@
       "\\* Define relevant terms for *dominance patterns* (dominance/recessiveness, incomplete dominance, additive allelic effect, over-/underdominance). Describe why genotype's effect on phenotype might not lead to the same effects on fitness.",
       "\\* Define different *types of selection* (stabilizing, directional, distruptive). State that selection always increases (or maintains) average fitness in populations.",
       "\\* Explain why *common explanations for evolutionary phenomena must be tested* before being accepted by discussing the oxpecker and large-mammal example.",
-      "- this learning objective has been removed -",
+      "\\- this learning objective has been removed -",
       "\\* Describe the function of a *null hypothesis* in a statistical test. Explain that it is presumed to be true in order to calculate _p_-values."
     ],
     "questions": []
@@ -788,9 +788,12 @@
       "reading": [
         [
           "Read a spattering of sections",
-          "Read 5.5 (whole thing)"
-        ],
-        "More sections will be listed by 5pm today"
+          "Skip all Computing Consequences",
+          "Read 5.5 (whole thing)",
+          "Read 6.4 (skip all subsections, just read \"Mutation-Selection Balance\")",
+          "Read 7.1 (skip all subsections, just read \"Empirical Research on Migration versus Selection\")",
+          "Read 7.2 (skip all subsections, just read \"Genetic Drift versus Natural Selection\")"
+        ]
       ],
       "learning_objectives": [
         "TBD..."
