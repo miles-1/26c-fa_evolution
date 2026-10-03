@@ -774,7 +774,38 @@
       "\\- this learning objective has been removed -",
       "\\* Describe the function of a *null hypothesis* in a statistical test. Explain that it is presumed to be true in order to calculate _p_-values."
     ],
-    "questions": []
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Here is a graph that shows the relationship between genotype and phenotype for some gene. Which dominance pattern does this demonstrate?\n\n#place(right, dy:-15pt, image(\"GbyP.svg\"))",
+        "options": [
+          "Overdominance",
+          "$A_2$ is dominant",
+          "Incomplete dominance",
+          "$A_1$ is dominant"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Here is a graph that shows the relationship between phenotype and fitness for some trait. Which of the following is true?\n\n#place(right, dy:-15pt, image(\"Pbyw.svg\"))",
+        "options": [
+          "*All values* ($0<P<6$) have stabilizing selection.",
+          "$P=1$ has *disruptive selection*, while $P=3$ has stabilizing selection.",
+          "$P=1$ has *directional selection* towards *smaller* trait values, \\ while $P=3$ has stabilizing selection.",
+          "$P=1$ has *directional selection* towards *larger* trait values, \\ while $P=3$ has stabilizing selection."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following correctly describe the role of a *null hypothesis* in statistical tests?",
+        "options": [
+          "The null hypothesis is a reference value for something we know not to be true about the data.",
+          "The null hypothesis is presumed true, which allows for the calculation of how likely it is to see the data we have.",
+          "The null hypothesis is the statement that the researcher directly attempts to gather evidence to prove true.",
+          "The null hypothesis serves as the fixed threshold that the test statistic must exceed to achieve statistical significance."
+        ]
+      }
+    ]
   },
   "10/5": [
     {
@@ -784,35 +815,36 @@
     {
       "type": "lesson",
       "lesson": "18",
-      "desc": "Interactions of Evolutionary Forces",
+      "desc": "Interactions of Evolutionary Forces I",
       "reading": [
         [
           "Read a spattering of sections",
           "Skip all Computing Consequences",
           "Read 5.5 (whole thing)",
-          "Read 6.4 (skip all subsections, just read \"Mutation and Selection\" and \"Mutation-Selection Balance\")",
-          "Read 7.1 (skip all subsections, just read \"Empirical Research on Migration versus Selection\")",
-          "Read 7.2 (skip all subsections, just read \"Genetic Drift versus Natural Selection\")"
+          "Read 6.4 (just read \"Mutation and Selection\" and \"Mutation-Selection Balance\", skip all other subsections)",
+          "Read 7.1 (just read \"Empirical Research on Migration versus Selection\", skip all other subsections)",
+          "Read 7.2 (just read \"Genetic Drift versus Natural Selection\", skip all other subsections)"
         ]
       ],
       "learning_objectives": [
-        ""
+        "\\* Describe the distribution of *fitnesses of new mutations* as seen in bacteriophage f1 and Brewer's yeast.",
+        "\\* Explain how *mutation-selection balance* can arise. Given its mutation rate and selection coefficient, calculate the equilibrium value of a recessive deleterious allele.",
+        "\\* Describe how *migration can maintain the presence of deleterious alleles* in populations using the Lake Erie water snake example.",
+        "\\* Describe how *drift can counter selective forces*, potentially causing beneficial alleles to be lost or deleterious alleles to become fixed.",
+        "Describe how *non-random mating can change the speed of evolution* even though it is not itself an evolutionary force."
       ]
     }
   ],
   "10/7": {
     "type": "lesson",
     "lesson": "19",
-    "desc": "Hardy-Weinberg I",
+    "desc": "Interactions of Evolutionary Forces II",
     "reading": [
-      "Read 6.1",
-      "Read Computing Consequences 6.4 (pg 198)",
-      "Read Computing Consequences 6.9 (pg 220)",
-      "TODO: Mutation and Selection & Mutation-Selection Balance (pg 219)",
-      "Ch. 6"
+      "Read over In-Class Assignment 2 Key (in Modules)",
+      "Same reading as previous lesson - go to Course Info page (link on home page) to see it"
     ],
     "learning_objectives": [
-      "TBD..."
+      "Same learning objectives as previous lesson - go to Course Info page (link on home page) to see them. *Note:* there will still be a quiz on the reading, just different questions as last time."
     ]
   },
   "10/9": [
@@ -823,10 +855,12 @@
     {
       "type": "lesson",
       "lesson": "20",
-      "desc": "Hardy-Weinberg II",
+      "desc": "Hardy-Weinberg",
       "reading": [
-        "More details to come...",
-        "Ch. 6"
+        "Read one section from Ch. 6",
+        "Read 6.1 (whole thing)",
+        "Read Computing Consequences 6.1",
+        "Skip Computing Consequences 6.2"
       ],
       "learning_objectives": [
         "TBD..."
