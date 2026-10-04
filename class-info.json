@@ -771,28 +771,28 @@
       "\\* Define relevant terms for *dominance patterns* (dominance/recessiveness, incomplete dominance, additive allelic effect, over-/underdominance). Describe why genotype's effect on phenotype might not lead to the same effects on fitness.",
       "\\* Define different *types of selection* (stabilizing, directional, distruptive). State that selection always increases (or maintains) average fitness in populations.",
       "\\* Explain why *common explanations for evolutionary phenomena must be tested* before being accepted by discussing the oxpecker and large-mammal example.",
-      "\\- this learning objective has been removed -",
+      "- this learning objective has been removed -",
       "\\* Describe the function of a *null hypothesis* in a statistical test. Explain that it is presumed to be true in order to calculate _p_-values."
     ],
     "questions": [
       {
         "type": "multiple_choice",
-        "body": "Here is a graph that shows the relationship between genotype and phenotype for some gene. Which dominance pattern does this demonstrate?\n\n#place(right, dy:-15pt, image(\"GbyP.svg\"))",
+        "body": "Here is a graph that shows the relationship between genotype and phenotype for some gene. Which dominance pattern does this demonstrate? <img src=\"https://miles-1.github.io/26c-fa_evolution/imgs/GbyP.svg\">",
         "options": [
           "Overdominance",
-          "$A_2$ is dominant",
+          "A₂ is dominant",
           "Incomplete dominance",
-          "$A_1$ is dominant"
+          "A₁ is dominant"
         ]
       },
       {
         "type": "multiple_choice",
-        "body": "Here is a graph that shows the relationship between phenotype and fitness for some trait. Which of the following is true?\n\n#place(right, dy:-15pt, image(\"Pbyw.svg\"))",
+        "body": "Here is a graph that shows the relationship between phenotype and fitness for some trait. Which of the following is true? <img src=\"https://miles-1.github.io/26c-fa_evolution/imgs/Pbyw.svg\">",
         "options": [
-          "*All values* ($0<P<6$) have stabilizing selection.",
-          "$P=1$ has *disruptive selection*, while $P=3$ has stabilizing selection.",
-          "$P=1$ has *directional selection* towards *smaller* trait values, \\ while $P=3$ has stabilizing selection.",
-          "$P=1$ has *directional selection* towards *larger* trait values, \\ while $P=3$ has stabilizing selection."
+          "*All values* (0<P<6) have stabilizing selection.",
+          "P=1 has *disruptive selection*, while P=3 has stabilizing selection.",
+          "P=1 has *directional selection* towards *smaller* trait values, while P=3 has stabilizing selection.",
+          "P=1 has *directional selection* towards *larger* trait values, while P=3 has stabilizing selection."
         ]
       },
       {
@@ -841,10 +841,10 @@
     "desc": "Interactions of Evolutionary Forces II",
     "reading": [
       "Read over In-Class Assignment 2 Key (in Modules)",
-      "Same reading as previous lesson - go to Course Info page (link on home page) to see it"
+      "Same reading as Lesson 18 - go to Course Info page (link on home page) to see it"
     ],
     "learning_objectives": [
-      "Same learning objectives as previous lesson - go to Course Info page (link on home page) to see them. *Note:* there will still be a quiz on the reading, just different questions as last time."
+      "Same learning objectives as Lesson 18 - go to Course Info page (link on home page) to see them. *Note:* there will still be a quiz on the reading, just different questions as last time."
     ]
   },
   "10/9": [
