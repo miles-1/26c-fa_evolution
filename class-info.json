@@ -832,6 +832,38 @@
         "\\* Describe how *migration can maintain the presence of deleterious alleles* in populations using the Lake Erie water snake example.",
         "\\* Describe how *drift can counter selective forces*, potentially causing beneficial alleles to be lost or deleterious alleles to become fixed.",
         "Describe how *non-random mating can change the speed of evolution* even though it is not itself an evolutionary force."
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is true about the distribution of fitness values for mutations seen in bacteriophage f1 and Brewer's yeast?",
+          "options": [
+            "Virtually all of the mutations seen were *non-lethal*.",
+            "Very few mutations were *beneficial*.",
+            "There were more *beneficial* mutations than *harmful* mutations.",
+            "Very few mutations were *neutral*."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is true about the interaction of drift and selection in populations?",
+          "options": [
+            "In large populations, drift is more likely to overwhelm selection and cause fixation of a deleterious allele.",
+            "Drift is inherently weaker than selection: selection will always overpower drift.",
+            "Selection is inherently weaker than drift: drift will always overpower selection.",
+            "If drift is strong enough, it can speed up or reverse the effect of selection, or anything in between."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "The equation for the equilibrium value of a recessive deleterious allele under mutation-selection balance is $hat(q) = sqrt(mu / s)$, as stated in the reading. Which of the following is true about this equation?",
+          "options": [
+            "µ is the selection coefficient for the deleterious allele.",
+            "s is the rate at which the allele arises from mutation.",
+            "A larger mutation rate will bring about a higher equilibrium value for the allele.",
+            "A larger selection coefficient will bring about a higher equilibrium value for the allele."
+          ]
+        }
       ]
     }
   ],
