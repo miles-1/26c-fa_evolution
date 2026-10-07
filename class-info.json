@@ -877,6 +877,38 @@
     ],
     "learning_objectives": [
       "Same learning objectives as Lesson 18 - go to Course Info page (link on home page) to see them. *Note:* there will still be a quiz on the reading, just different questions as last time."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following best describes the difference in selection on water snake's color pattern between the mainland and islands on Lake Erie?",
+        "options": [
+          "Unbanded snakes have higher fitness on the mainland due to thermoregulation advantages, while banded snakes have higher fitness on the islands because of crypsis against limestone.",
+          "Banded snakes have higher fitness on the mainland because their pattern breaks up their outline in vegetated habitats, while unbanded snakes have higher fitness on the islands because their uniform grey color mimics the limestone substrate to escape avian predators.",
+          "Banded snakes have higher fitness in both environments, but island populations display mostly unbanded phenotypes due to a high rate of somatic mutation caused by UV exposure on open shores.",
+          "Natural selection favors unbanded morphs in both locations, but mainland populations retain banded phenotypes exclusively through strong negative assortative mating."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is the result when a constant influx of migrants carries alleles that are deleterious for the new location?",
+        "options": [
+          "The deleterious allele persists at some level in the population despite being selected against.",
+          "The migrants do not interbreed with the population, leading to speciation.",
+          "New migrants die immediately, which leads to fixation of the beneficial allele.",
+          "The migrants overwhelm the native inhabitants, and the deleterious allele becomes fixed."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following was the least common fitness effect for new mutations as seen in bacteriophage f1 and Brewer's yeast?",
+        "options": [
+          "deleterious but not lethal",
+          "neutral",
+          "beneficial",
+          "lethal"
+        ]
+      }
     ]
   },
   "10/9": [
