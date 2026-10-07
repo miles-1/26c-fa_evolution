@@ -573,7 +573,7 @@
       "\\* Describe the range of potential outcomes, as well as the most likely outcome, for how *drift affects heterozygosity*.",
       "\\* Interpret the *data of Peter Buri's experiment* (name not important) that tracked the frequency of the alleles of the _brown_ gene in fruit fly populations.",
       "\\* Define the term *effective population size*, explaining how it differs from actual population size. Calculate the effective population size given the number of mating males and females in a population.",
-      "Explain why drift is often a destabalizing force on allele frequencies but never a stabilizing one."
+      "Explain why drift is often a *destabalizing force* on allele frequencies but never a stabilizing one in the long term."
     ],
     "questions": [
       {
@@ -767,7 +767,7 @@
       ]
     ],
     "learning_objectives": [
-      "\\* Graph the relationship between *genotype and phenotype, phenotype and fitness, and genotype and fitness* for a given example.",
+      "\\* Graph the relationship between *genotype and phenotype, phenotype and fitness, and genotype and fitness* for a given example. Define the term \"adaptive landscape\".",
       "\\* Define relevant terms for *dominance patterns* (dominance/recessiveness, incomplete dominance, additive allelic effect, over-/underdominance). Describe why genotype's effect on phenotype might not lead to the same effects on fitness.",
       "\\* Define different *types of selection* (stabilizing, directional, distruptive). State that selection always increases (or maintains) average fitness in populations.",
       "\\* Explain why *common explanations for evolutionary phenomena must be tested* before being accepted by discussing the oxpecker and large-mammal example.",
@@ -889,13 +889,16 @@
       "lesson": "20",
       "desc": "Hardy-Weinberg",
       "reading": [
-        "Read one section from Ch. 6",
-        "Read 6.1 (whole thing)",
-        "Read Computing Consequences 6.1",
-        "Skip Computing Consequences 6.2"
+        "Read posted notes for Lesson 20 in Modules",
+        [
+          "Read one section from Ch. 6",
+          "Read 6.1 (whole thing)",
+          "Read Computing Consequences 6.1",
+          "Skip Computing Consequences 6.2"
+        ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "Determine if the genotype frequencies of a random sample from a population gives statistical evidence for the population not being in Hardy-Weinberg Equilibrium (this includes calculating allele frequencies from genotype counts, calculating expected genotype counts, calculating the chi-squared statistic, determining the p-value, and interpreting the p-value)."
       ]
     }
   ],
