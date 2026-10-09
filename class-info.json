@@ -931,7 +931,8 @@
       ],
       "learning_objectives": [
         "Determine if the genotype frequencies of a random sample from a population gives statistical evidence for the population not being in Hardy-Weinberg Equilibrium (this includes calculating allele frequencies from genotype counts, calculating expected genotype counts, calculating the chi-squared statistic, determining the p-value, and interpreting the p-value)."
-      ]
+      ],
+      "questions": []
     }
   ],
   "10/12": {
