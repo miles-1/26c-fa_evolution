@@ -950,10 +950,13 @@
     {
       "type": "lesson",
       "lesson": "21",
-      "desc": "Multi-Locus Evolution I",
+      "desc": "Evolution of Sex",
       "reading": [
-        "More details to come...",
-        "Ch. 8 & 9"
+        [
+          "Read one section of Ch. 8",
+          "Read 8.3 (whole thing)",
+          "Read Computing Consequences 8.5"
+        ]
       ],
       "learning_objectives": [
         "TBD..."
