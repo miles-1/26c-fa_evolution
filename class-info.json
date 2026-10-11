@@ -950,12 +950,13 @@
     {
       "type": "lesson",
       "lesson": "21",
-      "desc": "Evolution of Sex",
+      "desc": "Multi-Locus Evolution",
       "reading": [
         [
-          "Read one section of Ch. 8",
-          "Read 8.3 (whole thing)",
-          "Read Computing Consequences 8.5"
+          "Read parts of Ch. 8",
+          "Read 8.1 (whole thing)",
+          "Skip Computing Consequences 8.1, 8.2, and 8.3",
+          "Read 8.2 (skip all parts except subsubsection \"History of the CCR5 Gene\")"
         ]
       ],
       "learning_objectives": [
@@ -966,10 +967,13 @@
   "10/19": {
     "type": "lesson",
     "lesson": "22",
-    "desc": "Multi-Locus Evolution II",
+    "desc": "Evolution of Sex",
     "reading": [
-      "More details to come...",
-      "Ch. 8 & 9"
+      [
+        "Read one section of Ch. 8",
+        "Read 8.3 (whole thing)",
+        "Read Computing Consequences 8.5"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
