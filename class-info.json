@@ -954,6 +954,7 @@
       "reading": [
         [
           "Read parts of Ch. 8",
+          "Read Ch. 8 intro",
           "Read 8.1 (whole thing)",
           "Skip Computing Consequences 8.1, 8.2, and 8.3",
           "Read 8.2 (skip all parts except subsubsection \"History of the CCR5 Gene\")"
@@ -984,8 +985,13 @@
     "lesson": "24",
     "desc": "Quantitative Genetics I",
     "reading": [
-      "More details to come...",
-      "Ch. 9"
+      [
+        "Read parts of Ch. 9",
+        "Read chapter 9 intro",
+        "Read 9.1 (whole thing)",
+        "Skip 9.2",
+        "Read 9.3 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -996,8 +1002,12 @@
     "lesson": "25",
     "desc": "Quantitative Genetics II",
     "reading": [
-      "More details to come...",
-      "Ch. 9"
+      [
+        "Read parts of Ch. 9",
+        "Read 9.4 (whole thing)",
+        "Read 9.5 (whole thing)",
+        "Read 9.6 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
