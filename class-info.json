@@ -934,7 +934,7 @@
         ]
       ],
       "learning_objectives": [
-        "Determine if the genotype frequencies of a random sample from a population gives statistical evidence for the population not being in Hardy-Weinberg Equilibrium (this includes calculating allele frequencies from genotype counts, calculating expected genotype counts, calculating the chi-squared statistic, determining the p-value, and interpreting the p-value)."
+        "Determine if the genotype frequencies of a random sample from a population gives statistical evidence for the population not being in *Hardy-Weinberg Equilibrium* (this includes calculating allele frequencies from genotype counts, calculating expected genotype counts, calculating the chi-squared statistic, determining the p-value, and interpreting the p-value)."
       ],
       "questions": [
         {
@@ -1022,11 +1022,17 @@
         "Read chapter 9 intro",
         "Read 9.1 (whole thing)",
         "Skip 9.2",
-        "Read 9.3 (whole thing)"
+        "Read 9.3 (whole thing)",
+        "Read Computing Consequences 9.2"
       ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Explain that the variance in *quantitative traits* explained by genetics are determined by many genes instead of just one gene.",
+      "\\* Draw and complete a *Punnett square diagram* for individuals where the genotype tracks the alleles present for two genes (assume each is biallelic).",
+      "\\* Describe why *selfing in the F1 generation* caused such an increase in Corolla height variation in the next generation in Edward East's (name not important) experiment with longflower tobacco plants.",
+      "\\* Estimate (visually) the heritability of a trait using scatter plots between midparent and midoffspring values.",
+      "\\* Describe the difference in what is represented by *broad-sense heritability and narrow-sense heritability*. Identify that these two values are equivalent when all loci of interest show additive allelic effects (i.e., no dominance patterns).",
+      "\\* Explain how lack of environmental variation between twins make *mono- vs dizygotic twin studies* so helpful in identifying trait heritability."
     ]
   },
   "10/23": {
@@ -1037,12 +1043,18 @@
       [
         "Read parts of Ch. 9",
         "Read 9.4 (whole thing)",
-        "Read 9.5 (whole thing)",
+        "Skip Computing Consequences 9.3",
+        "Read 9.5 (skip subsections \"Alpine Skypilots...\" and \"Thoroughbred Racehorses...\")",
         "Read 9.6 (whole thing)"
       ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "Interpret both the selection gradient ($b$, symbol absent from textbook) and selection differential ($S$). Differentiate between them.",
+      "Calculate the *response to selection* ($R$) given the heritability ($h^2$) and selection differential ($S$).",
+      "Calculate the *heritability* ($h^2$) of a trait under selection in a population given the change in average midoffspring values (or the response to selection) and the change in the average of midparent values (or the selection differential).",
+      "Explain why a *genetic correlation* between traits (e.g., beak depth and width) can mean that selection on both traits does no occur independently. Describe how this might limit a population from evolving towards globally optimal fitness.",
+      "Identify how *directional, disruptive, and stabilizing selection* might affect the distribution of values for a quantitative trait from one generation to the next.",
+      "Describe how the size of gall created by the *gall-making fly* is an example of stabilizing selection. Describe why higher or lower gall sizes are less fit."
     ]
   },
   "10/26": {
