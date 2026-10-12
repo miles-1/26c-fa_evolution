@@ -789,7 +789,7 @@
         "type": "multiple_choice",
         "body": "Here is a graph that shows the relationship between phenotype and fitness for some trait. Which of the following is true? <img src=\"https://miles-1.github.io/26c-fa_evolution/imgs/Pbyw.svg\">",
         "options": [
-          "*All values* (0<P<6) have stabilizing selection.",
+          "*All values* for P have stabilizing selection.",
           "P=1 has *disruptive selection*, while P=3 has stabilizing selection.",
           "P=1 has *directional selection* towards *smaller* trait values, while P=3 has stabilizing selection.",
           "P=1 has *directional selection* towards *larger* trait values, while P=3 has stabilizing selection."
