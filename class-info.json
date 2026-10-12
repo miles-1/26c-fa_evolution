@@ -935,6 +935,38 @@
       ],
       "learning_objectives": [
         "Determine if the genotype frequencies of a random sample from a population gives statistical evidence for the population not being in Hardy-Weinberg Equilibrium (this includes calculating allele frequencies from genotype counts, calculating expected genotype counts, calculating the chi-squared statistic, determining the p-value, and interpreting the p-value)."
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "A sample from a population shows that there are 25 individuals with genotype AA, 40 with AB, and 30 with BB, giving a total of 95 individuals in the sample. Which of the following would give the frequency of the B allele in the population?",
+          "options": [
+            "sqrt(30/95)",
+            "sqrt(30)",
+            "30/95 + 1/2 * 40/95",
+            "30 + 1/2 * 40"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Imagine you have the genotype frequencies for a sample of size N taken from a population. After calculating the frequency of the W allele (p) and the Z allele (q) in the sample, how do you calculate the *expected* number of heterozygotes in the sample?",
+          "options": [
+            "p² N",
+            "2 p q N",
+            "2 p q",
+            "p²"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "If a sample gives χ² = 1.05 for the Hardy-Weinberg chi squared test, what is the p-value range according to the table below? (See table in L20 notes)",
+          "options": [
+            "0.5 &lt; p &lt; 0.1",
+            "0.9 &lt; p &lt; 0.5",
+            "0.05 &lt; p &lt; 0.005",
+            "0.1 &lt; p &lt; 0.05"
+          ]
+        }
       ]
     }
   ],
