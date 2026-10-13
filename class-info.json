@@ -1049,12 +1049,12 @@
       ]
     ],
     "learning_objectives": [
-      "Interpret both the selection gradient ($b$, symbol absent from textbook) and selection differential ($S$). Differentiate between them.",
-      "Calculate the *response to selection* ($R$) given the heritability ($h^2$) and selection differential ($S$).",
-      "Calculate the *heritability* ($h^2$) of a trait under selection in a population given the change in average midoffspring values (or the response to selection) and the change in the average of midparent values (or the selection differential).",
-      "Explain why a *genetic correlation* between traits (e.g., beak depth and width) can mean that selection on both traits does no occur independently. Describe how this might limit a population from evolving towards globally optimal fitness.",
-      "Identify how *directional, disruptive, and stabilizing selection* might affect the distribution of values for a quantitative trait from one generation to the next.",
-      "Describe how the size of gall created by the *gall-making fly* is an example of stabilizing selection. Describe why higher or lower gall sizes are less fit."
+      "\\* Interpret both the selection gradient ($b$, symbol absent from textbook) and selection differential ($S$). Differentiate between them.",
+      "\\* Calculate the *response to selection* ($R$) given the heritability ($h^2$) and selection differential ($S$).",
+      "\\* Calculate the *heritability* ($h^2$) of a trait under selection in a population given the change in average midoffspring values (or the response to selection) and the change in the average of midparent values (or the selection differential).",
+      "\\* Explain why a *genetic correlation* between traits (e.g., beak depth and width) can mean that selection on both traits does no occur independently. Describe how this might limit a population from evolving towards globally optimal fitness.",
+      "\\* Identify how *directional, disruptive, and stabilizing selection* might affect the distribution of values for a quantitative trait from one generation to the next.",
+      "\\* Describe how the size of gall created by the *gall-making fly* is an example of stabilizing selection. Describe why higher or lower gall sizes are less fit."
     ]
   },
   "10/26": {
