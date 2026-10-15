@@ -993,13 +993,13 @@
         ]
       ],
       "learning_objectives": [
-        "\\* Explain why alleles of genes on the same chromosome are less likely to *recombine* into new pairings. Identify *crossing-over* as the primary mechanism that disrupts alleles that are linked on the same chromosome.",
+        "\\* Explain why alleles of genes on the same chromosome are less likely to *recombine* into new pairings. Identify *crossing-over* as the primary mechanism that disrupts the linkage for alleles on the same chromosome.",
         "\\* Define *key terms* used to discuss multiple loci (polygenic, haplotype, linkage dis/equilibrium).",
-        "Describe why the term linkage equilibrium is used in a broader context than just for alleles of genes on the same chromosome (i.e., also used for alleles of genes on different chromosomes).",
+        "Explain how linkage disequilibrium can impact the effect of evolutionary forces like selection and drift.",
         "\\* Calculate the *coefficient of linkage disequilibrium* and interpret its quantity.",
-        "\\* Describe the three major *mechanisms that can create linkage disequilibrium* (drift, selection on polygenic phenotypes, population admixture).",
-        "\\* Describe the major *mechanism that can remove linkage disequilibrium* (genetic recombination).",
-        "Explain how linkage disequilibrium can impact the effect of evolutionary forces like selection and drift."
+        "Describe why the term linkage equilibrium is used in a *broader context* than just for alleles of genes on the same chromosome (i.e., also used for alleles of genes on different chromosomes).",
+        "\\* Describe the three major *mechanisms that can increase linkage disequilibrium* (drift, selection on polygenic phenotypes, population admixture).",
+        "\\* Describe the major *mechanism that can reduce linkage disequilibrium* (genetic recombination through independent assortment and crossing over)."
       ]
     }
   ],
