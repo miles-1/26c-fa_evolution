@@ -1001,7 +1001,38 @@
         "\\* Describe the three major *mechanisms that can increase linkage disequilibrium* (drift, selection on polygenic phenotypes, population admixture).",
         "\\* Describe the major *mechanism that can reduce linkage disequilibrium* (genetic recombination through independent assortment and crossing over)."
       ],
-      "questions": []
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following terms is used to describe the alleles present on chromosomes/in gametes for specific loci?",
+          "options": [
+            "chromotype",
+            "gametotype",
+            "haplotype",
+            "allelotype"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following gives the interpretation of the coefficient of linkage disequilibrium, $D$?",
+          "options": [
+            "$D$ measures the physical distance between two loci, where larger values indicate the genes are farther apart on a chromosome.",
+            "$D$ quantifies how frequently two alleles appear together in haplotypes, as compared to complete independent assortment.",
+            "$D$ measures the departure of a single locus from Hardy-Weinberg equilibrium proportions within a population.",
+            "$D$ calculates the exact recombination rate between two loci by tracking how often physical crossovers occur during meiosis."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following reduces linkage disequilibrium in populations?",
+          "options": [
+            "selection",
+            "drift",
+            "population admixture",
+            "genetic recombination"
+          ]
+        }
+      ]
     }
   ],
   "10/19": {
@@ -1011,17 +1042,20 @@
     "reading": [
       [
         "Read one section of Ch. 8",
-        "Read 8.3 (whole thing)",
-        "Read Computing Consequences 8.5"
+        "Read 8.3 (but skip subsections \"An Experimental Model...\", \"The Population Genetics...\", and \"Selection, Parasites, Environmental...\")",
+        "Skip Computing Consequences 8.5"
       ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* State that there are many species that don't reproduce only sexually or only asexually. Define *parthenogenesis* as an example of how some species can switch between sexual or asexual reproduction.",
+      "Explain why *selfing is not a form of asexual reproduction*. Describe how offspring of selfing differ from offspring of asexual reproducion.",
+      "\\* Define *Muller's ratchet* and *genetic load*. Explain why these terms helps describe the costs of asexual reproduction, and the role ofmutation and drift in Muller's ratchet.",
+      "\\* Compare the genetic results of *selfing vs outcrossing*."
     ]
   },
   "10/21": {
     "type": "lesson",
-    "lesson": "24",
+    "lesson": "23",
     "desc": "Quantitative Genetics I",
     "reading": [
       [
@@ -1044,7 +1078,7 @@
   },
   "10/23": {
     "type": "lesson",
-    "lesson": "25",
+    "lesson": "24",
     "desc": "Quantitative Genetics II",
     "reading": [
       [
@@ -1066,7 +1100,7 @@
   },
   "10/26": {
     "type": "lesson",
-    "lesson": "26",
+    "lesson": "25",
     "desc": "Sexual Selection I",
     "reading": [
       "More details to come...",
@@ -1078,7 +1112,7 @@
   },
   "10/28": {
     "type": "lesson",
-    "lesson": "27",
+    "lesson": "26",
     "desc": "Sexual Selection II",
     "reading": [
       "More details to come...",
@@ -1095,7 +1129,7 @@
     },
     {
       "type": "lesson",
-      "lesson": "28",
+      "lesson": "27",
       "desc": "Kin Selection",
       "reading": [
         "More details to come...",
@@ -1113,7 +1147,7 @@
     },
     {
       "type": "lesson",
-      "lesson": "29",
+      "lesson": "28",
       "desc": "Speciation I",
       "reading": [
         "More details to come...",
@@ -1126,7 +1160,7 @@
   ],
   "11/4": {
     "type": "lesson",
-    "lesson": "30",
+    "lesson": "29",
     "desc": "Speciation II",
     "reading": [
       "More details to come...",
@@ -1138,7 +1172,7 @@
   },
   "11/6": {
     "type": "lesson",
-    "lesson": "31",
+    "lesson": "30",
     "desc": "Speciation III",
     "reading": [
       "More details to come...",
@@ -1156,7 +1190,7 @@
     },
     {
       "type": "lesson",
-      "lesson": "32",
+      "lesson": "31",
       "desc": "Development I",
       "reading": [
         "More details to come...",
@@ -1173,7 +1207,7 @@
   },
   "11/13": {
     "type": "lesson",
-    "lesson": "33",
+    "lesson": "32",
     "desc": "Development II",
     "reading": [
       "More details to come...",
@@ -1185,7 +1219,7 @@
   },
   "11/16": {
     "type": "lesson",
-    "lesson": "34",
+    "lesson": "33",
     "desc": "Phylogenetics I",
     "reading": [
       "More details to come...",
@@ -1197,7 +1231,7 @@
   },
   "11/18": {
     "type": "lesson",
-    "lesson": "35",
+    "lesson": "34",
     "desc": "Phylogenetics II",
     "reading": [
       "More details to come...",
@@ -1213,7 +1247,7 @@
   },
   "11/23": {
     "type": "lesson",
-    "lesson": "36",
+    "lesson": "35",
     "desc": "Human Evolution I",
     "reading": [
       "More details to come...",
@@ -1230,7 +1264,7 @@
   },
   "11/30": {
     "type": "lesson",
-    "lesson": "37",
+    "lesson": "36",
     "desc": "Human Evolution II",
     "reading": [
       "More details to come...",
@@ -1242,7 +1276,7 @@
   },
   "12/2": {
     "type": "lesson",
-    "lesson": "38",
+    "lesson": "37",
     "desc": "Origins of Life I",
     "reading": [
       "More details to come...",
@@ -1259,7 +1293,7 @@
     },
     {
       "type": "lesson",
-      "lesson": "39",
+      "lesson": "38",
       "desc": "Origins of Life II",
       "reading": [
         "More details to come...",
