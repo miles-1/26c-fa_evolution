@@ -1051,6 +1051,38 @@
       "Explain why *selfing is not a form of asexual reproduction*. Describe how offspring of selfing differ from offspring of asexual reproducion.",
       "\\* Define *Muller's ratchet* and *genetic load*. Explain why these terms helps describe the costs of asexual reproduction, and the role ofmutation and drift in Muller's ratchet.",
       "\\* Compare the genetic results of *selfing vs outcrossing*."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following defines *parthenogenesis*?",
+        "options": [
+          "A form of asexual reproduction in which an embryo develops from an unfertilized egg cell.",
+          "A form of asexual reproduction where an organism splits into separate pieces, each of which regenerates into a complete, mature individual.",
+          "A form of asexual reproduction used by prokaryotes and some single-celled eukaryotes where a parent cell divides into two identical daughter cells.",
+          "A form of asexual reproduction in which a new organism develops as an outgrowth or bud from the parent body before detaching."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is *Muller's ratchet*?",
+        "options": [
+          "The sudden reduction in genetic variation caused by a catastrophic event that drastically decreases population size.",
+          "The protein structure that brings about crossing over between homologous chromosomes.",
+          "The irreversible accumulation of deleterious mutations in an asexual population over time due to the lack of genetic recombination.",
+          "The loss of genetic variation that occurs when a new population is established by a very small number of individuals from a larger population."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What are the genetic results caused by *selfing* and *outcrossing*?",
+        "options": [
+          "Selfing generally *increases* heterozygosity; outcrossing generally *decreases* heterozygosity.",
+          "Selfing generally *decreases* heterozygosity; outcrossing generally *increases* heterozygosity.",
+          "Both generally *increase* heterozygosity.",
+          "Both generally *decrease* heterozygosity."
+        ]
+      }
     ]
   },
   "10/21": {
