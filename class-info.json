@@ -1104,7 +1104,7 @@
       "\\* Draw and complete a *Punnett square diagram* for individuals where the genotype tracks the alleles present for two genes (assume each is biallelic).",
       "\\* Describe why *selfing in the F1 generation* caused such an increase in Corolla height variation in the next generation in Edward East's (name not important) experiment with longflower tobacco plants.",
       "\\* Estimate (visually) the heritability of a trait using scatter plots between midparent and midoffspring values.",
-      "\\* Describe the difference in what is represented by *broad-sense heritability and narrow-sense heritability*. Identify that these two values are equivalent when all loci of interest show additive allelic effects (i.e., no dominance patterns).",
+      "\\* Describe the difference in the terms used to calculate *broad-sense heritability and narrow-sense heritability*. Identify that these two values are equivalent when all loci of interest show additive allelic effects (i.e., no dominance patterns).",
       "\\* Explain how lack of environmental variation between twins make *mono- vs dizygotic twin studies* so helpful in identifying trait heritability."
     ]
   },
@@ -1135,8 +1135,11 @@
     "lesson": "25",
     "desc": "Sexual Selection I",
     "reading": [
-      "More details to come...",
-      "Ch. 9 & 11"
+      [
+        "Read parts of Ch. 11",
+        "Read 11.1 (but skip subsubsections \"Mating Success ... in a Hermaphrodite\" and \"Mating Success ... in a Pipefish\")",
+        "Read 11.2 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
@@ -1147,8 +1150,10 @@
     "lesson": "26",
     "desc": "Sexual Selection II",
     "reading": [
-      "More details to come...",
-      "Ch. 9 & 11"
+      [
+        "Read a section of Ch. 11",
+        "Read 11.3 (whole thing)"
+      ]
     ],
     "learning_objectives": [
       "TBD..."
