@@ -1106,6 +1106,38 @@
       "\\* Estimate (visually) the heritability of a trait using scatter plots between midparent and midoffspring values.",
       "\\* Describe the difference in the terms used to calculate *broad-sense heritability and narrow-sense heritability*. Identify that these two values are equivalent when all loci of interest show additive allelic effects (i.e., no dominance patterns).",
       "\\* Explain how lack of environmental variation between twins make *mono- vs dizygotic twin studies* so helpful in identifying trait heritability."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "How big is a Punnett square when parental genotypes represent two loci?",
+        "options": [
+          "2-by-2",
+          "3-by-3",
+          "4-by-4",
+          "6-by-6"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What does this plot show in terms of heritability? <img src=\"https://miles-1.github.io/26c-fa_evolution/imgs/heritability\">\n",
+        "options": [
+          "*Narrow*-sense heritability has a value close to *one*",
+          "*Narrow*-sense heritability has a value close to *zero*",
+          "*Broad*-sense heritability has a value close to *one*",
+          "*Broad*-sense heritability has a value close to *zero*"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "If a trait has high heritability, how similarly might mono- and dizygotic twins resemble each other?",
+        "options": [
+          "monozygotic twins will have the *same* trait value because they share the same genes; dizygotic twins might have *different* trait values because they only share half of their genes.",
+          "Both monozygotic and dizygotic twins will have the *same* trait value because twins share the same environment.",
+          "Both monozygotic and dizygotic twins might have *different* trait values because of small differences in environment between twins.",
+          "monozygotic twins might have *different* trait values because of small differences in environment; dizygotic twins will have the *same* trait value because they share half of their genes."
+        ]
+      }
     ]
   },
   "10/23": {
