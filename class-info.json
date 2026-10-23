@@ -1160,6 +1160,38 @@
       "\\* Explain why a *genetic correlation* between traits (e.g., beak depth and width) can mean that selection on both traits does no occur independently. Describe how this might limit a population from evolving towards globally optimal fitness.",
       "\\* Identify how *directional, disruptive, and stabilizing selection* might affect the distribution of values for a quantitative trait from one generation to the next.",
       "\\* Describe how the size of gall created by the *gall-making fly* is an example of stabilizing selection. Describe why higher or lower gall sizes are less fit."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "What are the three variables in the equation R = h² S?",
+        "options": [
+          "h² is heritability; R is the *response to selection*; S is the *selection differential*",
+          "h² is heritability; R is the *response to selection*; S is the *selection gradient*",
+          "h² is heritability; R is the *rate of selection*; S is the *selection differential*",
+          "h² is heritability; R is the *rate of seletion*; S is the *selection gradient*"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "How does genetic correlation between traits impact selection when it occurs on both traits at once?",
+        "options": [
+          "Both traits evolve independently because selection is acting on them separately.",
+          "Selection on both traits can mean that one trait evolves to be more fit while the other becomes less fit, but overall has a positive effect on fitness.",
+          "Drift will come to dominate the change in one trait while selection will drive the change in the other trait.",
+          "Selection can cause the two traits to change in opposite directions of each other if the correlation is positive and in the same direction if the correlation is negative."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What type of selection does the gall fly example discussed in the book demonstrate, and why?",
+        "options": [
+          "stabilizing; bigger galls allow for more offspring, but increase plant herbivory responses, leading to mid-sized galls being the most fit",
+          "stabilizing; small and big galls are vulnerable to different predators, leading to mid-sized galls being the most fit",
+          "directional; bigger galls allow for more offspring to be laid at once, which is a higher-fitness trait",
+          "directional; smaller galls cause smaller herbivory defense responses from host plants, leading to higher fitness."
+        ]
+      }
     ]
   },
   "10/26": {
