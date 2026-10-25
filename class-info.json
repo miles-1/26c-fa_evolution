@@ -1206,12 +1206,12 @@
       ]
     ],
     "learning_objectives": [
-      "\\* Identify the occurrence of selection as any time there is a *difference in reproductive success or survivability* of different phenotypes, and that it causes evolution when the phenotype is heritable.",
-      "\\* Explain how *nonrandom mating and sexual selection are different*.",
+      "Identify the occurrence of selection as any time there is a *difference in reproductive success or survivability* of different phenotypes, and that it causes evolution when the phenotype is heritable.",
+      "Explain how *nonrandom mating and sexual selection are different*.",
       "\\* Describe the reasons that *sexual dimorphism* might arise (differences in parental investment, reproductive success rates).",
-      "\\* Define *intrasexual and intersexual selection*.",
+      "\\* Compare *intrasexual and intersexual selection*.",
       "\\* Identify how the *strength of sexual selection* on each sex is predicted to affect how choosy or competitive each sex is.",
-      "\\* Describe four examples of *male intrasexual selection* that include competition (combat, alternative mating strategy, sperm competition, infanticide). Predict the evolutionary consequences of these examples."
+      "\\* Describe four types of *male intrasexual selection* that include competition (combat, alternative mating strategy, sperm competition, infanticide) and state a biological example of each. Predict the evolutionary consequences of these types of competitive intrasexual selection."
     ]
   },
   "10/28": {
@@ -1221,11 +1221,13 @@
     "reading": [
       [
         "Read a section of Ch. 11",
-        "Read 11.3 (whole thing)"
+        "Read 11.3 (whole thing)",
+        "Read Computing Consequences 11.1"
       ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Explain how intersexual selection can cause exaggerated traits in one of the sexes that are neutral or unfit traits outside of mating contexts (do so using the red-collared widowbird and gray tree frogs).",
+      "\\* Describe four types of *intersexual selection* (Fisherian runaway, preexisting sensory bias, direct benefits, good genes) and state a biological example of each. Predict the evolutionary consequences of these types of intersexual selection."
     ]
   },
   "10/30": [
