@@ -1212,6 +1212,38 @@
       "\\* Compare *intrasexual and intersexual selection*.",
       "\\* Identify how the *strength of sexual selection* on each sex is predicted to affect how choosy or competitive each sex is.",
       "\\* Describe four types of *male intrasexual selection* that include competition (combat, alternative mating strategy, sperm competition, infanticide) and state a biological example of each. Predict the evolutionary consequences of these types of competitive intrasexual selection."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is listed in the reading (and in LOs) as a major driver of *sexual dimorphism*?",
+        "options": [
+          "*equivalent* mating opportunities between sexes",
+          "*equivalently*-sized gametes between sexes",
+          "*unequal* energetic investment into offspring between sexes",
+          "*unequal* genetic contribution to offspring between sexes"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following is predicted for the sex that experiences *weaker* sexual selection?",
+        "options": [
+          "more competitive",
+          "more choosy",
+          "more decorated",
+          "more stationary"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following examples of male intrasexual selection is demonstrated by the barbed horns of the penises in male damselflies?",
+        "options": [
+          "sperm competition",
+          "alternative mating strategies",
+          "combat",
+          "infanticide"
+        ]
+      }
     ]
   },
   "10/28": {
