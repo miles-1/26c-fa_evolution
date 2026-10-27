@@ -1358,21 +1358,13 @@
     ]
   },
   "11/16": {
-    "type": "lesson",
-    "lesson": "33",
-    "desc": "Phylogenetics I",
-    "reading": [
-      "More details to come...",
-      "Ch. 4 & 18"
-    ],
-    "learning_objectives": [
-      "TBD..."
-    ]
+    "type": "assignment",
+    "desc": "In-Class Essay"
   },
   "11/18": {
     "type": "lesson",
     "lesson": "34",
-    "desc": "Phylogenetics II",
+    "desc": "Phylogenetics",
     "reading": [
       "More details to come...",
       "Ch. 4 & 18"
