@@ -1260,6 +1260,38 @@
     "learning_objectives": [
       "\\* Explain how intersexual selection can cause exaggerated traits in one of the sexes that are neutral or unfit traits outside of mating contexts (do so using the red-collared widowbird and gray tree frogs).",
       "\\* Describe four types of *intersexual selection* (Fisherian runaway, preexisting sensory bias, direct benefits, good genes) and state a biological example of each. Predict the evolutionary consequences of these types of intersexual selection."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Researchers experimentally shortened the tail feathers of some male red-collared widowbirds. Which result indicated that long tails evolved by *intersexual* selection (female choice) rather than *intrasexual* selection (male-male competition)?",
+        "options": [
+          "Short-tailed males claimed territories about as often as long-tailed males, but attracted far fewer nesting females.",
+          "Short-tailed males claimed far fewer territories than long-tailed males, but attracted about as many nesting females.",
+          "Short-tailed males lost body condition faster than long-tailed males, so they attracted fewer nesting females.",
+          "Short-tailed males claimed far fewer territories and attracted far fewer nesting females than long-tailed males."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Male water mites tremble their legs during courtship at frequencies similar to the vibrations made by swimming copepods, which females hunt. Hungry females respond to trembling males more often than well-fed females. Which model of female preference does this example support?",
+        "options": [
+          "Fisherian runaway (arbitrary preferences)",
+          "Direct benefits",
+          "Good genes",
+          "Preexisting sensory bias"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "If almost all the females in a population are attracted to extravagant male displays that do not increase male survivability, which of the following must be true?",
+        "options": [
+          "The display must indicate that the male has good genes that will increase the fitness of the female's offspring.",
+          "There must be a genetic correlation between the preference for the display and the display itself.",
+          "The display must indicate that the male will be able to provide resources directly to the female.",
+          "In the past, the females of the species must have developed some kind of sensory bias for the display before it even evolved in males in the first place."
+        ]
+      }
     ]
   },
   "10/30": [
