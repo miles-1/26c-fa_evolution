@@ -1272,11 +1272,21 @@
       "lesson": "27",
       "desc": "Kin Selection",
       "reading": [
-        "More details to come...",
-        "Ch. 10"
+        [
+          "Read parts of Ch. 12",
+          "Read 12.1 (whole thing)",
+          "Read 12.2 (but skip subsubsection \"Kin Selection and Trust\" and subsection \"Kin Selection and Spite\")",
+          "Read Computing Consequences 12.1"
+        ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "\\* Classify social interactions into the *four kinds of social behavior* (mutual benefit, selfishness, altruism, spite) based on the fitness consequences for the actor and the recipient.",
+        "\\* Explain why *altruism is a paradox* for natural selection, and why Belding's ground squirrel trills (but not whistles) are considered altruistic.",
+        "Explain how an *allele can spread by selection* even when it lowers the direct fitness of the individuals that carry it.",
+        "\\* Define *direct fitness*, *indirect fitness*, *inclusive fitness*, and *kin selection*.",
+        "\\* State *Hamilton's rule* ($B r - C > 0$), identify what each term represents, and use it to predict whether a costly behavior will be favored given values of $B$, $r$, and $C$.",
+        "\\* Calculate the *coefficient of relatedness* ($r$) between two individuals from a pedigree (e.g., parent-offspring, full siblings, half siblings, first cousins).",
+        "\\* Define *greenbeard alleles* and explain how the _csA_ gene in the slime mold _Dictyostelium discoideum_ acts as one."
       ]
     }
   ],
@@ -1367,7 +1377,7 @@
     "desc": "Phylogenetics",
     "reading": [
       "More details to come...",
-      "Ch. 4 & 18"
+      "Ch. 18"
     ],
     "learning_objectives": [
       "TBD..."
