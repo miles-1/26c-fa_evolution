@@ -1211,7 +1211,7 @@
       "\\* Describe the reasons that *sexual dimorphism* might arise (differences in parental investment, reproductive success rates).",
       "\\* Compare *intrasexual and intersexual selection*.",
       "\\* Identify how the *strength of sexual selection* on each sex is predicted to affect how choosy or competitive each sex is.",
-      "\\* Describe four types of *male intrasexual selection* that include competition (combat, alternative mating strategy, sperm competition, infanticide) and state a biological example of each. Predict the evolutionary consequences of these types of competitive intrasexual selection."
+      "\\* Describe four types of *male intrasexual selection* that include competition (combat, alternative mating strategy, sperm competition, infanticide) and state a biological example of each (marine iguanas, coho salmon, damselfies, and lions, respectively). Predict the evolutionary consequences of these types of competitive intrasexual selection."
     ],
     "questions": [
       {
@@ -1259,7 +1259,7 @@
     ],
     "learning_objectives": [
       "\\* Explain how intersexual selection can cause exaggerated traits in one of the sexes that are neutral or unfit traits outside of mating contexts (do so using the red-collared widowbird and gray tree frogs).",
-      "\\* Describe four types of *intersexual selection* (Fisherian runaway, preexisting sensory bias, direct benefits, good genes) and state a biological example of each. Predict the evolutionary consequences of these types of intersexual selection."
+      "\\* Describe four types of *intersexual selection* (Fisherian runaway, preexisting sensory bias, direct benefits, good genes) and state a biological example of each (stalk-eyed flies, water mites, hangingflies, and gray tree frogs, respectively). Predict the evolutionary consequences of these types of intersexual selection."
     ],
     "questions": [
       {
@@ -1294,42 +1294,54 @@
       }
     ]
   },
-  "10/30": [
+  "10/30": {
+    "type": "lesson",
+    "lesson": "27",
+    "desc": "Social Behavior and Kin Selection",
+    "reading": [
+      [
+        "Read parts of Ch. 12",
+        "Read 12.1 (whole thing)",
+        "Read 12.2 (but skip subsubsection \"Kin Selection and Trust\" and subsections \"Kin Selection and Spite\" and \"Greenbeard Alleles\")",
+        "Read Computing Consequences 12.1"
+      ]
+    ],
+    "learning_objectives": [
+      "\\* Classify social interactions into the *four kinds of social behavior* (mutual benefit, selfishness, altruism, spite) based on the fitness consequences for the actor and the recipient.",
+      "\\* Explain why *altruism appears to be a paradox* for natural selection, and why Belding's ground squirrel trills (but not whistles) are considered altruistic.",
+      "Explain how an *allele can spread by selection* even when it lowers the direct fitness of the individuals that carry it.",
+      "\\* Define *direct fitness*, *indirect fitness*, *inclusive fitness*, and *kin selection*.",
+      "\\* Calculate the *coefficient of relatedness* ($r$) between two individuals from a pedigree (e.g., parent-offspring, full siblings, half siblings, first cousins).",
+      "\\* State *Hamilton's rule* ($B r - C > 0$), identify what each term represents, and use it to predict whether a costly behavior will be favored given values of $B$, $r$, and $C$."
+    ]
+  },
+  "11/2": [
     {
       "type": "unit",
       "desc": "END UNIT 3"
     },
     {
       "type": "lesson",
-      "lesson": "27",
-      "desc": "Kin Selection",
+      "lesson": "28",
+      "desc": "Frequency-Dependent Selection",
       "reading": [
-        [
-          "Read parts of Ch. 12",
-          "Read 12.1 (whole thing)",
-          "Read 12.2 (but skip subsubsection \"Kin Selection and Trust\" and subsection \"Kin Selection and Spite\")",
-          "Read Computing Consequences 12.1"
-        ]
+        "Read subsubsection \"Frequency-Dependent Seleciton\" within section 6.3 (pg. 212)"
       ],
       "learning_objectives": [
-        "\\* Classify social interactions into the *four kinds of social behavior* (mutual benefit, selfishness, altruism, spite) based on the fitness consequences for the actor and the recipient.",
-        "\\* Explain why *altruism is a paradox* for natural selection, and why Belding's ground squirrel trills (but not whistles) are considered altruistic.",
-        "Explain how an *allele can spread by selection* even when it lowers the direct fitness of the individuals that carry it.",
-        "\\* Define *direct fitness*, *indirect fitness*, *inclusive fitness*, and *kin selection*.",
-        "\\* State *Hamilton's rule* ($B r - C > 0$), identify what each term represents, and use it to predict whether a costly behavior will be favored given values of $B$, $r$, and $C$.",
-        "\\* Calculate the *coefficient of relatedness* ($r$) between two individuals from a pedigree (e.g., parent-offspring, full siblings, half siblings, first cousins).",
-        "\\* Define *greenbeard alleles* and explain how the _csA_ gene in the slime mold _Dictyostelium discoideum_ acts as one."
+        "\\* Explain what it means for fitness to be dependent on genotype frequency.",
+        "Differentiate between the response of fitnesses to genotype frequency in negative and positive frequency dependent selection. State the expected evolutionary outcome and give a biological example of each.",
+        "_Note_: some quiz questions might be based off of L26 or L27 learning objectives."
       ]
     }
   ],
-  "11/2": [
+  "11/4": [
     {
       "type": "unit",
       "desc": "START UNIT 4"
     },
     {
       "type": "lesson",
-      "lesson": "28",
+      "lesson": "29",
       "desc": "Speciation I",
       "reading": [
         "More details to come...",
@@ -1340,22 +1352,10 @@
       ]
     }
   ],
-  "11/4": {
-    "type": "lesson",
-    "lesson": "29",
-    "desc": "Speciation II",
-    "reading": [
-      "More details to come...",
-      "Ch. 16"
-    ],
-    "learning_objectives": [
-      "TBD..."
-    ]
-  },
   "11/6": {
     "type": "lesson",
     "lesson": "30",
-    "desc": "Speciation III",
+    "desc": "Speciation II",
     "reading": [
       "More details to come...",
       "Ch. 16"
@@ -1399,10 +1399,23 @@
       "TBD..."
     ]
   },
-  "11/16": {
-    "type": "assignment",
-    "desc": "In-Class Essay"
-  },
+  "11/16": [
+    {
+      "type": "assignment",
+      "desc": "In-Class Essay"
+    },
+    {
+      "type": "lesson",
+      "lesson": "33",
+      "desc": "In-Class Essay",
+      "reading": [
+        "No assigned reading - review previous relevant topics in reading."
+      ],
+      "learning_objectives": [
+        "No new learning objectives"
+      ]
+    }
+  ],
   "11/18": {
     "type": "lesson",
     "lesson": "34",
