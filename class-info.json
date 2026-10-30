@@ -1313,6 +1313,38 @@
       "\\* Define *direct fitness*, *indirect fitness*, *inclusive fitness*, and *kin selection*.",
       "\\* Calculate the *coefficient of relatedness* ($r$) between two individuals from a pedigree (e.g., parent-offspring, full siblings, half siblings, first cousins).",
       "\\* State *Hamilton's rule* ($B r - C > 0$), identify what each term represents, and use it to predict whether a costly behavior will be favored given values of $B$, $r$, and $C$."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "A female vampire bat regurgitates part of her blood meal to a hungry roostmate. Suppose researchers find that this lowers the donor's lifetime reproductive success and raises the recipient's. How should the donor's behavior be classified, given these fitness consequences?",
+        "options": [
+          "*Mutual benefit*, because at least one of the two bats gains fitness from the interaction.",
+          "*Selfishness*, because the recipient gains fitness at the donor's expense.",
+          "*Altruism*, because the actor (donor) loses fitness and the recipient gains fitness.",
+          "*Spite*, because the actor (donor) loses fitness as a result of its own behavior."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "In Hamilton's rule, $B r - C > 0$, what do $B$ and $C$ represent?",
+        "options": [
+          "$B$ is the benefit to the *actor*; $C$ is the cost to the *recipient*; both are measured in units of the actor's lifespan.",
+          "$B$ is the benefit to the *recipient*; $C$ is the cost to the *actor*; both are measured in units of surviving offspring.",
+          "$B$ is the benefit to the *population*; $C$ is the cost to the *actor*; both are measured in units of allele frequency.",
+          "$B$ is the benefit to the *recipient*; $C$ is the cost to the *recipient's offspring*; both are measured in units of energy."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "In some bird species, a young adult does not breed and instead helps its parents raise extra offspring (its siblings). The extra siblings that survive because of this help contribute to which component of the *helper's* fitness?",
+        "options": [
+          "*Direct* fitness, because the extra siblings were produced as a result of the helper's own actions.",
+          "*Indirect* fitness, because the helper increased the reproduction of its relatives.",
+          "*Neither* direct nor indirect fitness; only an individual's own offspring count toward any component of its fitness.",
+          "*Neither* direct nor indirect fitness; because the helper does not breed, all components of its fitness are zero."
+        ]
+      }
     ]
   },
   "11/2": [
