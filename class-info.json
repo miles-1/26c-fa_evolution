@@ -1308,7 +1308,7 @@
     ],
     "learning_objectives": [
       "\\* Classify social interactions into the *four kinds of social behavior* (mutual benefit, selfishness, altruism, spite) based on the fitness consequences for the actor and the recipient.",
-      "\\* Explain why *altruism appears to be a paradox* for natural selection, and why Belding's ground squirrel trills (but not whistles) are considered altruistic.",
+      "\\* Explain why *altruism appears to be a paradox* for natural selection, and why Belding's ground squirrel trills (but not whistles) are considered altruistic. Additionally, explain how *spite* towards competitors on short time scales might effectively serve as altruism towards future conspecifics on longer time scales.",
       "Explain how an *allele can spread by selection* even when it lowers the direct fitness of the individuals that carry it.",
       "\\* Define *direct fitness*, *indirect fitness*, *inclusive fitness*, and *kin selection*.",
       "\\* Calculate the *coefficient of relatedness* ($r$) between two individuals from a pedigree (e.g., parent-offspring, full siblings, half siblings, first cousins).",
@@ -1360,11 +1360,42 @@
         "Read subsubsection \"Frequency-Dependent Seleciton\" within section 6.3 (pg. 212)"
       ],
       "learning_objectives": [
-        "\\* Explain what it means for fitness to be dependent on genotype frequency.",
-        "Differentiate between the response of fitnesses to genotype frequency in negative and positive frequency dependent selection. State the expected evolutionary outcome and give a biological example of each.",
+        "\\* Explain what it means for fitness to be *dependent on genotype frequency*.",
+        "Differentiate between the response of fitnesses to genotype frequency in *negative and positive frequency dependent selection*. State the expected evolutionary outcome and give a biological example of each.",
         "_Note_: some quiz questions might be based off of L26 or L27 learning objectives."
       ],
-      "questions": []
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following explanation of genetic correlation between female preference and male display best describes the gray tree frog example from class?",
+          "options": [
+            "Fisherian runaway",
+            "Good genes",
+            "Pre-existing sensory bias",
+            "Direct benefit"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which pair of social interactions are hard to explain by the impact on the actor's fitness alone?",
+          "options": [
+            "mutualism and altruism",
+            "altruism and spite",
+            "spite and selfishness",
+            "selfishness and mutualism"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following best describes *frequency-dependent selection*?",
+          "options": [
+            "When the strength of selection on a trait depends on the regularity of population mating schedules",
+            "When the strength of selection on a trait depends on how common that trait is",
+            "When the strength of selection on a trait depends on how frequently it is actually used in the given environmental context",
+            "When the strength of selection on a trait depends on how often the population has access to abundant resources"
+          ]
+        }
+      ]
     }
   ],
   "11/4": [
@@ -1377,11 +1408,23 @@
       "lesson": "29",
       "desc": "Speciation I",
       "reading": [
-        "More details to come...",
-        "Ch. 16"
+        [
+          "Read part of Ch. 16",
+          "Read chapter intro",
+          "Read 16.1 (but skip subsection \"What about Bacteria and Archaea?\" and skip sub-subsection \"Conservation of a Critically Endangered Fish\")",
+          "Read 16.2 (whole thing)"
+        ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "\\* Define a *species* as the smallest evolutionarily independent unit, and explain why *lack of gene flow* is critical for speciation in sexually-reproducing species.",
+        "\\* Describe the *morphospecies concept*, the *phylogenetic species concept*, and the *biological species concept*, including the criterion each uses to identify species, and compare their *advantages and disadvantages* (e.g., which can be applied to fossils, asexual organisms, or populations that never come into contact).",
+        "\\* Define *cryptic species* and explain how they can be revealed, using *_Pseudo-nitzschia_ diatoms* as an example (name not important; all three species concepts found 8 species within 2 morphospecies).",
+        "\\* Describe the *three-stage model of speciation* (isolation, divergence, reproductive isolation upon secondary contact).",
+        "\\* Define the *allopatric model* of speciation, and distinguish between isolation by *dispersal and colonization* and isolation by *vicariance*.",
+        "\\* Explain how the phylogeny of *Hawaiian _Drosophila_* supports speciation by dispersal and colonization (i.e., state the two predictions and whether they were met).",
+        "\\* Explain how *snapping shrimp across the Isthmus of Panama* demonstrate speciation by vicariance, and why different sister-species pairs diverged at different times (water depth).",
+        "\\* Describe mechanisms of isolation that do not require physical separation: *polyploidy* (and why it is more common in plants), *temporal isolation* (Japanese winter moths), and *single-gene changes* (shell coiling in _Euhadra_ snails).",
+        "_Note_: also review Learning Objective 6 from Lesson 04 (ring species)."
       ]
     }
   ],
@@ -1390,11 +1433,19 @@
     "lesson": "30",
     "desc": "Speciation II",
     "reading": [
-      "More details to come...",
-      "Ch. 16"
+      [
+        "Read parts of Ch. 16",
+        "Read 16.3 (but skip subsection \"Red Fish, Blue Fish...\")",
+        "Read 16.4 (whole thing)",
+        "Skip 16.5"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Explain how *adaptation to different habitats* can drive divergence, using the yellow monkeyflower ecotypes and the common garden experiment.",
+      "\\* Explain how *assortative mating* can contribute to reproductive isolation, using male song pulse rate and female preference in Hawaiian _Laupala_ crickets.",
+      "\\* Distinguish between *prezygotic and postzygotic isolation*, and between premating and prezygotic isolation.",
+      "\\* Describe the three possible outcomes when closely related species come into *secondary contact* and hybridize (reinforcement, hybrid speciation, stable hybrid zone), and the hybrid fitness that leads to each.",
+      "\\* Define *reinforcement* and explain how it is demonstrated by gametic isolation in sympatric _Drosophila_ (_D. yakuba_ & _D. santomea_) and by flower color in _Phlox drummondii_."
     ]
   },
   "11/9": [
@@ -1408,11 +1459,21 @@
       "lesson": "31",
       "desc": "Development I",
       "reading": [
-        "More details to come...",
-        "Ch. 19"
+        [
+          "Read first part of Ch. 19",
+          "Read chapter intro",
+          "Read 19.1 (whole thing)",
+          "Read 19.2 (whole thing)"
+        ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "Explain how *development* connects genotype to phenotype, and why evolutionary changes in phenotype require changes in development.",
+        "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
+        "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
+        "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
+        "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
+        "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
+        "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system)."
       ]
     }
   ],
@@ -1425,11 +1486,22 @@
     "lesson": "32",
     "desc": "Development II",
     "reading": [
-      "More details to come...",
-      "Ch. 19"
+      [
+        "Read rest of Ch. 19",
+        "Read 19.3 (but skip subsection \"Nature Sometimes Makes Leaps\")",
+        "Read 19.4 (whole thing)",
+        "Skip 19.5"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Distinguish between *homology and homoplasy*, and between *parallel and convergent evolution*. Explain how mangroves show parallel evolution of developmental physiology (ABA).",
+      "\\* Define *developmental bias* (or constraint) and *deep homology*.",
+      "\\* Describe how artificial selection on *_Bicyclus_ butterfly eyespots* revealed developmental bias (eyespot size responded in all directions, eyespot color did not).",
+      "\\* Explain how _optix_ in *_Heliconius_ co-mimics* demonstrates parallel evolution rather than shared ancient alleles.",
+      "\\* Define *pleiotropy* and *developmental trade-offs*, and describe the dung beetle horn and stickleback _Ectodysplasin_ examples.",
+      "Describe mechanisms that allow evolution to *make leaps* (hybridization, horizontal gene transfer, alleles of large effect).",
+      "\\* Define *exaptation* and explain how it resolves the \"5 percent of a wing\" problem (e.g., proto-wings for thermoregulation, lens crystallins).",
+      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worm evidence), and what that implies about Hox genes."
     ]
   },
   "11/16": [
