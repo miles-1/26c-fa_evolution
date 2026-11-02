@@ -1347,61 +1347,55 @@
       }
     ]
   },
-  "11/2": [
-    {
-      "type": "unit",
-      "desc": "END UNIT 3"
-    },
-    {
-      "type": "lesson",
-      "lesson": "28",
-      "desc": "Frequency-Dependent Selection",
-      "reading": [
-        "Read subsubsection \"Frequency-Dependent Seleciton\" within section 6.3 (pg. 212)"
-      ],
-      "learning_objectives": [
-        "\\* Explain what it means for fitness to be *dependent on genotype frequency*.",
-        "Differentiate between the response of fitnesses to genotype frequency in *negative and positive frequency dependent selection*. State the expected evolutionary outcome and give a biological example of each.",
-        "_Note_: some quiz questions might be based off of L26 or L27 learning objectives."
-      ],
-      "questions": [
-        {
-          "type": "multiple_choice",
-          "body": "Which of the following explanation of genetic correlation between female preference and male display best describes the gray tree frog example from class?",
-          "options": [
-            "Fisherian runaway",
-            "Good genes",
-            "Pre-existing sensory bias",
-            "Direct benefit"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "body": "Which pair of social interactions are hard to explain by the impact on the actor's fitness alone?",
-          "options": [
-            "mutualism and altruism",
-            "altruism and spite",
-            "spite and selfishness",
-            "selfishness and mutualism"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "body": "Which of the following best describes *frequency-dependent selection*?",
-          "options": [
-            "When the strength of selection on a trait depends on the regularity of population mating schedules",
-            "When the strength of selection on a trait depends on how common that trait is",
-            "When the strength of selection on a trait depends on how frequently it is actually used in the given environmental context",
-            "When the strength of selection on a trait depends on how often the population has access to abundant resources"
-          ]
-        }
-      ]
-    }
-  ],
+  "11/2": {
+    "type": "lesson",
+    "lesson": "28",
+    "desc": "Frequency-Dependent Selection",
+    "reading": [
+      "Read subsubsection \"Frequency-Dependent Seleciton\" within section 6.3 (pg. 212)"
+    ],
+    "learning_objectives": [
+      "\\* Explain what it means for fitness to be *dependent on genotype frequency*.",
+      "Differentiate between the response of fitnesses to genotype frequency in *negative and positive frequency dependent selection*. State the expected evolutionary outcome and give a biological example of each.",
+      "_Note_: some quiz questions might be based off of L26 or L27 learning objectives."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following explanation of genetic correlation between female preference and male display best describes the gray tree frog example from class?",
+        "options": [
+          "Fisherian runaway",
+          "Good genes",
+          "Pre-existing sensory bias",
+          "Direct benefit"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which pair of social interactions are hard to explain by the impact on the actor's fitness alone?",
+        "options": [
+          "mutualism and altruism",
+          "altruism and spite",
+          "spite and selfishness",
+          "selfishness and mutualism"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following best describes *frequency-dependent selection*?",
+        "options": [
+          "When the strength of selection on a trait depends on the regularity of population mating schedules",
+          "When the strength of selection on a trait depends on how common that trait is",
+          "When the strength of selection on a trait depends on how frequently it is actually used in the given environmental context",
+          "When the strength of selection on a trait depends on how often the population has access to abundant resources"
+        ]
+      }
+    ]
+  },
   "11/4": [
     {
       "type": "unit",
-      "desc": "START UNIT 4"
+      "desc": "END UNIT 3"
     },
     {
       "type": "lesson",
@@ -1428,26 +1422,32 @@
       ]
     }
   ],
-  "11/6": {
-    "type": "lesson",
-    "lesson": "30",
-    "desc": "Speciation II",
-    "reading": [
-      [
-        "Read parts of Ch. 16",
-        "Read 16.3 (but skip subsection \"Red Fish, Blue Fish...\")",
-        "Read 16.4 (whole thing)",
-        "Skip 16.5"
+  "11/6": [
+    {
+      "type": "unit",
+      "desc": "START UNIT 4"
+    },
+    {
+      "type": "lesson",
+      "lesson": "30",
+      "desc": "Speciation II",
+      "reading": [
+        [
+          "Read parts of Ch. 16",
+          "Read 16.3 (but skip subsection \"Red Fish, Blue Fish...\")",
+          "Read 16.4 (whole thing)",
+          "Skip 16.5"
+        ]
+      ],
+      "learning_objectives": [
+        "\\* Explain how *adaptation to different habitats* can drive divergence, using the yellow monkeyflower ecotypes and the common garden experiment.",
+        "\\* Explain how *assortative mating* can contribute to reproductive isolation, using male song pulse rate and female preference in Hawaiian _Laupala_ crickets.",
+        "\\* Distinguish between *prezygotic and postzygotic isolation*, and between premating and prezygotic isolation.",
+        "\\* Describe the three possible outcomes when closely related species come into *secondary contact* and hybridize (reinforcement, hybrid speciation, stable hybrid zone), and the hybrid fitness that leads to each.",
+        "\\* Define *reinforcement* and explain how it is demonstrated by gametic isolation in sympatric _Drosophila_ (_D. yakuba_ & _D. santomea_) and by flower color in _Phlox drummondii_."
       ]
-    ],
-    "learning_objectives": [
-      "\\* Explain how *adaptation to different habitats* can drive divergence, using the yellow monkeyflower ecotypes and the common garden experiment.",
-      "\\* Explain how *assortative mating* can contribute to reproductive isolation, using male song pulse rate and female preference in Hawaiian _Laupala_ crickets.",
-      "\\* Distinguish between *prezygotic and postzygotic isolation*, and between premating and prezygotic isolation.",
-      "\\* Describe the three possible outcomes when closely related species come into *secondary contact* and hybridize (reinforcement, hybrid speciation, stable hybrid zone), and the hybrid fitness that leads to each.",
-      "\\* Define *reinforcement* and explain how it is demonstrated by gametic isolation in sympatric _Drosophila_ (_D. yakuba_ & _D. santomea_) and by flower color in _Phlox drummondii_."
-    ]
-  },
+    }
+  ],
   "11/9": [
     {
       "type": "exam",
@@ -1458,23 +1458,8 @@
       "type": "lesson",
       "lesson": "31",
       "desc": "Development I",
-      "reading": [
-        [
-          "Read first part of Ch. 19",
-          "Read chapter intro",
-          "Read 19.1 (whole thing)",
-          "Read 19.2 (whole thing)"
-        ]
-      ],
-      "learning_objectives": [
-        "Explain how *development* connects genotype to phenotype, and why evolutionary changes in phenotype require changes in development.",
-        "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
-        "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
-        "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
-        "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
-        "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
-        "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system)."
-      ]
+      "reading": [],
+      "learning_objectives": []
     }
   ],
   "11/11": {
@@ -1484,16 +1469,27 @@
   "11/13": {
     "type": "lesson",
     "lesson": "32",
-    "desc": "Development II",
+    "desc": "Development",
     "reading": [
       [
+        "THESE ARE UNDER CONSTRUCTION - IGNORE FOR NOW",
         "Read rest of Ch. 19",
+        "Read 19.1 (whole thing)",
+        "Read 19.2 (whole thing)",
         "Read 19.3 (but skip subsection \"Nature Sometimes Makes Leaps\")",
         "Read 19.4 (whole thing)",
-        "Skip 19.5"
+        "Read chapter intro"
       ]
     ],
     "learning_objectives": [
+      "THESE ARE UNDER CONSTRUCTION - IGNORE FOR NOW",
+      "Explain how *development* connects genotype to phenotype, and why evolutionary changes in phenotype require changes in development.",
+      "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
+      "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
+      "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
+      "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
+      "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
+      "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
       "\\* Distinguish between *homology and homoplasy*, and between *parallel and convergent evolution*. Explain how mangroves show parallel evolution of developmental physiology (ABA).",
       "\\* Define *developmental bias* (or constraint) and *deep homology*.",
       "\\* Describe how artificial selection on *_Bicyclus_ butterfly eyespots* revealed developmental bias (eyespot size responded in all directions, eyespot color did not).",
