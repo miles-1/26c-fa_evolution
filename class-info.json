@@ -1363,7 +1363,8 @@
         "\\* Explain what it means for fitness to be dependent on genotype frequency.",
         "Differentiate between the response of fitnesses to genotype frequency in negative and positive frequency dependent selection. State the expected evolutionary outcome and give a biological example of each.",
         "_Note_: some quiz questions might be based off of L26 or L27 learning objectives."
-      ]
+      ],
+      "questions": []
     }
   ],
   "11/4": [
