@@ -1350,7 +1350,7 @@
   "11/2": {
     "type": "lesson",
     "lesson": "28",
-    "desc": "Frequency-Dependent Selection",
+    "desc": "Frequency-Dependent Selection I",
     "reading": [
       "Read subsubsection \"Frequency-Dependent Seleciton\" within section 6.3 (pg. 212)"
     ],
@@ -1400,6 +1400,23 @@
     {
       "type": "lesson",
       "lesson": "29",
+      "desc": "Frequency-Dependent Selection II",
+      "reading": [
+        "No new reading - just review the reading from last class."
+      ],
+      "learning_objectives": [
+        "No new LOs - just review the reading from lessons 26 thru 28 for the quiz."
+      ]
+    }
+  ],
+  "11/6": [
+    {
+      "type": "unit",
+      "desc": "START UNIT 4"
+    },
+    {
+      "type": "lesson",
+      "lesson": "30",
       "desc": "Speciation I",
       "reading": [
         [
@@ -1422,14 +1439,15 @@
       ]
     }
   ],
-  "11/6": [
+  "11/9": [
     {
-      "type": "unit",
-      "desc": "START UNIT 4"
+      "type": "exam",
+      "desc": "Exam 3 - Testing Center",
+      "days": 2
     },
     {
       "type": "lesson",
-      "lesson": "30",
+      "lesson": "31",
       "desc": "Speciation II",
       "reading": [
         [
@@ -1448,20 +1466,6 @@
       ]
     }
   ],
-  "11/9": [
-    {
-      "type": "exam",
-      "desc": "Exam 3 - Testing Center",
-      "days": 2
-    },
-    {
-      "type": "lesson",
-      "lesson": "31",
-      "desc": "Development I",
-      "reading": [],
-      "learning_objectives": []
-    }
-  ],
   "11/11": {
     "type": "noclass",
     "desc": "Veteran's Day"
@@ -1472,32 +1476,22 @@
     "desc": "Development",
     "reading": [
       [
-        "THESE ARE UNDER CONSTRUCTION - IGNORE FOR NOW",
-        "Read rest of Ch. 19",
+        "Read parts of Ch. 19",
+        "Read chapter intro",
         "Read 19.1 (whole thing)",
         "Read 19.2 (whole thing)",
-        "Read 19.3 (but skip subsection \"Nature Sometimes Makes Leaps\")",
-        "Read 19.4 (whole thing)",
-        "Read chapter intro"
+        "Skip 19.3",
+        "Read 19.4 (whole thing)"
       ]
     ],
     "learning_objectives": [
-      "THESE ARE UNDER CONSTRUCTION - IGNORE FOR NOW",
-      "Explain how *development* connects genotype to phenotype, and why evolutionary changes in phenotype require changes in development.",
       "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
       "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
       "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
       "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
       "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
       "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
-      "\\* Distinguish between *homology and homoplasy*, and between *parallel and convergent evolution*. Explain how mangroves show parallel evolution of developmental physiology (ABA).",
-      "\\* Define *developmental bias* (or constraint) and *deep homology*.",
-      "\\* Describe how artificial selection on *_Bicyclus_ butterfly eyespots* revealed developmental bias (eyespot size responded in all directions, eyespot color did not).",
-      "\\* Explain how _optix_ in *_Heliconius_ co-mimics* demonstrates parallel evolution rather than shared ancient alleles.",
-      "\\* Define *pleiotropy* and *developmental trade-offs*, and describe the dung beetle horn and stickleback _Ectodysplasin_ examples.",
-      "Describe mechanisms that allow evolution to *make leaps* (hybridization, horizontal gene transfer, alleles of large effect).",
-      "\\* Define *exaptation* and explain how it resolves the \"5 percent of a wing\" problem (e.g., proto-wings for thermoregulation, lens crystallins).",
-      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worm evidence), and what that implies about Hox genes."
+      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worms lack the vestigial nervous-system segmentation seen in spoon and peanut worms), and what that implies about Hox genes."
     ]
   },
   "11/16": [
