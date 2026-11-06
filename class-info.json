@@ -1468,6 +1468,38 @@
         "\\* Explain how *snapping shrimp across the Isthmus of Panama* demonstrate speciation by vicariance, and why different sister-species pairs diverged at different times (water depth).",
         "\\* Describe mechanisms of isolation that do not require physical separation: *polyploidy* (and why it is more common in plants), *temporal isolation* (Japanese winter moths), and *single-gene changes* (shell coiling in _Euhadra_ snails).",
         "_Note_: also review Learning Objective 6 from Lesson 04 (ring species)."
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Under the *phylogenetic species concept*, what counts as a species?",
+          "options": [
+            "Groups of populations that can interbreed and produce fertile offspring",
+            "The smallest monophyletic groups that uniquely share one or more derived traits",
+            "Groups of individuals with measurably distinct morphology",
+            "Monophyletic groups whose members differ by no more than 5% across the genome"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "If Hawaiian _Drosophila_ species formed by dispersal and colonization from island to island, which prediction about their phylogeny follows (and was supported)?",
+          "options": [
+            "The order of branching on the phylogeny should match the order in which the islands formed (older to younger).",
+            "Species on the youngest island should be the most distantly related to all other species.",
+            "Each island should contain a single species, regardless of island age.",
+            "Species on the same island should never be each other's closest relatives."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is the definition of *cryptic species*?",
+          "options": [
+            "Populations that look very different from each other but can still interbreed and produce fertile offspring",
+            "Populations that look alike but are evolutionarily independent",
+            "Species known only from fossils, so they cannot be tested for reproductive isolation",
+            "Populations that are physically separated by a geographic barrier but have not yet diverged"
+          ]
+        }
       ]
     }
   ],
