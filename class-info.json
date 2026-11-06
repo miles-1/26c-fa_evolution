@@ -1407,7 +1407,38 @@
       "learning_objectives": [
         "No new LOs - just review the reading from lessons 26 thru 28 for the quiz."
       ],
-      "questions": []
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "We discussed four models of intersexual selection: Fisherian runaway, preexisting sensory bias, direct benefits, and good genes. Which of the following is present in *all four* models?",
+          "options": [
+            "Males provide females with resources, such as food or territory, in exchange for mating.",
+            "A genetic correlation between female preference and the male display.",
+            "Offspring of preferred males have higher survival than offspring of other males.",
+            "Female preference first evolved for another purpose, such as finding food."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "In a hypothetical species of bird, each male collects a stockpile of seeds in his territory. Females choose to mate with the male that has the biggest stockpile, and then feed themselves and their chicks from it. Which model of intersexual selection best describes this female preference?",
+          "options": [
+            "Fisherian runaway",
+            "Preexisting sensory bias",
+            "Direct benefits",
+            "Good genes"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Which of the following is the definition of *indirect fitness*?",
+          "options": [
+            "Additional reproduction by an individual's relatives that is made possible by that individual's actions",
+            "Reproduction that an individual achieves on its own",
+            "The sum of an individual's direct fitness and the reproduction it makes possible for its relatives",
+            "Additional reproduction by unrelated individuals that is made possible by an individual's actions"
+          ]
+        }
+      ]
     }
   ],
   "11/6": [
@@ -1517,11 +1548,26 @@
     "lesson": "34",
     "desc": "Phylogenetics",
     "reading": [
-      "More details to come...",
-      "Ch. 18"
+      [
+        "Read the rest of Ch. 4 (picking up where Lesson 07 left off)",
+        "Read Computing Consequences 4.1 (\"Calculating the likelihood of an evolutionary tree\")",
+        "Read the rest of 4.3, starting at sub-subsection \"Searching for the Best of All Possible Trees\" (incl. Computing Consequences 4.2), but skip sub-subsection \"Bayesian Phylogeny Inference\""
+      ],
+      [
+        "Read one section of Ch. 18",
+        "Read 18.6 (but skip sub-subsection \"Did the End-Cretaceous Mass Extinction Release Mammals?\")"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Describe the ingredients needed to calculate the *likelihood of a tree* (tree, branch lengths, model of sequence evolution, aligned sequences), and explain why the best tree can depend on the model used.",
+      "\\* Explain why we usually cannot evaluate *all possible trees*, and how heuristic searches (and branch and bound) find good trees anyway.",
+      "\\* Describe *neighbor joining* as a distance matrix method, including why sequence differences saturate (at 75%) and must be converted to genetic distances with a model.",
+      "Build a tree from a small *distance matrix* by repeatedly joining the closest pair of taxa.",
+      "\\* Describe how *bootstrapping* estimates confidence in the clades of a phylogeny, and interpret bootstrap support values on a tree.",
+      "\\* Compare how well phylogeny inference methods perform (parsimony, likelihood, neighbor joining), and explain why researchers often use several.",
+      "\\* Explain why *SINEs and LINEs* are nearly ideal phylogenetic characters, and describe how they and fossils (e.g., _Pakicetus_ ankle bones) showed that whales are artiodactyls closely related to hippos.",
+      "\\* Explain why fossils only give *minimum age estimates*, how *molecular clocks* calibrated with fossils are used to build time trees, and why lineage divergence does not imply diversification.",
+      "\\* Explain the *\"long fuse\" hypothesis*: why molecular clocks suggest animal lineages diverged long before the Cambrian explosion."
     ]
   },
   "11/20": {
@@ -1533,11 +1579,22 @@
     "lesson": "35",
     "desc": "Human Evolution I",
     "reading": [
-      "More details to come...",
-      "Ch. 20"
+      [
+        "Read first half of Ch. 20",
+        "Skim chapter intro",
+        "Read 20.1 (but skim sub-subsections \"Morphological Evidence\" and \"Estimating the Divergence Times...\")",
+        "Read 20.2 (skim subsection \"The Fossil Evidence\", focusing on the major groups rather than each specimen, and skip subsection \"Interpreting the Fossil Evidence\")"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Describe the evidence that humans are *apes*, and specifically that humans belong to the same clade as the *African great apes*.",
+      "\\* Distinguish between *gene trees and species trees*, and explain how *incomplete lineage sorting* can cause them to disagree.",
+      "\\* Explain why molecular data support *humans and chimpanzees* (incl. bonobos) as closest relatives, even though about 30% of the genome suggests otherwise. State the approximate time of the human-chimp divergence (5-7 million years ago).",
+      "\\* Describe key *genetic differences* between humans and chimpanzees (chromosome 2 fusion, about 1% sequence divergence, lost and new genes, regulatory changes).",
+      "\\* Define *hominin*, and describe the general features and time ranges of the major hominin groups (possible early hominins, archaic hominins, megadont archaic hominins, transitional hominins, premodern _Homo_, anatomically modern _Homo_).",
+      "Interpret hominin *skull features* (braincase size, face, teeth, sagittal crest) to place a fossil into one of the major hominin groups.",
+      "\\* Describe the evidence that _Australopithecus afarensis_ was *bipedal* (incl. the Laetoli footprints).",
+      "\\* Explain why hominin evolution is better described as an *evolutionary radiation* than as a single progressive lineage."
     ]
   },
   "11/25": {
@@ -1550,11 +1607,22 @@
     "lesson": "36",
     "desc": "Human Evolution II",
     "reading": [
-      "More details to come...",
-      "Ch. 20"
+      [
+        "Read rest of Ch. 20",
+        "Read 20.3 (but skip subsection \"African Replacement versus Multiregional Evolution: Archaeological and Paleontological Evidence\")",
+        "Read Computing Consequences 20.1",
+        "Read 20.4 (whole thing)"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "\\* Describe the three models for the *origin of modern humans* (African replacement, hybridization & assimilation, multiregional evolution).",
+      "\\* Explain why the models' genetic predictions differ in *timing* rather than in kind, and describe how the mtDNA phylogeny and patterns of genetic diversity (highest in Africa; non-African alleles a subset of African alleles) support a recent African origin.",
+      "\\* Use the decay of *linkage disequilibrium* between alleles to estimate the age of the non-African human population (Computing Consequences 20.1).",
+      "\\* Describe the evidence from *Neandertal and Denisovan genomes* for gene flow into modern humans, and the resulting \"leaky replacement\" model.",
+      "\\* Compare *genetic diversity* in humans to other great apes, and state where most human genetic variation is found (within, not between, populations).",
+      "Explain why the distribution of human genetic variation does not support dividing humans into discrete biological *races*.",
+      "\\* Describe *Oldowan tools* and the evidence for which hominins made them.",
+      "\\* Describe the evidence for when *spoken language* evolved, including the hyoid bone and air sacs."
     ]
   },
   "12/2": {
@@ -1562,11 +1630,23 @@
     "lesson": "37",
     "desc": "Origins of Life I",
     "reading": [
-      "More details to come...",
-      "Ch. 17 & 18"
+      [
+        "Read first half of Ch. 17",
+        "Read chapter intro",
+        "Read 17.1 (skim subsection \"Self-Replication\")",
+        "Read 17.2 (skim subsection \"From Simple Inorganics to the Building Blocks of Life\")"
+      ]
     ],
     "learning_objectives": [
-      "TBD..."
+      "Order key events in the *early history of Earth and life* on a timeline (formation of Earth, heavy bombardment, earliest evidence of life, oxygen atmosphere, Cambrian explosion).",
+      "\\* Distinguish between *IDA* (initial Darwinian ancestor) and *LUCA* (last universal common ancestor).",
+      "\\* Explain the *chicken-and-egg problem* of DNA and proteins, how *ribozymes* resolve it, and how this forms the basis of the *RNA World hypothesis*.",
+      "\\* State the book's working *definition of life* (forms populations capable of evolving by natural selection), and explain how an RNA molecule can have both a genotype and a phenotype.",
+      "\\* Describe the evidence that RNA is ancient (ribosomes, ATP, and other ribonucleotide cofactors).",
+      "\\* Describe how the *experimental evolution of ribozymes* meets Darwin's conditions for evolution by natural selection, and why a self-replicating RNA is the key missing piece.",
+      "\\* Describe the *Oparin-Haldane model* (three steps) and the *Miller-Urey experiment*, including why its assumed early atmosphere is now doubted.",
+      "\\* Explain how the *Murchison meteorite* shows that organic building blocks can form without life (racemic amino acids), and define the *panspermia hypothesis*.",
+      "\\* Describe how *clay* can help assemble polymers, and the evidence for the earliest life on Earth (3.7 billion-year-old rocks from Isua, Greenland)."
     ]
   },
   "12/4": [
@@ -1579,11 +1659,26 @@
       "lesson": "38",
       "desc": "Origins of Life II",
       "reading": [
-        "More details to come...",
-        "Ch. 17 & 18"
+        [
+          "Read rest of Ch. 17",
+          "Read 17.3 (but skim subsection \"Our Picture of the Tree of Life...\" and skip subsection \"The Latest Possible Date...\")",
+          "Read 17.4 intro and subsections \"The Universal Gene-Exchange Pool Hypothesis\" and \"The Ring-of-Life Hypothesis\" (skip the last two subsections)"
+        ],
+        [
+          "Read one section of Ch. 18",
+          "Read 18.4 (but skip sub-subsection \"Where Is the Problem Most Acute?\")"
+        ]
       ],
       "learning_objectives": [
-        "TBD..."
+        "\\* Explain the evidence that all extant life shares a *common ancestor* (LUCA), and why LUCA was cellular.",
+        "\\* Describe how *small-subunit rRNA* was used to build a phylogeny of all life, and how it replaced the five-kingdom model with *three domains* (Bacteria, Archaea, Eucarya).",
+        "\\* Explain why *prokaryotes are not a monophyletic group* (Archaea are more closely related to Eucarya than to Bacteria).",
+        "\\* Describe what LUCA was likely like (DNA, protein enzymes, translation machinery; \"rather like a modern bacterium\").",
+        "\\* Explain how *horizontal gene transfer* causes different genes to produce different trees of life, and why LUCA may have been a community rather than a single species.",
+        "\\* Describe the *universal gene-exchange pool* (incl. the Darwinian threshold) and *ring-of-life* hypotheses.",
+        "\\* Define *mass extinction*, distinguish it from *background extinction*, and name the Big Five mass extinctions.",
+        "\\* Describe the evidence for an asteroid impact at the *K-Pg boundary* (iridium, shocked quartz, microtektites, Chicxulub crater) and the likely killing mechanisms.",
+        "\\* Describe the *Permian-Triassic extinction* (the largest; Siberian Traps) and the evidence that a *sixth mass extinction* is underway."
       ]
     }
   ],
