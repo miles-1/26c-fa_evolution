@@ -1467,7 +1467,8 @@
         "\\* Explain how the phylogeny of *Hawaiian _Drosophila_* supports speciation by dispersal and colonization (i.e., state the two predictions and whether they were met).",
         "\\* Explain how *snapping shrimp across the Isthmus of Panama* demonstrate speciation by vicariance, and why different sister-species pairs diverged at different times (water depth).",
         "\\* Describe mechanisms of isolation that do not require physical separation: *polyploidy* (and why it is more common in plants), *temporal isolation* (Japanese winter moths), and *single-gene changes* (shell coiling in _Euhadra_ snails).",
-        "_Note_: also review Learning Objective 6 from Lesson 04 (ring species)."
+        "_Note_: also review Learning Objective 6 from Lesson 04 (ring species).",
+        "Distinguish between *allopatric and sympatric* speciation."
       ],
       "questions": [
         {
@@ -1512,7 +1513,7 @@
     {
       "type": "lesson",
       "lesson": "31",
-      "desc": "Speciation II",
+      "desc": "Essay Prep",
       "reading": [
         [
           "Read parts of Ch. 16",
@@ -1528,7 +1529,38 @@
         "\\* Describe the three possible outcomes when closely related species come into *secondary contact* and hybridize (reinforcement, hybrid speciation, stable hybrid zone), and the hybrid fitness that leads to each.",
         "\\* Define *reinforcement* and explain how it is demonstrated by gametic isolation in sympatric _Drosophila_ (_D. yakuba_ & _D. santomea_) and by flower color in _Phlox drummondii_."
       ],
-      "questions": []
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "body": "Researchers made hybrid families of two _Laupala_ cricket species. Male song pulse rate varied widely among families, but within each family, female preference closely matched male song. What does this suggest?",
+          "options": [
+            "Male song and female preference are controlled by the environment, so crickets raised in the same habitat sing and prefer the same songs.",
+            "Male song and female preference are genetically linked, so when male song changes in a population, female preference changes with it and assortative mating keeps that population isolated.",
+            "Female preference is controlled by a single gene, so one mutation can create a new species.",
+            "Hybrid females prefer the songs of the other species, which increases gene flow between the two species."
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Two closely related species of frogs mate where their ranges overlap, and their eggs are fertilized. However, the hybrid offspring are sterile. Which type of reproductive isolation is this?",
+          "options": [
+            "Prezygotic isolation",
+            "Premating isolation",
+            "Gametic isolation",
+            "Postzygotic isolation"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "body": "Two closely related species come into secondary contact and hybridize. The hybrids have higher fitness than either parent species, but only in a new habitat that neither parent species occupies. What outcome is expected?",
+          "options": [
+            "Hybrid speciation",
+            "Reinforcement",
+            "A stable hybrid zone",
+            "The two parent species merge into one species"
+          ]
+        }
+      ]
     }
   ],
   "11/11": {
@@ -1538,25 +1570,12 @@
   "11/13": {
     "type": "lesson",
     "lesson": "32",
-    "desc": "Development",
+    "desc": "Speciation II",
     "reading": [
-      [
-        "Read parts of Ch. 19",
-        "Read chapter intro",
-        "Read 19.1 (whole thing)",
-        "Read 19.2 (whole thing)",
-        "Skip 19.3",
-        "Read 19.4 (whole thing)"
-      ]
+      "Same reading as Lesson 31"
     ],
     "learning_objectives": [
-      "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
-      "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
-      "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
-      "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
-      "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
-      "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
-      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worms lack the vestigial nervous-system segmentation seen in spoon and peanut worms), and what that implies about Hox genes."
+      "Same learning objectives as Lesson 31. *Note:* there will still be a quiz on the reading, just different questions as last time."
     ]
   },
   "11/16": [
@@ -1579,28 +1598,25 @@
   "11/18": {
     "type": "lesson",
     "lesson": "34",
-    "desc": "Phylogenetics",
+    "desc": "Development",
     "reading": [
       [
-        "Read the rest of Ch. 4 (picking up where Lesson 07 left off)",
-        "Read Computing Consequences 4.1 (\"Calculating the likelihood of an evolutionary tree\")",
-        "Read the rest of 4.3, starting at sub-subsection \"Searching for the Best of All Possible Trees\" (incl. Computing Consequences 4.2), but skip sub-subsection \"Bayesian Phylogeny Inference\""
-      ],
-      [
-        "Read one section of Ch. 18",
-        "Read 18.6 (but skip sub-subsection \"Did the End-Cretaceous Mass Extinction Release Mammals?\")"
+        "Read parts of Ch. 19",
+        "Read chapter intro",
+        "Read 19.1 (whole thing)",
+        "Read 19.2 (whole thing)",
+        "Skip 19.3",
+        "Read 19.4 (whole thing)"
       ]
     ],
     "learning_objectives": [
-      "\\* Describe the ingredients needed to calculate the *likelihood of a tree* (tree, branch lengths, model of sequence evolution, aligned sequences), and explain why the best tree can depend on the model used.",
-      "\\* Explain why we usually cannot evaluate *all possible trees*, and how heuristic searches (and branch and bound) find good trees anyway.",
-      "\\* Describe *neighbor joining* as a distance matrix method, including why sequence differences saturate (at 75%) and must be converted to genetic distances with a model.",
-      "Build a tree from a small *distance matrix* by repeatedly joining the closest pair of taxa.",
-      "\\* Describe how *bootstrapping* estimates confidence in the clades of a phylogeny, and interpret bootstrap support values on a tree.",
-      "\\* Compare how well phylogeny inference methods perform (parsimony, likelihood, neighbor joining), and explain why researchers often use several.",
-      "\\* Explain why *SINEs and LINEs* are nearly ideal phylogenetic characters, and describe how they and fossils (e.g., _Pakicetus_ ankle bones) showed that whales are artiodactyls closely related to hippos.",
-      "\\* Explain why fossils only give *minimum age estimates*, how *molecular clocks* calibrated with fossils are used to build time trees, and why lineage divergence does not imply diversification.",
-      "\\* Explain the *\"long fuse\" hypothesis*: why molecular clocks suggest animal lineages diverged long before the Cambrian explosion."
+      "\\* Explain why developmental biology was left out of the *modern synthesis* (practical and theoretical reasons), and describe the disagreement between gradualists and saltationists/structuralists.",
+      "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
+      "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
+      "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
+      "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
+      "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
+      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worms lack the vestigial nervous-system segmentation seen in spoon and peanut worms), and what that implies about Hox genes."
     ]
   },
   "11/20": {
