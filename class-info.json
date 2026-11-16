@@ -1577,7 +1577,38 @@
     "learning_objectives": [
       "Same learning objectives as Lesson 31. *Note:* there will still be a quiz on the reading, just different questions as last time."
     ],
-    "questions": []
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Researchers made hybrid families of two _Laupala_ cricket species. Male song pulse rate varied widely among families, but within each family, female preference closely matched male song. What does this suggest?",
+        "options": [
+          "Male song and female preference are controlled by the environment, so crickets raised in the same habitat sing and prefer the same songs.",
+          "Male song and female preference are genetically linked, so when male song changes in a population, female preference changes with it and assortative mating keeps that population isolated.",
+          "Female preference is controlled by a single gene, so one mutation can create a new species.",
+          "Hybrid females prefer the songs of the other species, which increases gene flow between the two species."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Two closely related species of frogs mate where their ranges overlap, and their eggs are fertilized. However, the hybrid offspring are sterile. Which type of reproductive isolation is this?",
+        "options": [
+          "Prezygotic isolation",
+          "Premating isolation",
+          "Gametic isolation",
+          "Postzygotic isolation"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Two closely-related species come into secondary contact and hybridize. The hybrids have higher fitness than either parent species, but only in a new habitat that neither parent species occupies. What outcome is expected?",
+        "options": [
+          "Hybrid speciation",
+          "Reinforcement",
+          "A stable hybrid zone",
+          "The two parent species merge into one species"
+        ]
+      }
+    ]
   },
   "11/16": [
     {
@@ -1606,8 +1637,8 @@
         "Read chapter intro",
         "Read 19.1 (whole thing)",
         "Read 19.2 (whole thing)",
-        "Skip 19.3",
-        "Read 19.4 (whole thing)"
+        "Read 19.3 (skip all subsections except \"Equal Variation under...\" and \"Pleiotropy and Developmental...\")",
+        "Read 19.4 (whole thing, it's super short)"
       ]
     ],
     "learning_objectives": [
@@ -1617,6 +1648,8 @@
       "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
       "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
       "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
+      "\\* Explain Darwin's assumption that variation is *always present and unbiased in direction*, define *developmental bias*, and describe how artificial selection on _Bicyclus_ butterfly eyespots revealed it (eyespot size responded to selection in all directions, eyespot color did not).",
+      "\\* Define *pleiotropy* and *developmental trade-offs*, and describe the two ways trade-offs can arise, using dung beetle horns (body parts competing for resources, e.g., horns vs. nearby eyes, antennae, or wings) and the stickleback _Ectodysplasin_ gene (pleiotropy: reduced armor and faster growth in freshwater) as examples.",
       "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worms lack the vestigial nervous-system segmentation seen in spoon and peanut worms), and what that implies about Hox genes."
     ]
   },
