@@ -1638,8 +1638,7 @@
         "Read chapter intro",
         "Read 19.1 (whole thing)",
         "Read 19.2 (whole thing)",
-        "Read 19.3 (skip all subsections except \"Equal Variation under...\" and \"Pleiotropy and Developmental...\")",
-        "Read 19.4 (whole thing, it's super short)"
+        "Read 19.3 (skip all subsections except \"Equal Variation under...\" and \"Pleiotropy and Developmental...\")"
       ]
     ],
     "learning_objectives": [
@@ -1647,11 +1646,10 @@
       "\\* Describe the discoveries that *reconciled development and evolution* (99% human-chimp genetic similarity, gene regulation, regulatory genes as a source of evolutionary change, heterochrony).",
       "\\* Define *homeotic mutations* and describe two _Drosophila_ examples (_Ultrabithorax_ & _Antennapedia_).",
       "\\* Describe *Hox genes*: what the homeodomain is, why Hox proteins are transcription factors, and why finding them in flies, mice, and humans was surprising.",
-      "\\* Define *spatial colinearity*, and distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
+      "\\* Define *spatial colinearity*. Distinguish *orthologous* from *paralogous* genes using Hox genes as an example.",
       "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
-      "\\* Explain Darwin's assumption that variation is *always present and unbiased in direction*, define *developmental bias*, and describe how artificial selection on _Bicyclus_ butterfly eyespots revealed it (eyespot size responded to selection in all directions, eyespot color did not).",
-      "\\* Define *pleiotropy* and *developmental trade-offs*, and describe the two ways trade-offs can arise, using dung beetle horns (body parts competing for resources, e.g., horns vs. nearby eyes, antennae, or wings) and the stickleback _Ectodysplasin_ gene (pleiotropy: reduced armor and faster growth in freshwater) as examples.",
-      "\\* Explain why *segmentation* likely evolved independently in arthropods, annelids, and vertebrates (velvet worms lack the vestigial nervous-system segmentation seen in spoon and peanut worms), and what that implies about Hox genes."
+      "\\* Explain Darwin's assumption that variation is *always present and unbiased in direction*. Define *developmental bias*, and describe how artificial selection on _Bicyclus_ butterfly eyespots revealed it (eyespot size responded to selection in all directions, eyespot color did not).",
+      "\\* Define *pleiotropy* and *developmental trade-offs*. Describe the two ways trade-offs can arise, using dung beetle horns (body parts competing for resources, e.g., horns vs. nearby eyes, antennae, or wings) and the stickleback _Ectodysplasin_ gene (pleiotropy: reduced armor and faster growth in freshwater) as examples."
     ]
   },
   "11/20": {
