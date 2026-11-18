@@ -1650,6 +1650,38 @@
       "\\* Explain the *Hox paradox* and how comparisons across many animals helped resolve it (i.e., clustering and function vary, expression patterns are conserved, especially in the nervous system).",
       "\\* Explain Darwin's assumption that variation is *always present and unbiased in direction*. Define *developmental bias*, and describe how artificial selection on _Bicyclus_ butterfly eyespots revealed it (eyespot size responded to selection in all directions, eyespot color did not).",
       "\\* Define *pleiotropy* and *developmental trade-offs*. Describe the two ways trade-offs can arise, using dung beetle horns (body parts competing for resources, e.g., horns vs. nearby eyes, antennae, or wings) and the stickleback _Ectodysplasin_ gene (pleiotropy: reduced armor and faster growth in freshwater) as examples."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "A fruit fly with a homeotic mutation in the _Antennapedia_ gene has which of the following?",
+        "options": [
+          "Four wings instead of two",
+          "Legs growing where antennae should be",
+          "Eyes growing on its wings",
+          "An extra pair of antennae on its thorax"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "What is *spatial colinearity*?",
+        "options": [
+          "Hox genes from different species are derived from the same ancestral gene.",
+          "Hox genes within a species arose by duplication of an ancestral Hox gene.",
+          "The order of Hox genes on the chromosome matches the order of the body regions where they are expressed.",
+          "Hox genes are expressed at the same time in development as the order they appear on the chromosome."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "How do *developmental bias* and *developmental trade-offs* challenge Darwin's view of variation?",
+        "options": [
+          "Darwin assumed variation is rare and arises only when it is needed; developmental bias shows that variation is always present in every direction.",
+          "Darwin assumed variation is always present and unbiased in direction; developmental bias and trade-offs show that some directions of change are more likely than others.",
+          "Darwin assumed variation is always present and unbiased in direction; developmental bias and trade-offs show that selection cannot change traits at all.",
+          "Darwin assumed variation is biased toward beneficial traits; developmental bias and trade-offs show that variation is random with respect to fitness."
+        ]
+      }
     ]
   },
   "11/20": {
