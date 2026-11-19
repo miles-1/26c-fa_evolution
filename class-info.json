@@ -1716,29 +1716,35 @@
     "desc": "Thanksgiving",
     "days": 3
   },
-  "11/30": {
-    "type": "lesson",
-    "lesson": "36",
-    "desc": "Human Evolution II",
-    "reading": [
-      [
-        "Read rest of Ch. 20",
-        "Read 20.3 (but skip subsection \"African Replacement versus Multiregional Evolution: Archaeological and Paleontological Evidence\")",
-        "Read Computing Consequences 20.1",
-        "Read 20.4 (whole thing)"
+  "11/30": [
+    {
+      "type": "assignment",
+      "desc": "In-Class Assn 4"
+    },
+    {
+      "type": "lesson",
+      "lesson": "36",
+      "desc": "Human Evolution II",
+      "reading": [
+        [
+          "Read rest of Ch. 20",
+          "Read 20.3 (but skip subsection \"African Replacement versus Multiregional Evolution: Archaeological and Paleontological Evidence\")",
+          "Read Computing Consequences 20.1",
+          "Read 20.4 (whole thing)"
+        ]
+      ],
+      "learning_objectives": [
+        "\\* Describe the three models for the *origin of modern humans* (African replacement, hybridization & assimilation, multiregional evolution).",
+        "\\* Explain why the models' genetic predictions differ in *timing* rather than in kind, and describe how the mtDNA phylogeny and patterns of genetic diversity (highest in Africa; non-African alleles a subset of African alleles) support a recent African origin.",
+        "\\* Use the decay of *linkage disequilibrium* between alleles to estimate the age of the non-African human population (Computing Consequences 20.1).",
+        "\\* Describe the evidence from *Neandertal and Denisovan genomes* for gene flow into modern humans, and the resulting \"leaky replacement\" model.",
+        "\\* Compare *genetic diversity* in humans to other great apes, and state where most human genetic variation is found (within, not between, populations).",
+        "Explain why the distribution of human genetic variation does not support dividing humans into discrete biological *races*.",
+        "\\* Describe *Oldowan tools* and the evidence for which hominins made them.",
+        "\\* Describe the evidence for when *spoken language* evolved, including the hyoid bone and air sacs."
       ]
-    ],
-    "learning_objectives": [
-      "\\* Describe the three models for the *origin of modern humans* (African replacement, hybridization & assimilation, multiregional evolution).",
-      "\\* Explain why the models' genetic predictions differ in *timing* rather than in kind, and describe how the mtDNA phylogeny and patterns of genetic diversity (highest in Africa; non-African alleles a subset of African alleles) support a recent African origin.",
-      "\\* Use the decay of *linkage disequilibrium* between alleles to estimate the age of the non-African human population (Computing Consequences 20.1).",
-      "\\* Describe the evidence from *Neandertal and Denisovan genomes* for gene flow into modern humans, and the resulting \"leaky replacement\" model.",
-      "\\* Compare *genetic diversity* in humans to other great apes, and state where most human genetic variation is found (within, not between, populations).",
-      "Explain why the distribution of human genetic variation does not support dividing humans into discrete biological *races*.",
-      "\\* Describe *Oldowan tools* and the evidence for which hominins made them.",
-      "\\* Describe the evidence for when *spoken language* evolved, including the hyoid bone and air sacs."
-    ]
-  },
+    }
+  ],
   "12/2": {
     "type": "lesson",
     "lesson": "37",
