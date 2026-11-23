@@ -1708,6 +1708,38 @@
       "\\* Define *hominin*, and describe the general features and time ranges of the major hominin groups (possible early hominins, archaic hominins, megadont archaic hominins, transitional hominins, premodern _Homo_, anatomically modern _Homo_).",
       "Interpret hominin *skull features* (braincase size, face, teeth, sagittal crest) to place a fossil into one of the major hominin groups.",
       "\\* Explain why hominin evolution is better described as an *evolutionary radiation* than as a single progressive lineage."
+    ],
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following best summarizes the molecular evidence on relationships among humans, chimpanzees, and gorillas?",
+        "options": [
+          "Different genes give different trees because of incomplete lineage sorting, but most data sets support humans and chimpanzees as closest relatives.",
+          "Different genes give different trees because of incomplete lineage sorting, and most data sets support chimpanzees and gorillas as closest relatives.",
+          "All genes give the same tree, which shows that humans and gorillas are closest relatives.",
+          "All genes give the same tree, which shows a three-way split (polytomy) between humans, chimpanzees, and gorillas."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Humans have 23 chromosome pairs, while chimpanzees and gorillas have 24. What is the explanation given in the reading?",
+        "options": [
+          "One human chromosome pair was lost by deletion after humans and chimpanzees diverged.",
+          "Chimpanzees and gorillas gained an extra chromosome by duplication after diverging from humans.",
+          "Two ancestral chromosomes fused to form human chromosome 2.",
+          "Human chromosome 2 split into two chromosomes in the chimpanzee and gorilla lineages."
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "body": "Which of the following claims about observed hominin diversity is the best supported by fossil and genetic evidence?",
+        "options": [
+          "Observed hominin diversity came from regional adaptation within one species of hominins (_Homo sapiens_).",
+          "Observed hominin diversity came from genetic variation within one species of hominins (_Homo sapiens_).",
+          "Observed hominin diversity came from an evolutionary progression from the common ancestor of apes to modern humans.",
+          "Observed hominin diversity came from the adaptive radiation of hominin species."
+        ]
+      }
     ]
   },
   "11/25": {
